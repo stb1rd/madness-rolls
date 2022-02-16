@@ -1,0 +1,23 @@
+{
+  "deno.enable": true,
+  "deno.lint": true,
+  "deno.unstable": true,
+  "editor.wrappingIndent": "indent",
+  "editor.formatOnSave": true,
+  "editor.renderIndentGuides": true,
+  "editor.rulers": [120],
+  "editor.tabSize": 2,
+  "scss.validate": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "files.associations": {
+    "[Dd]ockerfile*": "dockerfile",
+    ".stylelintrc": "json"
+  },
+  "javascript.preferences.importModuleSpecifier": "shortest",
+  "typescript.preferences.importModuleSpecifier": "shortest",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "cucumberautocomplete.strictGherkinCompletion": true
+}
