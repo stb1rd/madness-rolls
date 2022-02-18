@@ -47,13 +47,15 @@ const WHITE_TYPES_RU = [
 const PERK_LOCALE_EN = 'Trait';
 const PERK_LOCALE_RU = 'Особенность';
 
+export interface InventoryItemEntity {
+  type: string;
+  name: string;
+  hash: number;
+  itemCategoryHashes?: number[];
+}
+
 const setUpInventory = async () => {
-  const inventoryItems: Array<{
-    type: string;
-    name: string;
-    hash: number;
-    itemCategoryHashes?: number[];
-  }> = [];
+  const inventoryItems: InventoryItemEntity[] = [];
 
   // const types = new Map();
 
