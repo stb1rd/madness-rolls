@@ -1,9 +1,13 @@
 import { SortService, Direction } from 'https://deno.land/x/sort@v1.1.1/mod.ts';
-import { RollSet } from '../data/rolls.ts';
 import { InventoryItemEntity } from '../setUpInventory.ts';
+import { RollSet } from '../types/rolls.ts';
+
+const madnessTraitFails = new Map([['Фугасные боеприпасы', 'Фугасный снаряд']]);
+
+export const correctTrait = (trait: string) => madnessTraitFails.get(trait) || trait;
 
 export const renderRollSet = async (name: string, rollSet: RollSet): Promise<string> => {
-  const inventoryRaw = await Deno.readTextFile('./src/data/inventory.json');
+  const inventoryRaw = await Deno.readTextFile('./src/data/inventory/inventory.json');
   const inventory: InventoryItemEntity[] = JSON.parse(inventoryRaw);
   const weapon = inventory.find(({ name: invName }) => invName === name);
 
@@ -16,49 +20,57 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<str
     (wishList += `dimwishlist:item=${weapon.hash}&perks=${SortService.sort(perks, Direction.ASCENDING).join(',')}\n`);
 
   for (const activity of ['PVE', 'PVP'] as const) {
-    // console.log('rollSet', rollSet);
-    // console.log('activity', activity);
     const invTraits = new Map<string, InventoryItemEntity>();
     rollSet[activity].forEach((set) => {
       set.forEach((traitName) => {
-        const invTrait = inventory.find(({ name: invName }) => invName === traitName);
+        const trait = correctTrait(traitName);
+        const invTrait = inventory.find(({ name: invName }) => invName === trait);
         if (!invTrait) {
-          throw new Error(`ERR :: trait not found :: ${traitName}`);
+          throw new Error(`ERR :: ${name} :: trait not found :: ${traitName}`);
         }
-        invTraits.set(traitName, invTrait);
+        invTraits.set(trait, invTrait);
       });
     });
 
+    const getInvTrait = (title: string) => invTraits.get(correctTrait(title));
+
     const traits = rollSet[activity].sort(({ length }) => -length);
+    // const traits = SortService.sort(rollSet[activity], [{ fieldName: 'length', direction: Direction.DESCENDING }]);
 
     if (!traits.length && !traits[0]?.length && !traits[1]?.length) {
       continue;
     }
 
-    wishList += `\n//notes: ${activity} perks 10/10\n`;
-    bakeRoll([invTraits.get(traits[1][0])!.hash, invTraits.get(traits[0][0])!.hash]);
+    wishList += `//notes: ${activity} 10/10\n`;
+    bakeRoll([getInvTrait(traits[1][0])!.hash, getInvTrait(traits[0][0])!.hash]);
+    wishList += '\n';
 
     if (traits[0].length === 1) {
-      wishList += `\n//notes: ${activity} perks 7/10\n`;
-      bakeRoll([invTraits.get(traits[1][0])!.hash]);
-      bakeRoll([invTraits.get(traits[0][0])!.hash]);
+      wishList += `//notes: ${activity} 7/10\n`;
+      bakeRoll([getInvTrait(traits[1][0])!.hash]);
+      bakeRoll([getInvTrait(traits[0][0])!.hash]);
+      wishList += '\n';
       continue;
     }
 
-    wishList += `\n//notes: ${activity} perks 7/10\n`;
+    wishList += `//notes: ${activity} 7/10\n`;
     traits[1].slice(1).forEach((traitName) => {
-      bakeRoll([invTraits.get(traits[0][0])!.hash, invTraits.get(traitName)!.hash]);
+      bakeRoll([getInvTrait(traits[0][0])!.hash, getInvTrait(traitName)!.hash]);
     });
     traits[0].slice(1).forEach((traitName) => {
-      bakeRoll([invTraits.get(traits[1][0])!.hash, invTraits.get(traitName)!.hash]);
+      bakeRoll([getInvTrait(traits[1][0])!.hash, getInvTrait(traitName)!.hash]);
     });
+    wishList += '\n';
 
-    wishList += `\n//notes: ${activity} perks 4/10\n`;
-    traits[0].slice(1).forEach((traitName0) => {
-      traits[1].slice(1).forEach((traitName1) => {
-        bakeRoll([invTraits.get(traitName0)!.hash, invTraits.get(traitName1)!.hash]);
+    if (traits[0].slice(1).length >= 1 && traits[1].slice(1).length >= 1) {
+      wishList += `//notes: ${activity} 4/10\n`;
+      traits[0].slice(1).forEach((traitName0) => {
+        traits[1].slice(1).forEach((traitName1) => {
+          bakeRoll([getInvTrait(traitName0)!.hash, getInvTrait(traitName1)!.hash]);
+        });
       });
-    });
+      wishList += '\n';
+    }
   }
 
   return wishList;
