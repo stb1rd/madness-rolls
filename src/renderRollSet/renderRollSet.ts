@@ -4,6 +4,14 @@ import { RollSet } from '../types/rolls.ts';
 
 const madnessTraitFails = new Map([['Фугасные боеприпасы', 'Фугасный снаряд']]);
 
+enum Grades {
+  G10 = '10/10',
+  G7 = '7/10',
+  G4 = '4/10',
+}
+
+const ACTIVITIES = ['PVE', 'PVP'] as const;
+
 export const correctTrait = (trait: string) => madnessTraitFails.get(trait) || trait;
 
 export const renderRollSet = async (name: string, rollSet: RollSet): Promise<string> => {
@@ -16,10 +24,41 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<str
   }
 
   let wishList = '';
-  const bakeRoll = (perks: number[]) =>
-    (wishList += `dimwishlist:item=${weapon.hash}&perks=${SortService.sort(perks, Direction.ASCENDING).join(',')}\n`);
 
-  for (const activity of ['PVE', 'PVP'] as const) {
+  const traitsAndLabels = new Map<string, string[]>();
+  const bakeRoll = (perks: number[], activity: typeof ACTIVITIES[number], grade: Grades) => {
+    const key = SortService.sort(perks, Direction.ASCENDING).join(',');
+    const label = [activity, grade].join(' ');
+    const dupe = traitsAndLabels.get(key);
+    if (dupe) {
+      traitsAndLabels.set(key, [...dupe, label]);
+    } else {
+      traitsAndLabels.set(key, [label]);
+    }
+  };
+
+  const populateWishlist = () => {
+    const labelsAndTraits = new Map<string, string[]>();
+    [...traitsAndLabels]
+      .sort((a, b) => (a[1].length > b[1].length ? -1 : a[1].length < b[1].length ? 1 : 0))
+      .forEach(([traits, labels]) => {
+        const key = labels.join(', ');
+        const dupe = labelsAndTraits.get(key);
+        if (dupe) {
+          labelsAndTraits.set(key, [...dupe, traits]);
+        } else {
+          labelsAndTraits.set(key, [traits]);
+        }
+      });
+
+    [...labelsAndTraits].forEach(([label, traits]) => {
+      wishList += `//notes: ${label}\n`;
+      wishList += traits.map((trait) => `dimwishlist:item=${weapon.hash}&perks=${trait}`).join('\n');
+      wishList += '\n\n';
+    });
+  };
+
+  for (const activity of ACTIVITIES) {
     const invTraits = new Map<string, InventoryItemEntity>();
     rollSet[activity].forEach((set) => {
       set.forEach((traitName) => {
@@ -35,43 +74,35 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<str
     const getInvTrait = (title: string) => invTraits.get(correctTrait(title));
 
     const traits = rollSet[activity].sort(({ length }) => -length);
-    // const traits = SortService.sort(rollSet[activity], [{ fieldName: 'length', direction: Direction.DESCENDING }]);
 
     if (!traits.length && !traits[0]?.length && !traits[1]?.length) {
       continue;
     }
 
-    wishList += `//notes: ${activity} 10/10\n`;
-    bakeRoll([getInvTrait(traits[1][0])!.hash, getInvTrait(traits[0][0])!.hash]);
-    wishList += '\n';
+    bakeRoll([getInvTrait(traits[1][0])!.hash, getInvTrait(traits[0][0])!.hash], activity, Grades.G10);
 
     if (traits[0].length === 1) {
-      wishList += `//notes: ${activity} 7/10\n`;
-      bakeRoll([getInvTrait(traits[1][0])!.hash]);
-      bakeRoll([getInvTrait(traits[0][0])!.hash]);
-      wishList += '\n';
+      bakeRoll([getInvTrait(traits[1][0])!.hash], activity, Grades.G7);
+      bakeRoll([getInvTrait(traits[0][0])!.hash], activity, Grades.G7);
       continue;
     }
 
-    wishList += `//notes: ${activity} 7/10\n`;
     traits[1].slice(1).forEach((traitName) => {
-      bakeRoll([getInvTrait(traits[0][0])!.hash, getInvTrait(traitName)!.hash]);
+      bakeRoll([getInvTrait(traits[0][0])!.hash, getInvTrait(traitName)!.hash], activity, Grades.G7);
     });
     traits[0].slice(1).forEach((traitName) => {
-      bakeRoll([getInvTrait(traits[1][0])!.hash, getInvTrait(traitName)!.hash]);
+      bakeRoll([getInvTrait(traits[1][0])!.hash, getInvTrait(traitName)!.hash], activity, Grades.G7);
     });
-    wishList += '\n';
 
     if (traits[0].slice(1).length >= 1 && traits[1].slice(1).length >= 1) {
-      wishList += `//notes: ${activity} 4/10\n`;
       traits[0].slice(1).forEach((traitName0) => {
         traits[1].slice(1).forEach((traitName1) => {
-          bakeRoll([getInvTrait(traitName0)!.hash, getInvTrait(traitName1)!.hash]);
+          bakeRoll([getInvTrait(traitName0)!.hash, getInvTrait(traitName1)!.hash], activity, Grades.G4);
         });
       });
-      wishList += '\n';
     }
   }
 
+  populateWishlist();
   return wishList;
 };

@@ -1,5 +1,5 @@
 import { assertEquals } from 'https://deno.land/std@0.125.0/testing/asserts.ts';
-import { correctTrait, renderRollSet } from './renderRollSet.ts';
+import { renderRollSet } from './renderRollSet.ts';
 
 Deno.test('small PVE', async () => {
   const renderResult = await renderRollSet('Вершитель рока', {
@@ -96,7 +96,7 @@ Deno.test('full', async () => {
     ],
   });
 
-  const expect = `//notes: PVE 10/10
+  const expect = `//notes: PVE 10/10, PVP 7/10
 dimwishlist:item=2171478765&perks=3038247973,3824105627
 
 //notes: PVE 7/10
@@ -120,7 +120,6 @@ dimwishlist:item=2171478765&perks=699525795,2450788523
 dimwishlist:item=2171478765&perks=699525795,2946784966
 dimwishlist:item=2171478765&perks=1015611457,3038247973
 dimwishlist:item=2171478765&perks=47981717,3038247973
-dimwishlist:item=2171478765&perks=3038247973,3824105627
 
 //notes: PVP 4/10
 dimwishlist:item=2171478765&perks=1015611457,2726471870
