@@ -1,17 +1,33 @@
 import { readCSV } from 'https://deno.land/x/csv/mod.ts';
+import { cleanActivityCell } from './cleanActivityCell/cleanActivityCell.ts';
 import { renderRollSet } from './renderRollSet/renderRollSet.ts';
 
-const files = ['./src/data/rollsCSV/Оружие Destiny 2 от MadnessBuccaneer - Пункты назначения.csv'];
+const READ_CSV_OPTIONS = {
+  lineSeparator: '\r\n',
+};
+
+const files = [
+  'Пункты назначения',
+  'Рейды',
+  'Мероприятия (BETA)',
+  'Вендоры (BETA)',
+  'Мировой лут пул (BETA)',
+  'Сезоны',
+  'Гамбит',
+  '"Авангард"',
+  'Горнило',
+  'Подземелья',
+].map((s) => `./src/data/rollsCSV/Оружие Destiny 2 от MadnessBuccaneer - ${s}.csv`);
 
 const main = async () => {
-  let fileContents = '# Madness wishes\n';
+  let fileContents = 'title:Madness wishes\n';
   let total = 0;
 
   await Promise.all(
     files.map(async (file) => {
       const f = await Deno.open(file);
 
-      for await (const row of readCSV(f)) {
+      for await (const row of readCSV(f, READ_CSV_OPTIONS)) {
         const cells: string[] = [];
         for await (const cell of row) {
           cells.push(cell);
@@ -19,18 +35,9 @@ const main = async () => {
         const [icon, title, damage, type, pve, pvp] = cells;
         if (!icon && title) {
           try {
-            const wish = await renderRollSet(title, {
-              PVE: pve === '-' ? [] : pve.split(' - ').map((x) => x.split('/')),
-              PVP:
-                pvp === '-\r'
-                  ? []
-                  : pvp
-                      .split('\r')[0]
-                      .split(' - ')
-                      .map((x) => x.split('/')),
-            });
+            const wish = await renderRollSet(title, { PVE: cleanActivityCell(pve), PVP: cleanActivityCell(pvp) });
             fileContents += wish;
-            console.log(`wish added :: ${++total} :: ${title}`);
+            ++total;
           } catch (error) {
             console.log(error.message);
           }
@@ -41,41 +48,9 @@ const main = async () => {
     })
   );
 
-  // files.forEach(async (file) => {
-  //   const f = await Deno.open(file);
-
-  //   for await (const row of readCSV(f)) {
-  //     const cells: string[] = [];
-  //     for await (const cell of row) {
-  //       cells.push(cell);
-  //     }
-  //     const [icon, title, damage, type, pve, pvp] = cells;
-  //     if (!icon && title) {
-  //       try {
-  //         const wish = await renderRollSet(title, {
-  //           PVE: pve === '-' ? [] : pve.split(' - ').map((x) => x.split('/')),
-  //           PVP:
-  //             pvp === '-\r'
-  //               ? []
-  //               : pvp
-  //                   .split('\r')[0]
-  //                   .split(' - ')
-  //                   .map((x) => x.split('/')),
-  //         });
-  //         appendToFile(wish);
-  //         console.log(`wish added :: ${++total} :: ${title}`);
-  //       } catch (error) {
-  //         console.log(error.message);
-  //       }
-  //     }
-  //   }
-
-  //   f.close();
-  // });
-
   const resultFileName = './wish_list.txt';
   await Deno.writeTextFile(resultFileName, fileContents);
-  console.log(`success :: ${resultFileName}`);
+  console.log(`success :: ${resultFileName} :: total of ${total} weapons`);
 };
 
 main();
