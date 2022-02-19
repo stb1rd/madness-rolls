@@ -5,7 +5,7 @@
 ## Как
 
 - Идем в [DIM/Settings/Wishlist](https://app.destinyitemmanager.com/settings)
-- Загружаем туда `wish_list.txt`
+- Копируем туда `https://raw.githubusercontent.com/stb1rd/madness-rolls/main/wish_list.txt`
 - Сортируем по типу-названию
 - Ищем что-то подобное
 ```
