@@ -1,3 +1,5 @@
+import { normalizeName } from './normalizeName.ts';
+
 const CLASSIFIED_CATEGORY = 3109687656;
 const OBSOLETE_HASHES = [
   1561789734, // firefly for ace of spades
@@ -65,11 +67,8 @@ export interface InventoryItemEntity {
 const setUpInventory = async () => {
   const inventoryItems: InventoryItemEntity[] = [];
 
-  // const types = new Map();
-
   const itemDefsRaw = await Deno.readTextFile('./src/data/inventory/itemDefinitionsResponseRu.json');
   const itemDefs: ItemDefEntity[] = Object.values(JSON.parse(itemDefsRaw));
-  // deno-lint-ignore no-explicit-any
   itemDefs.forEach(({ itemTypeDisplayName, displayProperties: { name }, hash, itemCategoryHashes, quality: { versions = [] } = {} }) => {
     if (
       WHITE_TYPES_RU.includes(itemTypeDisplayName) &&
@@ -80,14 +79,14 @@ const setUpInventory = async () => {
         itemTypeDisplayName === PERK_LOCALE_RU ||
         (itemTypeDisplayName !== PERK_LOCALE_RU && versions.find(({ powerCapHash }) => powerCapHash === NO_CAP_HASH))
       ) {
-        inventoryItems.push({ type: itemTypeDisplayName, name, hash });
+        inventoryItems.push({ type: itemTypeDisplayName, name: normalizeName(name), hash });
       }
     }
   });
 
   const fileName = './src/data/inventory/inventory.json';
   await Deno.writeTextFile(fileName, JSON.stringify(inventoryItems));
-  console.log(`success :: ${fileName} :: total ${inventoryItems.length}`);
+  console.log(`success :: ${fileName} :: total of ${inventoryItems.length} weapons and traits`);
 };
 
 setUpInventory();

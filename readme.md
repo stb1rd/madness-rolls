@@ -1,10 +1,21 @@
-# Madness rolls
+# Роллы великого и могучего MadnessBucaneer-а для DIM
 
-## How to use
+Чистить волт и сравнивать руками было неудобно - поэтому я прифигел написал маппер для этой [офигенной гугл-таблицы](https://docs.google.com/spreadsheets/d/1wzWC9J-CpcO07n6HLuH7WoMuXlPkkZM9WRqRSlyLt08/edit#gid=968214664). Некоторые фичи остались только там, типа что откуда падает.
 
-1. Идем в [DIM/Settings/Wishlist](https://app.destinyitemmanager.com/settings)
-2. Загружаем туда `wish_list.txt`
-3. В поиск пишем `wishlistnotes:'pve perks 2/2'`, лочим, ставим лайк и оставляем
-4. В поиск пишем `wishlistnotes:'pve perks 1/2'`, лочим и оставляем
+## Как
+
+- Идем в [DIM/Settings/Wishlist](https://app.destinyitemmanager.com/settings)
+- Загружаем туда `wish_list.txt`
+- Сортируем по типу-названию
+- Ищем что-то подобное
+```
+wishlistnotes:PVE@10/10
+wishlistnotes:PVE@7/10
+wishlistnotes:PVE@4/10
+---
+wishlistnotes:PVP@10/10
+wishlistnotes:PVP@7/10
+wishlistnotes:PVP@4/10
+```
 ...
-PROFIT
+- PROFIT
