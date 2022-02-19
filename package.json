@@ -4,7 +4,6 @@
   "scripts": {
     "go": "deno run --allow-read --allow-write src/app.ts",
     "inv": "deno run --allow-read --allow-write src/setUpInventory/setUpInventory.ts",
-    "test": "deno test --allow-read",
-    "sb": "deno run sandbox.ts"
+    "test": "deno test --allow-read"
   }
 }
