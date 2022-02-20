@@ -44,13 +44,13 @@ const WHITE_TYPES_RU = [
   'Боевой лук',
   'Плазменная винтовка',
   'Линейно-плазменная винтовка',
-];
+] as const;
 
 const PERK_LOCALE_EN = 'Trait';
-const PERK_LOCALE_RU = 'Особенность';
+const PERK_LOCALE_RU = 'Особенность' as const;
 
 interface ItemDefEntity {
-  itemTypeDisplayName: string;
+  itemTypeDisplayName: typeof WHITE_TYPES_RU[number];
   displayProperties: { name: string };
   hash: number;
   itemCategoryHashes: number[];
@@ -58,7 +58,7 @@ interface ItemDefEntity {
 }
 
 export interface InventoryItemEntity {
-  type: string;
+  type: typeof WHITE_TYPES_RU[number];
   name: string;
   hash: number;
   itemCategoryHashes?: number[];
@@ -75,10 +75,7 @@ const setUpInventory = async () => {
       !itemCategoryHashes.includes(CLASSIFIED_CATEGORY) &&
       !OBSOLETE_HASHES.includes(hash)
     ) {
-      if (
-        itemTypeDisplayName === PERK_LOCALE_RU ||
-        (itemTypeDisplayName !== PERK_LOCALE_RU && versions.find(({ powerCapHash }) => powerCapHash === NO_CAP_HASH))
-      ) {
+      if (itemTypeDisplayName === PERK_LOCALE_RU || versions.find(({ powerCapHash }) => powerCapHash === NO_CAP_HASH)) {
         inventoryItems.push({ type: itemTypeDisplayName, name: normalizeName(name), hash });
       }
     }

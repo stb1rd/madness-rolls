@@ -101,7 +101,17 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<str
     rollSet[activity].forEach((set) => {
       set.forEach((traitName) => {
         const trait = correctTrait(traitName);
-        const invTrait = inventory.find(({ name: invName }) => preSearchClean(invName) === preSearchClean(trait));
+        const invTrait = inventory.find(({ name: invName, hash }) => {
+          if (invName === 'Система автоспуска') {
+            if (weapon.type === 'Дробовик') {
+              return hash === 2117683199;
+            } else {
+              return hash === 4267945040;
+            }
+          } else {
+            return preSearchClean(invName) === preSearchClean(trait);
+          }
+        });
         if (!invTrait) {
           throw new Error(`ERR :: trait not found :: ${traitName} :: ${name}`);
         }
