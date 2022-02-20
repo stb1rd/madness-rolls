@@ -172,3 +172,39 @@ dimwishlist:item=2171478765&perks=2946784966,3824105627
 
   assertEquals(renderResult, expect);
 });
+
+Deno.test('small PVE bugs', async () => {
+  const renderResult = await renderRollSet('ВИДЕНИЕ', {
+    PVE: [
+      ['Система автоспуска', 'Излишки'], // 4267945040 3436462433
+      ['Рубака', 'Один за всех'], // 4082225868 4049631843
+    ],
+    PVP: [
+      ['Система автоспуска', 'Убийственный вихрь'], // 4267945040 2450788523
+      ['Киллерский магазин', 'Рубака'], // 1015611457 4082225868
+    ],
+  });
+
+  const expect = `//notes: PVE@10/10, PVP@7/10
+dimwishlist:item=2414141462&perks=4082225868,4267945040
+
+//notes: PVE@7/10
+dimwishlist:item=2414141462&perks=3436462433,4082225868
+dimwishlist:item=2414141462&perks=4049631843,4267945040
+
+//notes: PVE@4/10
+dimwishlist:item=2414141462&perks=3436462433,4049631843
+
+//notes: PVP@10/10
+dimwishlist:item=2414141462&perks=1015611457,4267945040
+
+//notes: PVP@7/10
+dimwishlist:item=2414141462&perks=1015611457,2450788523
+
+//notes: PVP@4/10
+dimwishlist:item=2414141462&perks=2450788523,4082225868
+
+`;
+
+  assertEquals(renderResult, expect);
+});

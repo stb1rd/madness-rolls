@@ -1,22 +1,33 @@
 title:Madness wishes
-//notes: PVE@10/10
-dimwishlist:item=1561006927&perks=1354429876,3425386926
-
-//notes: PVE@7/10
-dimwishlist:item=1561006927&perks=1354429876,4082225868
-dimwishlist:item=1561006927&perks=1354429876,1546637391
-
 //notes: PVP@10/10
 dimwishlist:item=346136302&perks=706527188,957782887
 
 //notes: PVP@7/10
-dimwishlist:item=346136302&perks=957782887,3161816588
-dimwishlist:item=346136302&perks=706527188,3523296417
+dimwishlist:item=346136302&perks=957782887,2117683199
+dimwishlist:item=346136302&perks=706527188,2117683199
 dimwishlist:item=346136302&perks=706527188,1546637391
 
 //notes: PVP@4/10
-dimwishlist:item=346136302&perks=3161816588,3523296417
-dimwishlist:item=346136302&perks=1546637391,3161816588
+dimwishlist:item=346136302&perks=2117683199,2117683199
+dimwishlist:item=346136302&perks=1546637391,2117683199
+
+//notes: PVE@10/10
+dimwishlist:item=1786797708&perks=3643424744,3708227201
+
+//notes: PVE@7/10
+dimwishlist:item=1786797708&perks=1546637391,3643424744
+
+//notes: PVE@7/10, PVE@7/10, PVE@7/10, PVE@4/10, PVE@4/10, PVE@4/10, PVP@10/10, PVP@7/10, PVP@7/10, PVP@4/10
+dimwishlist:item=2891672170&perks=2117683199,2117683199
+
+//notes: PVE@4/10, PVE@4/10, PVE@4/10
+dimwishlist:item=2891672170&perks=1556840489,2117683199
+
+//notes: PVE@10/10, PVE@7/10
+dimwishlist:item=2891672170&perks=1546637391,2117683199
+
+//notes: PVE@7/10
+dimwishlist:item=2891672170&perks=1546637391,1556840489
 
 //notes: PVE@10/10
 dimwishlist:item=507038823&perks=11612903,3523296417
@@ -32,6 +43,13 @@ dimwishlist:item=507038823&perks=1359896290,2846385770
 //notes: PVP@7/10
 dimwishlist:item=507038823&perks=1359896290
 dimwishlist:item=507038823&perks=2846385770
+
+//notes: PVE@10/10
+dimwishlist:item=1561006927&perks=1354429876,3425386926
+
+//notes: PVE@7/10
+dimwishlist:item=1561006927&perks=1354429876,4082225868
+dimwishlist:item=1561006927&perks=1354429876,1546637391
 
 //notes: PVE@10/10 (Кобура с автоподзарядом - Любой перк)
 dimwishlist:item=3849810018
@@ -70,59 +88,6 @@ dimwishlist:item=3565520715&perks=3436462433,3523296417
 dimwishlist:item=3565520715&perks=2726471870,3436462433
 
 //notes: PVE@10/10
-dimwishlist:item=1786797708&perks=3643424744,3708227201
-
-//notes: PVE@7/10
-dimwishlist:item=1786797708&perks=1546637391,3643424744
-
-//notes: PVE@10/10
-dimwishlist:item=2891672170&perks=1546637391,3300816228
-
-//notes: PVE@7/10
-dimwishlist:item=2891672170&perks=1546637391,1556840489
-dimwishlist:item=2891672170&perks=1546637391,2869569095
-dimwishlist:item=2891672170&perks=2679249093,3300816228
-dimwishlist:item=2891672170&perks=2360754333,3300816228
-dimwishlist:item=2891672170&perks=3300816228,4082225868
-
-//notes: PVE@4/10
-dimwishlist:item=2891672170&perks=1556840489,2679249093
-dimwishlist:item=2891672170&perks=2679249093,2869569095
-dimwishlist:item=2891672170&perks=1556840489,2360754333
-dimwishlist:item=2891672170&perks=2360754333,2869569095
-dimwishlist:item=2891672170&perks=1556840489,4082225868
-dimwishlist:item=2891672170&perks=2869569095,4082225868
-
-//notes: PVP@10/10
-dimwishlist:item=2891672170&perks=3436462433,4082225868
-
-//notes: PVP@7/10
-dimwishlist:item=2891672170&perks=3161816588,4082225868
-dimwishlist:item=2891672170&perks=2450788523,3436462433
-
-//notes: PVP@4/10
-dimwishlist:item=2891672170&perks=2450788523,3161816588
-
-//notes: PVE@10/10, PVP@10/10
-dimwishlist:item=1513993763&perks=2450788523,3425386926
-
-//notes: PVE@7/10, PVP@7/10
-dimwishlist:item=1513993763&perks=2387244414,3425386926
-dimwishlist:item=1513993763&perks=2450788523,3592538738
-
-//notes: PVE@4/10, PVP@4/10
-dimwishlist:item=1513993763&perks=2387244414,3592538738
-
-//notes: PVE@7/10
-dimwishlist:item=1513993763&perks=3425386926,4071163871
-dimwishlist:item=1513993763&perks=1546637391,2450788523
-
-//notes: PVE@4/10
-dimwishlist:item=1513993763&perks=3592538738,4071163871
-dimwishlist:item=1513993763&perks=1546637391,4071163871
-dimwishlist:item=1513993763&perks=1546637391,2387244414
-
-//notes: PVE@10/10
 dimwishlist:item=2050789284&perks=1168162263,3523296417
 
 //notes: PVE@7/10
@@ -154,15 +119,24 @@ dimwishlist:item=2050789284&perks=460017080,3436462433
 dimwishlist:item=2050789284&perks=280464955,2726471870
 dimwishlist:item=2050789284&perks=2726471870,3436462433
 
-//notes: PVE@10/10
-dimwishlist:item=3937866388&perks=3523296417,3708227201
+//notes: PVE@10/10, PVP@10/10
+dimwishlist:item=1513993763&perks=2450788523,3425386926
+
+//notes: PVE@7/10, PVP@7/10
+dimwishlist:item=1513993763&perks=2387244414,3425386926
+dimwishlist:item=1513993763&perks=2450788523,3592538738
+
+//notes: PVE@4/10, PVP@4/10
+dimwishlist:item=1513993763&perks=2387244414,3592538738
 
 //notes: PVE@7/10
-dimwishlist:item=3937866388&perks=2117683199,3708227201
-dimwishlist:item=3937866388&perks=2848615171,3523296417
+dimwishlist:item=1513993763&perks=3425386926,4071163871
+dimwishlist:item=1513993763&perks=1546637391,2450788523
 
 //notes: PVE@4/10
-dimwishlist:item=3937866388&perks=2117683199,2848615171
+dimwishlist:item=1513993763&perks=3592538738,4071163871
+dimwishlist:item=1513993763&perks=1546637391,4071163871
+dimwishlist:item=1513993763&perks=1546637391,2387244414
 
 //notes: PVP@10/10
 dimwishlist:item=334171687&perks=47981717,2846385770
@@ -173,6 +147,22 @@ dimwishlist:item=334171687&perks=1015611457,2846385770
 
 //notes: PVP@4/10
 dimwishlist:item=334171687&perks=247725512,1015611457
+
+//notes: PVP@10/10
+dimwishlist:item=3055192515&perks=280464955,3511092054
+
+//notes: PVP@7/10
+dimwishlist:item=3055192515&perks=280464955,1683379515
+
+//notes: PVE@10/10
+dimwishlist:item=2448907086&perks=951095735,2284787283
+
+//notes: PVE@7/10
+dimwishlist:item=2448907086&perks=2284787283,2869569095
+dimwishlist:item=2448907086&perks=951095735,3927722942
+
+//notes: PVE@4/10
+dimwishlist:item=2448907086&perks=2869569095,3927722942
 
 //notes: PVE@10/10
 dimwishlist:item=1476654960&perks=11612903,3523296417
@@ -197,20 +187,26 @@ dimwishlist:item=1476654960&perks=2458213969,2946784966
 dimwishlist:item=1476654960&perks=2458213969,3161816588
 
 //notes: PVE@10/10
-dimwishlist:item=1679868061&perks=1556840489,2679249093
+dimwishlist:item=3937866388&perks=3523296417,3708227201
 
 //notes: PVE@7/10
-dimwishlist:item=1679868061&perks=1820235745,2679249093
-dimwishlist:item=1679868061&perks=1556840489,2360754333
+dimwishlist:item=3937866388&perks=3708227201,4267945040
+dimwishlist:item=3937866388&perks=2848615171,3523296417
 
 //notes: PVE@4/10
-dimwishlist:item=1679868061&perks=1820235745,2360754333
+dimwishlist:item=3937866388&perks=2848615171,4267945040
+
+//notes: PVE@10/10, PVE@7/10
+dimwishlist:item=1679868061&perks=1556840489,2117683199
+
+//notes: PVE@7/10, PVE@4/10
+dimwishlist:item=1679868061&perks=1820235745,2117683199
 
 //notes: PVP@10/10
-dimwishlist:item=1679868061&perks=47981717,3161816588
+dimwishlist:item=1679868061&perks=47981717,2117683199
 
 //notes: PVP@7/10
-dimwishlist:item=1679868061&perks=3161816588
+dimwishlist:item=1679868061&perks=2117683199
 dimwishlist:item=1679868061&perks=47981717
 
 //notes: PVE@10/10
@@ -270,34 +266,6 @@ dimwishlist:item=1046651176&perks=47981717,2450788523
 dimwishlist:item=1046651176&perks=706527188,3592538738
 dimwishlist:item=1046651176&perks=2450788523,3592538738
 
-//notes: PVP@10/10
-dimwishlist:item=3055192515&perks=280464955,3511092054
-
-//notes: PVP@7/10
-dimwishlist:item=3055192515&perks=280464955,1683379515
-
-//notes: PVE@10/10
-dimwishlist:item=2448907086&perks=951095735,2284787283
-
-//notes: PVE@7/10
-dimwishlist:item=2448907086&perks=2284787283,2869569095
-dimwishlist:item=2448907086&perks=951095735,3927722942
-
-//notes: PVE@4/10
-dimwishlist:item=2448907086&perks=2869569095,3927722942
-
-//notes: PVE@10/10
-dimwishlist:item=981718087&perks=2010801679,3300816228
-
-//notes: PVE@7/10
-dimwishlist:item=981718087&perks=3300816228,3436462433
-dimwishlist:item=981718087&perks=2010801679,3425386926
-dimwishlist:item=981718087&perks=2010801679,3592538738
-
-//notes: PVE@4/10
-dimwishlist:item=981718087&perks=3425386926,3436462433
-dimwishlist:item=981718087&perks=3436462433,3592538738
-
 //notes: PVE@10/10
 dimwishlist:item=3473290087&perks=1546637391,3400784728
 
@@ -314,6 +282,117 @@ dimwishlist:item=3473290087&perks=588594999,706527188
 
 //notes: PVP@4/10
 dimwishlist:item=3473290087&perks=706527188,2866798147
+
+//notes: PVE@10/10
+dimwishlist:item=981718087&perks=2010801679,3300816228
+
+//notes: PVE@7/10
+dimwishlist:item=981718087&perks=3300816228,3436462433
+dimwishlist:item=981718087&perks=2010801679,3425386926
+dimwishlist:item=981718087&perks=2010801679,3592538738
+
+//notes: PVE@4/10
+dimwishlist:item=981718087&perks=3425386926,3436462433
+dimwishlist:item=981718087&perks=3436462433,3592538738
+
+//notes: PVE@10/10, PVP@10/10
+dimwishlist:item=3242168339&perks=247725512,3038247973
+
+//notes: PVE@7/10, PVP@7/10
+dimwishlist:item=3242168339&perks=247725512,2458213969
+
+//notes: PVE@7/10
+dimwishlist:item=3242168339&perks=247725512,2848615171
+dimwishlist:item=3242168339&perks=247725512,3592538738
+dimwishlist:item=3242168339&perks=247725512,1546637391
+
+//notes: PVE@10/10
+dimwishlist:item=1162247618&perks=1683379515,3425386926
+
+//notes: PVE@7/10
+dimwishlist:item=1162247618&perks=1683379515,4082225868
+dimwishlist:item=1162247618&perks=1168162263,1683379515
+
+//notes: PVP@10/10
+dimwishlist:item=1162247618&perks=2846385770,4267945040
+
+//notes: PVP@7/10
+dimwishlist:item=1162247618&perks=1168162263,4267945040
+
+//notes: PVE@10/10
+dimwishlist:item=4156253727&perks=2779035018,3425386926
+
+//notes: PVE@7/10
+dimwishlist:item=4156253727&perks=3425386926,3436462433
+dimwishlist:item=4156253727&perks=2458213969,2779035018
+dimwishlist:item=4156253727&perks=2779035018,4049631843
+dimwishlist:item=4156253727&perks=2726471870,2779035018
+dimwishlist:item=4156253727&perks=1546637391,2779035018
+
+//notes: PVE@4/10
+dimwishlist:item=4156253727&perks=2458213969,3436462433
+dimwishlist:item=4156253727&perks=3436462433,4049631843
+dimwishlist:item=4156253727&perks=2726471870,3436462433
+dimwishlist:item=4156253727&perks=1546637391,3436462433
+
+//notes: PVP@10/10
+dimwishlist:item=4156253727&perks=2846385770,3425386926
+
+//notes: PVP@7/10
+dimwishlist:item=4156253727&perks=2387244414,3425386926
+dimwishlist:item=4156253727&perks=2450788523,3425386926
+dimwishlist:item=4156253727&perks=2458213969,2846385770
+dimwishlist:item=4156253727&perks=2726471870,2846385770
+
+//notes: PVP@4/10
+dimwishlist:item=4156253727&perks=2387244414,2458213969
+dimwishlist:item=4156253727&perks=2450788523,2458213969
+dimwishlist:item=4156253727&perks=2387244414,2726471870
+dimwishlist:item=4156253727&perks=2450788523,2726471870
+
+//notes: PVE@7/10, PVP@7/10
+dimwishlist:item=2481758391&perks=3425386926,3436462433
+
+//notes: PVE@4/10, PVP@7/10
+dimwishlist:item=2481758391&perks=3436462433,3592538738
+
+//notes: PVE@10/10
+dimwishlist:item=2481758391&perks=3425386926,3643424744
+
+//notes: PVE@7/10
+dimwishlist:item=2481758391&perks=1820235745,3425386926
+dimwishlist:item=2481758391&perks=3643424744,4049631843
+dimwishlist:item=2481758391&perks=3592538738,3643424744
+
+//notes: PVE@4/10
+dimwishlist:item=2481758391&perks=3436462433,4049631843
+dimwishlist:item=2481758391&perks=1820235745,4049631843
+dimwishlist:item=2481758391&perks=1820235745,3592538738
+
+//notes: PVP@10/10
+dimwishlist:item=2481758391&perks=3436462433,3511092054
+
+//notes: PVP@7/10
+dimwishlist:item=2481758391&perks=706527188,3511092054
+dimwishlist:item=2481758391&perks=2946784966,3511092054
+
+//notes: PVP@4/10
+dimwishlist:item=2481758391&perks=706527188,3425386926
+dimwishlist:item=2481758391&perks=2946784966,3425386926
+dimwishlist:item=2481758391&perks=706527188,3592538738
+dimwishlist:item=2481758391&perks=2946784966,3592538738
+
+//notes: PVE@10/10
+dimwishlist:item=2582755344&perks=1546637391,3300816228
+
+//notes: PVE@7/10
+dimwishlist:item=2582755344&perks=1546637391,2869569095
+dimwishlist:item=2582755344&perks=1546637391,2284787283
+dimwishlist:item=2582755344&perks=1771339417,3300816228
+
+//notes: PVE@4/10
+dimwishlist:item=2582755344&perks=1771339417,2869569095
+dimwishlist:item=2582755344&perks=1771339417,2284787283
 
 //notes: PVE@7/10, PVP@4/10
 dimwishlist:item=2708806099&perks=454085387,3523296417
@@ -352,6 +431,19 @@ dimwishlist:item=2708806099&perks=957782887,3511092054
 dimwishlist:item=2708806099&perks=454085387,2450788523
 dimwishlist:item=2708806099&perks=454085387,957782887
 
+//notes: PVE@10/10
+dimwishlist:item=601592879&perks=1354429876,3425386926
+
+//notes: PVE@7/10
+dimwishlist:item=601592879&perks=1354429876
+dimwishlist:item=601592879&perks=3425386926
+
+//notes: PVP@10/10
+dimwishlist:item=601592879&perks=1015611457,1359896290
+
+//notes: PVP@7/10
+dimwishlist:item=601592879&perks=1359896290,2213355989
+
 //notes: PVP@10/10
 dimwishlist:item=3258665412&perks=280464955,2213355989
 
@@ -363,105 +455,6 @@ dimwishlist:item=3258665412&perks=280464955,1890422124
 //notes: PVP@4/10
 dimwishlist:item=3258665412&perks=1890422124,3161816588
 dimwishlist:item=3258665412&perks=1890422124,2450788523
-
-//notes: PVE@10/10
-dimwishlist:item=1162247618&perks=1683379515,3425386926
-
-//notes: PVE@7/10
-dimwishlist:item=1162247618&perks=1683379515,4082225868
-dimwishlist:item=1162247618&perks=1168162263,1683379515
-
-//notes: PVP@10/10
-dimwishlist:item=1162247618&perks=2117683199,2846385770
-
-//notes: PVP@7/10
-dimwishlist:item=1162247618&perks=1168162263,2117683199
-
-//notes: PVE@10/10
-dimwishlist:item=4156253727&perks=2779035018,3425386926
-
-//notes: PVE@7/10
-dimwishlist:item=4156253727&perks=3425386926,3436462433
-dimwishlist:item=4156253727&perks=2458213969,2779035018
-dimwishlist:item=4156253727&perks=2779035018,4049631843
-dimwishlist:item=4156253727&perks=2726471870,2779035018
-dimwishlist:item=4156253727&perks=1546637391,2779035018
-
-//notes: PVE@4/10
-dimwishlist:item=4156253727&perks=2458213969,3436462433
-dimwishlist:item=4156253727&perks=3436462433,4049631843
-dimwishlist:item=4156253727&perks=2726471870,3436462433
-dimwishlist:item=4156253727&perks=1546637391,3436462433
-
-//notes: PVP@10/10
-dimwishlist:item=4156253727&perks=2846385770,3425386926
-
-//notes: PVP@7/10
-dimwishlist:item=4156253727&perks=2387244414,3425386926
-dimwishlist:item=4156253727&perks=2450788523,3425386926
-dimwishlist:item=4156253727&perks=2458213969,2846385770
-dimwishlist:item=4156253727&perks=2726471870,2846385770
-
-//notes: PVP@4/10
-dimwishlist:item=4156253727&perks=2387244414,2458213969
-dimwishlist:item=4156253727&perks=2450788523,2458213969
-dimwishlist:item=4156253727&perks=2387244414,2726471870
-dimwishlist:item=4156253727&perks=2450788523,2726471870
-
-//notes: PVE@10/10, PVP@10/10
-dimwishlist:item=3242168339&perks=247725512,3038247973
-
-//notes: PVE@7/10, PVP@7/10
-dimwishlist:item=3242168339&perks=247725512,2458213969
-
-//notes: PVE@7/10
-dimwishlist:item=3242168339&perks=247725512,2848615171
-dimwishlist:item=3242168339&perks=247725512,3592538738
-dimwishlist:item=3242168339&perks=247725512,1546637391
-
-//notes: PVE@10/10
-dimwishlist:item=2776503072&perks=2117683199,2848615171
-
-//notes: PVE@7/10
-dimwishlist:item=2776503072&perks=2848615171,2869569095
-dimwishlist:item=2776503072&perks=2117683199,2458213969
-dimwishlist:item=2776503072&perks=2117683199,2726471870
-
-//notes: PVE@4/10
-dimwishlist:item=2776503072&perks=2458213969,2869569095
-dimwishlist:item=2776503072&perks=2726471870,2869569095
-
-//notes: PVE@7/10, PVP@7/10
-dimwishlist:item=2481758391&perks=3425386926,3436462433
-
-//notes: PVE@4/10, PVP@7/10
-dimwishlist:item=2481758391&perks=3436462433,3592538738
-
-//notes: PVE@10/10
-dimwishlist:item=2481758391&perks=3425386926,3643424744
-
-//notes: PVE@7/10
-dimwishlist:item=2481758391&perks=1820235745,3425386926
-dimwishlist:item=2481758391&perks=3643424744,4049631843
-dimwishlist:item=2481758391&perks=3592538738,3643424744
-
-//notes: PVE@4/10
-dimwishlist:item=2481758391&perks=3436462433,4049631843
-dimwishlist:item=2481758391&perks=1820235745,4049631843
-dimwishlist:item=2481758391&perks=1820235745,3592538738
-
-//notes: PVP@10/10
-dimwishlist:item=2481758391&perks=3436462433,3511092054
-
-//notes: PVP@7/10
-dimwishlist:item=2481758391&perks=706527188,3511092054
-dimwishlist:item=2481758391&perks=2946784966,3511092054
-
-//notes: PVP@4/10
-dimwishlist:item=2481758391&perks=706527188,3425386926
-dimwishlist:item=2481758391&perks=2946784966,3425386926
-dimwishlist:item=2481758391&perks=706527188,3592538738
-dimwishlist:item=2481758391&perks=2946784966,3592538738
 
 //notes: PVP@10/10
 dimwishlist:item=409551876&perks=247725512,2387244414
@@ -476,29 +469,30 @@ dimwishlist:item=409551876&perks=588594999,2458213969
 dimwishlist:item=409551876&perks=588594999,3592538738
 
 //notes: PVE@10/10
-dimwishlist:item=2582755344&perks=1546637391,3300816228
+dimwishlist:item=2776503072&perks=2848615171,4267945040
 
 //notes: PVE@7/10
-dimwishlist:item=2582755344&perks=1546637391,2869569095
-dimwishlist:item=2582755344&perks=1546637391,2284787283
-dimwishlist:item=2582755344&perks=1771339417,3300816228
+dimwishlist:item=2776503072&perks=2848615171,2869569095
+dimwishlist:item=2776503072&perks=2458213969,4267945040
+dimwishlist:item=2776503072&perks=2726471870,4267945040
 
 //notes: PVE@4/10
-dimwishlist:item=2582755344&perks=1771339417,2869569095
-dimwishlist:item=2582755344&perks=1771339417,2284787283
+dimwishlist:item=2776503072&perks=2458213969,2869569095
+dimwishlist:item=2776503072&perks=2726471870,2869569095
 
 //notes: PVE@10/10
-dimwishlist:item=601592879&perks=1354429876,3425386926
+dimwishlist:item=3740842661&perks=1546637391,3300816228
 
 //notes: PVE@7/10
-dimwishlist:item=601592879&perks=1354429876
-dimwishlist:item=601592879&perks=3425386926
+dimwishlist:item=3740842661&perks=3300816228
+dimwishlist:item=3740842661&perks=1546637391
 
 //notes: PVP@10/10
-dimwishlist:item=601592879&perks=1015611457,1359896290
+dimwishlist:item=3740842661&perks=2396489472,3977735242
 
 //notes: PVP@7/10
-dimwishlist:item=601592879&perks=1359896290,2213355989
+dimwishlist:item=3740842661&perks=3977735242
+dimwishlist:item=3740842661&perks=2396489472
 
 //notes: PVE@10/10
 dimwishlist:item=2807687156&perks=1771339417,2284787283
@@ -506,6 +500,60 @@ dimwishlist:item=2807687156&perks=1771339417,2284787283
 //notes: PVE@7/10
 dimwishlist:item=2807687156&perks=2284787283
 dimwishlist:item=2807687156&perks=1771339417
+
+//notes: PVE@10/10
+dimwishlist:item=4255586669&perks=3300816228,3523296417
+
+//notes: PVE@7/10
+dimwishlist:item=4255586669&perks=2010801679,3523296417
+dimwishlist:item=4255586669&perks=2779035018,3523296417
+dimwishlist:item=4255586669&perks=3300816228,4082225868
+dimwishlist:item=4255586669&perks=1546637391,3300816228
+dimwishlist:item=4255586669&perks=960810156,3300816228
+
+//notes: PVE@4/10
+dimwishlist:item=4255586669&perks=2010801679,4082225868
+dimwishlist:item=4255586669&perks=2779035018,4082225868
+dimwishlist:item=4255586669&perks=1546637391,2010801679
+dimwishlist:item=4255586669&perks=1546637391,2779035018
+dimwishlist:item=4255586669&perks=960810156,2010801679
+dimwishlist:item=4255586669&perks=960810156,2779035018
+
+//notes: PVE@10/10, PVE@7/10, PVP@7/10, PVP@4/10, PVP@4/10
+dimwishlist:item=2855157553&perks=2117683199,2117683199
+
+//notes: PVP@10/10, PVP@7/10, PVP@7/10
+dimwishlist:item=2855157553&perks=957782887,2117683199
+
+//notes: PVE@10/10
+dimwishlist:item=766323545&perks=2010801679,2848615171
+
+//notes: PVE@7/10
+dimwishlist:item=766323545&perks=1354429876,2848615171
+dimwishlist:item=766323545&perks=2010801679,2779035018
+
+//notes: PVE@4/10
+dimwishlist:item=766323545&perks=1354429876,2779035018
+
+//notes: PVE@10/10 (Жизнеобеспечение - Любой перк кроме Гармонии)
+dimwishlist:item=548958835
+
+//notes: PVE@10/10
+dimwishlist:item=568515759&perks=1168162263,3425386926
+
+//notes: PVE@7/10
+dimwishlist:item=568515759&perks=1168162263
+dimwishlist:item=568515759&perks=3425386926
+
+//notes: PVP@10/10
+dimwishlist:item=568515759&perks=1015611457,3425386926
+
+//notes: PVP@7/10
+dimwishlist:item=568515759&perks=2846385770,3425386926
+dimwishlist:item=568515759&perks=1015611457,2213355989
+
+//notes: PVP@4/10
+dimwishlist:item=568515759&perks=2213355989,2846385770
 
 //notes: PVE@10/10
 dimwishlist:item=875848769&perks=3425386926,3643424744
@@ -575,16 +623,6 @@ dimwishlist:item=310708513&perks=247725512
 dimwishlist:item=310708513&perks=1015611457
 
 //notes: PVE@10/10
-dimwishlist:item=766323545&perks=2010801679,2848615171
-
-//notes: PVE@7/10
-dimwishlist:item=766323545&perks=1354429876,2848615171
-dimwishlist:item=766323545&perks=2010801679,2779035018
-
-//notes: PVE@4/10
-dimwishlist:item=766323545&perks=1354429876,2779035018
-
-//notes: PVE@10/10
 dimwishlist:item=2453357042&perks=2284787283,3300816228
 
 //notes: PVE@7/10
@@ -592,74 +630,19 @@ dimwishlist:item=2453357042&perks=2284787283,2396489472
 dimwishlist:item=2453357042&perks=2284787283,3592538738
 
 //notes: PVE@10/10
-dimwishlist:item=4255586669&perks=3300816228,3523296417
+dimwishlist:item=640114618&perks=3643424744,4082225868
 
 //notes: PVE@7/10
-dimwishlist:item=4255586669&perks=2010801679,3523296417
-dimwishlist:item=4255586669&perks=2779035018,3523296417
-dimwishlist:item=4255586669&perks=3300816228,4082225868
-dimwishlist:item=4255586669&perks=1546637391,3300816228
-dimwishlist:item=4255586669&perks=960810156,3300816228
+dimwishlist:item=640114618&perks=1168162263,4082225868
+dimwishlist:item=640114618&perks=1820235745,4082225868
+dimwishlist:item=640114618&perks=3523296417,3643424744
+dimwishlist:item=640114618&perks=3643424744,4104185692
 
 //notes: PVE@4/10
-dimwishlist:item=4255586669&perks=2010801679,4082225868
-dimwishlist:item=4255586669&perks=2779035018,4082225868
-dimwishlist:item=4255586669&perks=1546637391,2010801679
-dimwishlist:item=4255586669&perks=1546637391,2779035018
-dimwishlist:item=4255586669&perks=960810156,2010801679
-dimwishlist:item=4255586669&perks=960810156,2779035018
-
-//notes: PVE@10/10
-dimwishlist:item=3740842661&perks=1546637391,3300816228
-
-//notes: PVE@7/10
-dimwishlist:item=3740842661&perks=3300816228
-dimwishlist:item=3740842661&perks=1546637391
-
-//notes: PVP@10/10
-dimwishlist:item=3740842661&perks=2396489472,3977735242
-
-//notes: PVP@7/10
-dimwishlist:item=3740842661&perks=3977735242
-dimwishlist:item=3740842661&perks=2396489472
-
-//notes: PVE@10/10 (Жизнеобеспечение - Любой перк кроме Гармонии)
-dimwishlist:item=548958835
-
-//notes: PVE@10/10
-dimwishlist:item=2855157553&perks=2679249093,2869569095
-
-//notes: PVE@7/10
-dimwishlist:item=2855157553&perks=2869569095,4104185692
-
-//notes: PVP@10/10
-dimwishlist:item=2855157553&perks=957782887,3436462433
-
-//notes: PVP@7/10
-dimwishlist:item=2855157553&perks=957782887,4071163871
-dimwishlist:item=2855157553&perks=957782887,3161816588
-dimwishlist:item=2855157553&perks=3436462433,3511092054
-
-//notes: PVP@4/10
-dimwishlist:item=2855157553&perks=3511092054,4071163871
-dimwishlist:item=2855157553&perks=3161816588,3511092054
-
-//notes: PVE@10/10
-dimwishlist:item=568515759&perks=1168162263,3425386926
-
-//notes: PVE@7/10
-dimwishlist:item=568515759&perks=1168162263
-dimwishlist:item=568515759&perks=3425386926
-
-//notes: PVP@10/10
-dimwishlist:item=568515759&perks=1015611457,3425386926
-
-//notes: PVP@7/10
-dimwishlist:item=568515759&perks=2846385770,3425386926
-dimwishlist:item=568515759&perks=1015611457,2213355989
-
-//notes: PVP@4/10
-dimwishlist:item=568515759&perks=2213355989,2846385770
+dimwishlist:item=640114618&perks=1168162263,3523296417
+dimwishlist:item=640114618&perks=1820235745,3523296417
+dimwishlist:item=640114618&perks=1168162263,4104185692
+dimwishlist:item=640114618&perks=1820235745,4104185692
 
 //notes: PVE@10/10
 dimwishlist:item=2257180473&perks=2888557110,3300816228
@@ -667,6 +650,50 @@ dimwishlist:item=2257180473&perks=2888557110,3300816228
 //notes: PVE@7/10
 dimwishlist:item=2257180473&perks=3300816228
 dimwishlist:item=2257180473&perks=2888557110
+
+//notes: PVP@10/10
+dimwishlist:item=1626503676&perks=2846385770,4267945040
+
+//notes: PVP@7/10
+dimwishlist:item=1626503676&perks=2846385770,3436462433
+dimwishlist:item=1626503676&perks=1015611457,4267945040
+
+//notes: PVP@4/10
+dimwishlist:item=1626503676&perks=1015611457,3436462433
+
+//notes: PVE@10/10
+dimwishlist:item=3037520408&perks=1954620775,2010801679
+
+//notes: PVE@7/10
+dimwishlist:item=3037520408&perks=1354429876,1954620775
+dimwishlist:item=3037520408&perks=2010801679,2458213969
+
+//notes: PVE@4/10
+dimwishlist:item=3037520408&perks=1354429876,2458213969
+
+//notes: PVE@10/10 (Любой перк - Любой перк кроме Гармонии)
+dimwishlist:item=3257091166
+
+//notes: PVP@10/10
+dimwishlist:item=3257091166&perks=2077819806,2726471870
+
+//notes: PVP@7/10
+dimwishlist:item=3257091166&perks=2726471870
+dimwishlist:item=3257091166&perks=2077819806
+
+//notes: PVE@10/10, PVP@4/10
+dimwishlist:item=3799980700&perks=1015611457,3425386926
+
+//notes: PVE@7/10
+dimwishlist:item=3799980700&perks=3425386926
+dimwishlist:item=3799980700&perks=1015611457
+
+//notes: PVP@10/10
+dimwishlist:item=3799980700&perks=588594999,2387244414
+
+//notes: PVP@7/10
+dimwishlist:item=3799980700&perks=588594999,3425386926
+dimwishlist:item=3799980700&perks=1015611457,2387244414
 
 //notes: PVE@10/10
 dimwishlist:item=2496875173&perks=1168162263,3425386926
@@ -692,79 +719,6 @@ dimwishlist:item=2496875173&perks=1359896290,2458213969
 //notes: PVP@7/10
 dimwishlist:item=2496875173&perks=1359896290
 dimwishlist:item=2496875173&perks=2458213969
-
-//notes: PVE@10/10
-dimwishlist:item=3037520408&perks=1954620775,2010801679
-
-//notes: PVE@7/10
-dimwishlist:item=3037520408&perks=1354429876,1954620775
-dimwishlist:item=3037520408&perks=2010801679,2458213969
-
-//notes: PVE@4/10
-dimwishlist:item=3037520408&perks=1354429876,2458213969
-
-//notes: PVE@10/10
-dimwishlist:item=2714022207&perks=1168162263,2213355989
-
-//notes: PVE@7/10
-dimwishlist:item=2714022207&perks=1168162263
-dimwishlist:item=2714022207&perks=2213355989
-
-//notes: PVP@10/10
-dimwishlist:item=2714022207&perks=588594999,2726471870
-
-//notes: PVP@7/10
-dimwishlist:item=2714022207&perks=588594999
-dimwishlist:item=2714022207&perks=2726471870
-
-//notes: PVE@10/10
-dimwishlist:item=640114618&perks=3643424744,4082225868
-
-//notes: PVE@7/10
-dimwishlist:item=640114618&perks=1168162263,4082225868
-dimwishlist:item=640114618&perks=1820235745,4082225868
-dimwishlist:item=640114618&perks=3523296417,3643424744
-dimwishlist:item=640114618&perks=3643424744,4104185692
-
-//notes: PVE@4/10
-dimwishlist:item=640114618&perks=1168162263,3523296417
-dimwishlist:item=640114618&perks=1820235745,3523296417
-dimwishlist:item=640114618&perks=1168162263,4104185692
-dimwishlist:item=640114618&perks=1820235745,4104185692
-
-//notes: PVE@10/10 (Любой перк - Любой перк кроме Гармонии)
-dimwishlist:item=3257091166
-
-//notes: PVP@10/10
-dimwishlist:item=3257091166&perks=2077819806,2726471870
-
-//notes: PVP@7/10
-dimwishlist:item=3257091166&perks=2726471870
-dimwishlist:item=3257091166&perks=2077819806
-
-//notes: PVP@10/10
-dimwishlist:item=1626503676&perks=2117683199,2846385770
-
-//notes: PVP@7/10
-dimwishlist:item=1626503676&perks=2846385770,3436462433
-dimwishlist:item=1626503676&perks=1015611457,2117683199
-
-//notes: PVP@4/10
-dimwishlist:item=1626503676&perks=1015611457,3436462433
-
-//notes: PVE@10/10, PVP@4/10
-dimwishlist:item=3799980700&perks=1015611457,3425386926
-
-//notes: PVE@7/10
-dimwishlist:item=3799980700&perks=3425386926
-dimwishlist:item=3799980700&perks=1015611457
-
-//notes: PVP@10/10
-dimwishlist:item=3799980700&perks=588594999,2387244414
-
-//notes: PVP@7/10
-dimwishlist:item=3799980700&perks=588594999,3425386926
-dimwishlist:item=3799980700&perks=1015611457,2387244414
 
 //notes: PVE@10/10, PVP@10/10
 dimwishlist:item=1107446438&perks=247725512,1015611457
@@ -809,23 +763,18 @@ dimwishlist:item=1107446438&perks=2726471870,2946784966
 dimwishlist:item=1107446438&perks=2450788523,2726471870
 
 //notes: PVE@10/10
-dimwishlist:item=2857348871&perks=1685431615,1749209109
+dimwishlist:item=2714022207&perks=1168162263,2213355989
 
 //notes: PVE@7/10
-dimwishlist:item=2857348871&perks=1749209109,3708227201
-
-//notes: PVE@10/10
-dimwishlist:item=1821724780&perks=1546637391,3300816228
-
-//notes: PVE@7/10
-dimwishlist:item=1821724780&perks=2360754333,3300816228
+dimwishlist:item=2714022207&perks=1168162263
+dimwishlist:item=2714022207&perks=2213355989
 
 //notes: PVP@10/10
-dimwishlist:item=1821724780&perks=957782887,3161816588
+dimwishlist:item=2714022207&perks=588594999,2726471870
 
 //notes: PVP@7/10
-dimwishlist:item=1821724780&perks=3161816588
-dimwishlist:item=1821724780&perks=957782887
+dimwishlist:item=2714022207&perks=588594999
+dimwishlist:item=2714022207&perks=2726471870
 
 //notes: PVP@10/10
 dimwishlist:item=3297863558&perks=957782887,2866798147
@@ -833,6 +782,12 @@ dimwishlist:item=3297863558&perks=957782887,2866798147
 //notes: PVP@7/10
 dimwishlist:item=3297863558&perks=2866798147
 dimwishlist:item=3297863558&perks=957782887
+
+//notes: PVE@10/10
+dimwishlist:item=2857348871&perks=1685431615,1749209109
+
+//notes: PVE@7/10
+dimwishlist:item=2857348871&perks=1749209109,3708227201
 
 //notes: PVE@10/10
 dimwishlist:item=3326850591&perks=1771339417,2284787283
@@ -852,6 +807,19 @@ dimwishlist:item=3326850591&perks=3643424744
 dimwishlist:item=3326850591&perks=957782887
 
 //notes: PVE@10/10
+dimwishlist:item=1821724780&perks=1546637391,2117683199
+
+//notes: PVE@7/10
+dimwishlist:item=1821724780&perks=2117683199,2117683199
+
+//notes: PVP@10/10
+dimwishlist:item=1821724780&perks=957782887,2117683199
+
+//notes: PVP@7/10
+dimwishlist:item=1821724780&perks=2117683199
+dimwishlist:item=1821724780&perks=957782887
+
+//notes: PVE@10/10
 dimwishlist:item=4094657108&perks=1015611457,3425386926
 
 //notes: PVE@7/10
@@ -863,47 +831,6 @@ dimwishlist:item=4094657108&perks=1645158859,2846385770
 
 //notes: PVP@7/10
 dimwishlist:item=4094657108&perks=1645158859,2213355989
-
-//notes: PVE@10/10
-dimwishlist:item=2220884262&perks=1168162263,4082225868
-
-//notes: PVE@7/10
-dimwishlist:item=2220884262&perks=1168162263,3592538738
-
-//notes: PVP@10/10
-dimwishlist:item=2220884262&perks=11551321,2450788523
-
-//notes: PVP@7/10
-dimwishlist:item=2220884262&perks=11551321,706527188
-dimwishlist:item=2220884262&perks=2450788523,4082225868
-dimwishlist:item=2220884262&perks=2450788523,3592538738
-
-//notes: PVP@4/10
-dimwishlist:item=2220884262&perks=706527188,4082225868
-dimwishlist:item=2220884262&perks=706527188,3592538738
-
-//notes: PVE@10/10
-dimwishlist:item=1097616550&perks=3425386926,3643424744
-
-//notes: PVE@7/10
-dimwishlist:item=1097616550&perks=1168162263,3425386926
-dimwishlist:item=1097616550&perks=1820235745,3425386926
-dimwishlist:item=1097616550&perks=2458213969,3643424744
-dimwishlist:item=1097616550&perks=3643424744,4104185692
-
-//notes: PVE@4/10
-dimwishlist:item=1097616550&perks=1168162263,2458213969
-dimwishlist:item=1097616550&perks=1820235745,2458213969
-dimwishlist:item=1097616550&perks=1168162263,4104185692
-dimwishlist:item=1097616550&perks=1820235745,4104185692
-
-//notes: PVP@10/10
-dimwishlist:item=1097616550&perks=2387244414,2458213969
-
-//notes: PVP@7/10
-dimwishlist:item=1097616550&perks=2387244414,3425386926
-dimwishlist:item=1097616550&perks=2387244414,2726471870
-dimwishlist:item=1097616550&perks=1890422124,2387244414
 
 //notes: PVE@10/10, PVP@4/10
 dimwishlist:item=432476743&perks=1168162263,3425386926
@@ -941,6 +868,24 @@ dimwishlist:item=1481892490&perks=2450788523,2726471870
 dimwishlist:item=1481892490&perks=1168162263,2726471870
 dimwishlist:item=1481892490&perks=2450788523,3425386926
 
+//notes: PVE@10/10
+dimwishlist:item=2220884262&perks=1168162263,4082225868
+
+//notes: PVE@7/10
+dimwishlist:item=2220884262&perks=1168162263,3592538738
+
+//notes: PVP@10/10
+dimwishlist:item=2220884262&perks=11551321,2450788523
+
+//notes: PVP@7/10
+dimwishlist:item=2220884262&perks=11551321,706527188
+dimwishlist:item=2220884262&perks=2450788523,4082225868
+dimwishlist:item=2220884262&perks=2450788523,3592538738
+
+//notes: PVP@4/10
+dimwishlist:item=2220884262&perks=706527188,4082225868
+dimwishlist:item=2220884262&perks=706527188,3592538738
+
 //notes: PVE@10/10 (Любой перк кроме Переноса энергии - Любой перк)
 dimwishlist:item=3257091167
 
@@ -950,6 +895,29 @@ dimwishlist:item=3257091167&perks=1546637391,2077819806
 //notes: PVP@7/10
 dimwishlist:item=3257091167&perks=2077819806
 dimwishlist:item=3257091167&perks=1546637391
+
+//notes: PVE@10/10
+dimwishlist:item=1097616550&perks=3425386926,3643424744
+
+//notes: PVE@7/10
+dimwishlist:item=1097616550&perks=1168162263,3425386926
+dimwishlist:item=1097616550&perks=1820235745,3425386926
+dimwishlist:item=1097616550&perks=2458213969,3643424744
+dimwishlist:item=1097616550&perks=3643424744,4104185692
+
+//notes: PVE@4/10
+dimwishlist:item=1097616550&perks=1168162263,2458213969
+dimwishlist:item=1097616550&perks=1820235745,2458213969
+dimwishlist:item=1097616550&perks=1168162263,4104185692
+dimwishlist:item=1097616550&perks=1820235745,4104185692
+
+//notes: PVP@10/10
+dimwishlist:item=1097616550&perks=2387244414,2458213969
+
+//notes: PVP@7/10
+dimwishlist:item=1097616550&perks=2387244414,3425386926
+dimwishlist:item=1097616550&perks=2387244414,2726471870
+dimwishlist:item=1097616550&perks=1890422124,2387244414
 
 //notes: PVE@10/10
 dimwishlist:item=1216130969&perks=2458213969,2779035018
@@ -976,6 +944,16 @@ dimwishlist:item=2742838700&perks=2846385770,3038247973
 //notes: PVP@7/10
 dimwishlist:item=2742838700&perks=1954620775,2846385770
 dimwishlist:item=2742838700&perks=2846385770,3425386926
+
+//notes: PVE@7/10, PVP@10/10
+dimwishlist:item=2721249463&perks=201365942,3365897133
+
+//notes: PVE@10/10
+dimwishlist:item=2721249463&perks=201365942,3425386926
+
+//notes: PVP@7/10
+dimwishlist:item=2721249463&perks=201365942
+dimwishlist:item=2721249463&perks=3365897133
 
 //notes: PVE@10/10, PVP@7/10
 dimwishlist:item=2633186522&perks=3643424744,4082225868
@@ -1006,26 +984,6 @@ dimwishlist:item=2147010335&perks=2450788523,2726471870
 //notes: PVP@4/10
 dimwishlist:item=2633186522&perks=2726471870,3643424744
 dimwishlist:item=2147010335&perks=2726471870,3643424744
-
-//notes: PVE@7/10, PVP@10/10
-dimwishlist:item=2721249463&perks=201365942,3365897133
-
-//notes: PVE@10/10
-dimwishlist:item=2721249463&perks=201365942,3425386926
-
-//notes: PVP@7/10
-dimwishlist:item=2721249463&perks=201365942
-dimwishlist:item=2721249463&perks=3365897133
-
-//notes: PVE@10/10
-dimwishlist:item=3460122497&perks=201365942,3592538738
-
-//notes: PVE@7/10
-dimwishlist:item=3460122497&perks=951095735,3592538738
-dimwishlist:item=3460122497&perks=201365942,4104185692
-
-//notes: PVE@4/10
-dimwishlist:item=3460122497&perks=951095735,4104185692
 
 //notes: PVE@10/10
 dimwishlist:item=1641430382&perks=247725512,4049631843
@@ -1059,6 +1017,48 @@ dimwishlist:item=235827225&perks=247725512,3523296417
 dimwishlist:item=235827225
 
 //notes: PVE@10/10
+dimwishlist:item=3460122497&perks=201365942,3592538738
+
+//notes: PVE@7/10
+dimwishlist:item=3460122497&perks=951095735,3592538738
+dimwishlist:item=3460122497&perks=201365942,4104185692
+
+//notes: PVE@4/10
+dimwishlist:item=3460122497&perks=951095735,4104185692
+
+//notes: PVE@10/10
+dimwishlist:item=2742838701&perks=3643424744,4082225868
+
+//notes: PVE@7/10
+dimwishlist:item=2742838701&perks=3643424744
+dimwishlist:item=2742838701&perks=4082225868
+
+//notes: PVP@10/10
+dimwishlist:item=2742838701&perks=47981717,2846385770
+
+//notes: PVP@7/10
+dimwishlist:item=2742838701&perks=47981717,3511092054
+
+//notes: PVE@10/10
+dimwishlist:item=3593598010&perks=2779035018,3425386926
+
+//notes: PVE@7/10
+dimwishlist:item=3593598010&perks=2779035018,4049631843
+dimwishlist:item=3593598010&perks=1546637391,2779035018
+
+//notes: PVP@10/10
+dimwishlist:item=3593598010&perks=706527188,3425386926
+
+//notes: PVP@7/10
+dimwishlist:item=3593598010&perks=1645158859,3425386926
+dimwishlist:item=3593598010&perks=588594999,3425386926
+dimwishlist:item=3593598010&perks=11551321,706527188
+
+//notes: PVP@4/10
+dimwishlist:item=3593598010&perks=11551321,1645158859
+dimwishlist:item=3593598010&perks=11551321,588594999
+
+//notes: PVE@10/10
 dimwishlist:item=211938782&perks=2450788523,3523296417
 
 //notes: PVE@7/10
@@ -1079,19 +1079,6 @@ dimwishlist:item=211938782&perks=47981717,2450788523
 //notes: PVP@7/10
 dimwishlist:item=211938782&perks=2450788523
 dimwishlist:item=211938782&perks=47981717
-
-//notes: PVE@10/10
-dimwishlist:item=2742838701&perks=3643424744,4082225868
-
-//notes: PVE@7/10
-dimwishlist:item=2742838701&perks=3643424744
-dimwishlist:item=2742838701&perks=4082225868
-
-//notes: PVP@10/10
-dimwishlist:item=2742838701&perks=47981717,2846385770
-
-//notes: PVP@7/10
-dimwishlist:item=2742838701&perks=47981717,3511092054
 
 //notes: PVE@7/10, PVP@4/10
 dimwishlist:item=47772649&perks=1546637391,3436462433
@@ -1156,6 +1143,23 @@ dimwishlist:item=2545083870&perks=957782887,3977735242
 //notes: PVP@7/10
 dimwishlist:item=2545083870&perks=957782887
 
+//notes: PVE@7/10, PVE@4/10, PVE@4/10, PVP@7/10, PVP@7/10
+dimwishlist:item=2563012876&perks=2117683199,2117683199
+
+//notes: PVE@10/10, PVE@7/10, PVE@7/10
+dimwishlist:item=2563012876&perks=1556840489,2117683199
+
+//notes: PVP@4/10, PVP@4/10
+dimwishlist:item=2563012876&perks=972757866,2117683199
+dimwishlist:item=2563012876&perks=1428297954,2117683199
+
+//notes: PVP@10/10
+dimwishlist:item=2563012876&perks=47981717,2117683199
+
+//notes: PVP@7/10
+dimwishlist:item=2563012876&perks=47981717,972757866
+dimwishlist:item=2563012876&perks=47981717,1428297954
+
 //notes: PVE@10/10
 dimwishlist:item=2121785039&perks=247725512,3425386926
 
@@ -1168,51 +1172,22 @@ dimwishlist:item=2121785039&perks=247725512,3592538738
 dimwishlist:item=2121785039&perks=2779035018,4104185692
 dimwishlist:item=2121785039&perks=2779035018,3592538738
 
-//notes: PVE@10/10
-dimwishlist:item=3593598010&perks=2779035018,3425386926
-
-//notes: PVE@7/10
-dimwishlist:item=3593598010&perks=2779035018,4049631843
-dimwishlist:item=3593598010&perks=1546637391,2779035018
-
-//notes: PVP@10/10
-dimwishlist:item=3593598010&perks=706527188,3425386926
-
-//notes: PVP@7/10
-dimwishlist:item=3593598010&perks=1645158859,3425386926
-dimwishlist:item=3593598010&perks=588594999,3425386926
-dimwishlist:item=3593598010&perks=11551321,706527188
-
-//notes: PVP@4/10
-dimwishlist:item=3593598010&perks=11551321,1645158859
-dimwishlist:item=3593598010&perks=11551321,588594999
+//notes: PVE@7/10, PVP@7/10
+dimwishlist:item=3717177717&perks=1015611457,4071163871
 
 //notes: PVE@10/10
-dimwishlist:item=2563012876&perks=1556840489,2679249093
-
-//notes: PVE@7/10
-dimwishlist:item=2563012876&perks=2117683199,2679249093
-dimwishlist:item=2563012876&perks=1556840489,4082225868
-dimwishlist:item=2563012876&perks=1556840489,2610012052
-
-//notes: PVE@4/10
-dimwishlist:item=2563012876&perks=2117683199,4082225868
-dimwishlist:item=2563012876&perks=2117683199,2610012052
+dimwishlist:item=3717177717&perks=4049631843,4071163871
 
 //notes: PVP@10/10
-dimwishlist:item=2563012876&perks=47981717,4071163871
+dimwishlist:item=3717177717&perks=1015611457,1359896290
 
 //notes: PVP@7/10
-dimwishlist:item=2563012876&perks=47981717,972757866
-dimwishlist:item=2563012876&perks=47981717,1428297954
-dimwishlist:item=2563012876&perks=2450788523,4071163871
-dimwishlist:item=2563012876&perks=4071163871,4082225868
+dimwishlist:item=3717177717&perks=1015611457,2450788523
+dimwishlist:item=3717177717&perks=11551321,1359896290
 
 //notes: PVP@4/10
-dimwishlist:item=2563012876&perks=972757866,2450788523
-dimwishlist:item=2563012876&perks=1428297954,2450788523
-dimwishlist:item=2563012876&perks=972757866,4082225868
-dimwishlist:item=2563012876&perks=1428297954,4082225868
+dimwishlist:item=3717177717&perks=11551321,2450788523
+dimwishlist:item=3717177717&perks=11551321,4071163871
 
 //notes: PVE@10/10
 dimwishlist:item=3143732432&perks=3425386926,3643424744
@@ -1261,26 +1236,11 @@ dimwishlist:item=681067419&perks=588594999,3038247973
 dimwishlist:item=681067419&perks=247725512,3592538738
 dimwishlist:item=681067419&perks=588594999,3592538738
 
+//notes: PVP@7/10, PVP@7/10
+dimwishlist:item=2782847179&perks=706527188,2117683199
+
 //notes: PVP@10/10
 dimwishlist:item=2782847179&perks=47981717,706527188
-
-//notes: PVP@7/10
-dimwishlist:item=2782847179&perks=706527188,4082225868
-dimwishlist:item=2782847179&perks=706527188,2726471870
-
-//notes: PVE@10/10
-dimwishlist:item=893527433&perks=3436462433,4104185692
-
-//notes: PVE@7/10
-dimwishlist:item=893527433&perks=3436462433
-dimwishlist:item=893527433&perks=4104185692
-
-//notes: PVP@10/10
-dimwishlist:item=893527433&perks=47981717,706527188
-
-//notes: PVP@7/10
-dimwishlist:item=893527433&perks=706527188
-dimwishlist:item=893527433&perks=47981717
 
 //notes: PVE@10/10
 dimwishlist:item=4095896073&perks=201365942,247725512
@@ -1296,23 +1256,6 @@ dimwishlist:item=4095896073&perks=706527188,3365897133
 dimwishlist:item=4095896073&perks=706527188
 dimwishlist:item=4095896073&perks=3365897133
 
-//notes: PVE@7/10, PVP@7/10
-dimwishlist:item=3717177717&perks=1015611457,4071163871
-
-//notes: PVE@10/10
-dimwishlist:item=3717177717&perks=4049631843,4071163871
-
-//notes: PVP@10/10
-dimwishlist:item=3717177717&perks=1015611457,1359896290
-
-//notes: PVP@7/10
-dimwishlist:item=3717177717&perks=1015611457,2450788523
-dimwishlist:item=3717177717&perks=11551321,1359896290
-
-//notes: PVP@4/10
-dimwishlist:item=3717177717&perks=11551321,2450788523
-dimwishlist:item=3717177717&perks=11551321,4071163871
-
 //notes: PVP@10/10
 dimwishlist:item=4164201232&perks=706527188,957782887
 
@@ -1324,6 +1267,38 @@ dimwishlist:item=4164201232&perks=588594999,706527188
 //notes: PVP@4/10
 dimwishlist:item=4164201232&perks=588594999,1428297954
 dimwishlist:item=4164201232&perks=588594999,1570042021
+
+//notes: PVE@10/10
+dimwishlist:item=893527433&perks=3436462433,4104185692
+
+//notes: PVE@7/10
+dimwishlist:item=893527433&perks=3436462433
+dimwishlist:item=893527433&perks=4104185692
+
+//notes: PVP@10/10
+dimwishlist:item=893527433&perks=47981717,706527188
+
+//notes: PVP@7/10
+dimwishlist:item=893527433&perks=706527188
+dimwishlist:item=893527433&perks=47981717
+
+//notes: PVE@10/10, PVP@7/10
+dimwishlist:item=3813153080&perks=1570042021,2458213969
+
+//notes: PVE@7/10
+dimwishlist:item=3813153080&perks=1570042021
+dimwishlist:item=3813153080&perks=2458213969
+
+//notes: PVP@10/10
+dimwishlist:item=3813153080&perks=11551321,1570042021
+
+//notes: PVP@7/10
+dimwishlist:item=3813153080&perks=11551321,2450788523
+dimwishlist:item=3813153080&perks=591790007,1570042021
+
+//notes: PVP@4/10
+dimwishlist:item=3813153080&perks=591790007,2450788523
+dimwishlist:item=3813153080&perks=2450788523,2458213969
 
 //notes: PVE@10/10
 dimwishlist:item=607191995&perks=1546637391,1645158859
@@ -1374,19 +1349,6 @@ dimwishlist:item=3067821200&perks=951095735,1275731761
 dimwishlist:item=3067821200&perks=1275731761,2869569095
 
 //notes: PVE@10/10
-dimwishlist:item=3075224551&perks=247725512,1546637391
-
-//notes: PVE@7/10
-dimwishlist:item=3075224551&perks=247725512
-dimwishlist:item=3075224551&perks=1546637391
-
-//notes: PVP@10/10
-dimwishlist:item=3075224551&perks=2846385770,3523296417
-
-//notes: PVP@7/10
-dimwishlist:item=3075224551&perks=2846385770,2848615171
-
-//notes: PVE@10/10
 dimwishlist:item=2209003210&perks=2779035018,3425386926
 
 //notes: PVE@7/10
@@ -1400,30 +1362,39 @@ dimwishlist:item=2209003210&perks=1645158859,2213355989
 dimwishlist:item=2209003210&perks=1645158859
 dimwishlist:item=2209003210&perks=2213355989
 
-//notes: PVE@10/10, PVP@7/10
-dimwishlist:item=3813153080&perks=1570042021,2458213969
-
-//notes: PVE@7/10
-dimwishlist:item=3813153080&perks=1570042021
-dimwishlist:item=3813153080&perks=2458213969
-
-//notes: PVP@10/10
-dimwishlist:item=3813153080&perks=11551321,1570042021
-
-//notes: PVP@7/10
-dimwishlist:item=3813153080&perks=11551321,2450788523
-dimwishlist:item=3813153080&perks=591790007,1570042021
-
-//notes: PVP@4/10
-dimwishlist:item=3813153080&perks=591790007,2450788523
-dimwishlist:item=3813153080&perks=2450788523,2458213969
-
 //notes: PVE@10/10
 dimwishlist:item=2139640995&perks=2396489472,3108830275
 
 //notes: PVE@7/10
 dimwishlist:item=2139640995&perks=3108830275
 dimwishlist:item=2139640995&perks=2396489472
+
+//notes: PVE@10/10
+dimwishlist:item=3075224551&perks=247725512,1546637391
+
+//notes: PVE@7/10
+dimwishlist:item=3075224551&perks=247725512
+dimwishlist:item=3075224551&perks=1546637391
+
+//notes: PVP@10/10
+dimwishlist:item=3075224551&perks=2846385770,3523296417
+
+//notes: PVP@7/10
+dimwishlist:item=3075224551&perks=2846385770,2848615171
+
+//notes: PVE@10/10
+dimwishlist:item=852551895&perks=1546637391,3300816228
+
+//notes: PVE@7/10
+dimwishlist:item=852551895&perks=3300816228
+dimwishlist:item=852551895&perks=1546637391
+
+//notes: PVP@10/10
+dimwishlist:item=852551895&perks=47981717,957782887
+
+//notes: PVP@7/10
+dimwishlist:item=852551895&perks=957782887,3511092054
+dimwishlist:item=852551895&perks=591790007,957782887
 
 //notes: PVE@10/10
 dimwishlist:item=614426548&perks=1749209109,3913600130
@@ -1481,6 +1452,19 @@ dimwishlist:item=208088207&perks=2387244414,2726471870
 dimwishlist:item=208088207&perks=706527188,2387244414
 
 //notes: PVE@10/10
+dimwishlist:item=3385326721&perks=1168162263,4082225868
+
+//notes: PVE@7/10
+dimwishlist:item=3385326721&perks=1168162263,3523296417
+
+//notes: PVP@10/10
+dimwishlist:item=3385326721&perks=1015611457,1645158859
+
+//notes: PVP@7/10
+dimwishlist:item=3385326721&perks=1645158859
+dimwishlist:item=3385326721&perks=1015611457
+
+//notes: PVE@10/10
 dimwishlist:item=2496242052&perks=951095735,1275731761
 
 //notes: PVE@7/10
@@ -1495,32 +1479,24 @@ dimwishlist:item=2496242052&perks=2869569095,3927722942
 dimwishlist:item=2496242052&perks=3300816228,4104185692
 dimwishlist:item=2496242052&perks=2869569095,4104185692
 
-//notes: PVE@10/10
-dimwishlist:item=3385326721&perks=1168162263,4082225868
+//notes: PVE@10/10, PVP@4/10
+dimwishlist:item=108221785&perks=2117683199,2117683199
 
-//notes: PVE@7/10
-dimwishlist:item=3385326721&perks=1168162263,3523296417
-
-//notes: PVP@10/10
-dimwishlist:item=3385326721&perks=1015611457,1645158859
-
-//notes: PVP@7/10
-dimwishlist:item=3385326721&perks=1645158859
-dimwishlist:item=3385326721&perks=1015611457
-
-//notes: PVE@10/10
-dimwishlist:item=852551895&perks=1546637391,3300816228
-
-//notes: PVE@7/10
-dimwishlist:item=852551895&perks=3300816228
-dimwishlist:item=852551895&perks=1546637391
+//notes: PVE@7/10, PVE@7/10
+dimwishlist:item=108221785&perks=2117683199
 
 //notes: PVP@10/10
-dimwishlist:item=852551895&perks=47981717,957782887
+dimwishlist:item=108221785&perks=591790007,706527188
 
 //notes: PVP@7/10
-dimwishlist:item=852551895&perks=957782887,3511092054
-dimwishlist:item=852551895&perks=591790007,957782887
+dimwishlist:item=108221785&perks=591790007,2039302152
+dimwishlist:item=108221785&perks=591790007,2117683199
+dimwishlist:item=108221785&perks=280464955,591790007
+dimwishlist:item=108221785&perks=706527188,2117683199
+
+//notes: PVP@4/10
+dimwishlist:item=108221785&perks=2039302152,2117683199
+dimwishlist:item=108221785&perks=280464955,2117683199
 
 //notes: PVE@10/10
 dimwishlist:item=4255171531&perks=2284787283,2869569095
@@ -1573,6 +1549,70 @@ dimwishlist:item=3924212056&perks=3038247973,3161816588
 dimwishlist:item=3924212056&perks=2946784966,3592538738
 dimwishlist:item=3924212056&perks=3161816588,3592538738
 
+//notes: PVE@7/10, PVE@7/10, PVP@7/10
+dimwishlist:item=4020742303&perks=2117683199
+
+//notes: PVE@10/10
+dimwishlist:item=4020742303&perks=2117683199,2117683199
+
+//notes: PVP@10/10
+dimwishlist:item=4020742303&perks=47981717,2117683199
+
+//notes: PVP@7/10
+dimwishlist:item=4020742303&perks=47981717
+
+//notes: PVE@10/10
+dimwishlist:item=1967303408&perks=2869569095,3425386926
+
+//notes: PVE@7/10
+dimwishlist:item=1967303408&perks=2869569095
+dimwishlist:item=1967303408&perks=3425386926
+
+//notes: PVE@7/10, PVP@7/10
+dimwishlist:item=1253087083&perks=2213355989
+
+//notes: PVE@10/10
+dimwishlist:item=1253087083&perks=1354429876,2213355989
+
+//notes: PVE@7/10
+dimwishlist:item=1253087083&perks=1354429876
+
+//notes: PVP@10/10
+dimwishlist:item=1253087083&perks=588594999,2213355989
+
+//notes: PVP@7/10
+dimwishlist:item=1253087083&perks=588594999
+
+//notes: PVE@7/10, PVP@10/10
+dimwishlist:item=2723909519&perks=1570042021,3425386926
+
+//notes: PVE@7/10, PVP@7/10
+dimwishlist:item=2723909519&perks=3425386926,3436462433
+
+//notes: PVE@4/10, PVP@7/10
+dimwishlist:item=2723909519&perks=1570042021,3592538738
+
+//notes: PVE@4/10, PVP@4/10
+dimwishlist:item=2723909519&perks=3436462433,3592538738
+
+//notes: PVE@10/10
+dimwishlist:item=2723909519&perks=3425386926,3643424744
+
+//notes: PVE@7/10
+dimwishlist:item=2723909519&perks=2779035018,3425386926
+dimwishlist:item=2723909519&perks=11612903,3643424744
+dimwishlist:item=2723909519&perks=3643424744,4104185692
+dimwishlist:item=2723909519&perks=3592538738,3643424744
+
+//notes: PVE@4/10
+dimwishlist:item=2723909519&perks=11612903,2779035018
+dimwishlist:item=2723909519&perks=11612903,1570042021
+dimwishlist:item=2723909519&perks=11612903,3436462433
+dimwishlist:item=2723909519&perks=2779035018,4104185692
+dimwishlist:item=2723909519&perks=1570042021,4104185692
+dimwishlist:item=2723909519&perks=3436462433,4104185692
+dimwishlist:item=2723909519&perks=2779035018,3592538738
+
 //notes: PVE@4/10, PVP@7/10
 dimwishlist:item=1119734784&perks=1570042021,3592538738
 
@@ -1607,126 +1647,35 @@ dimwishlist:item=1119734784&perks=2726471870,2946784966
 dimwishlist:item=1119734784&perks=1359896290,1890422124
 dimwishlist:item=1119734784&perks=1890422124,2946784966
 
-//notes: PVE@7/10, PVP@7/10
-dimwishlist:item=4020742303&perks=2117683199
-
-//notes: PVE@10/10
-dimwishlist:item=4020742303&perks=2117683199,2679249093
-
-//notes: PVE@7/10
-dimwishlist:item=4020742303&perks=2679249093
-
-//notes: PVP@10/10
-dimwishlist:item=4020742303&perks=47981717,2117683199
-
-//notes: PVP@7/10
-dimwishlist:item=4020742303&perks=47981717
-
-//notes: PVE@10/10, PVP@4/10
-dimwishlist:item=108221785&perks=3436462433,4082225868
-
-//notes: PVE@7/10
-dimwishlist:item=108221785&perks=3436462433
-dimwishlist:item=108221785&perks=4082225868
-
-//notes: PVP@10/10
-dimwishlist:item=108221785&perks=591790007,706527188
-
-//notes: PVP@7/10
-dimwishlist:item=108221785&perks=591790007,2039302152
-dimwishlist:item=108221785&perks=591790007,3436462433
-dimwishlist:item=108221785&perks=280464955,591790007
-dimwishlist:item=108221785&perks=706527188,4082225868
-
-//notes: PVP@4/10
-dimwishlist:item=108221785&perks=2039302152,4082225868
-dimwishlist:item=108221785&perks=280464955,4082225868
-
-//notes: PVE@7/10, PVP@7/10
-dimwishlist:item=1253087083&perks=2213355989
-
-//notes: PVE@10/10
-dimwishlist:item=1253087083&perks=1354429876,2213355989
-
-//notes: PVE@7/10
-dimwishlist:item=1253087083&perks=1354429876
-
-//notes: PVP@10/10
-dimwishlist:item=1253087083&perks=588594999,2213355989
-
-//notes: PVP@7/10
-dimwishlist:item=1253087083&perks=588594999
+//notes: PVE@10/10, PVP@7/10
+dimwishlist:item=1028582252&perks=1820235745,2117683199
+dimwishlist:item=2443900757&perks=1820235745,2117683199
 
 //notes: PVE@7/10, PVP@4/10
 dimwishlist:item=1028582252&perks=1546637391,1820235745
 dimwishlist:item=2443900757&perks=1546637391,1820235745
 
-//notes: PVE@10/10
-dimwishlist:item=1028582252&perks=1820235745,2360754333
-dimwishlist:item=2443900757&perks=1820235745,2360754333
-
 //notes: PVE@7/10
-dimwishlist:item=1028582252&perks=1556840489,2360754333
-dimwishlist:item=2443900757&perks=1556840489,2360754333
+dimwishlist:item=1028582252&perks=1556840489,2117683199
+dimwishlist:item=2443900757&perks=1556840489,2117683199
 
 //notes: PVE@4/10
 dimwishlist:item=1028582252&perks=1546637391,1556840489
 dimwishlist:item=2443900757&perks=1546637391,1556840489
 
 //notes: PVP@10/10
-dimwishlist:item=1028582252&perks=2621346526,2726471870
-dimwishlist:item=2443900757&perks=2621346526,2726471870
+dimwishlist:item=1028582252&perks=2117683199,2117683199
+dimwishlist:item=2443900757&perks=2117683199,2117683199
 
 //notes: PVP@7/10
-dimwishlist:item=1028582252&perks=1866048759,2726471870
-dimwishlist:item=1028582252&perks=1820235745,2726471870
-dimwishlist:item=1028582252&perks=1546637391,2621346526
-dimwishlist:item=2443900757&perks=1866048759,2726471870
-dimwishlist:item=2443900757&perks=1820235745,2726471870
-dimwishlist:item=2443900757&perks=1546637391,2621346526
+dimwishlist:item=1028582252&perks=1866048759,2117683199
+dimwishlist:item=1028582252&perks=1546637391,2117683199
+dimwishlist:item=2443900757&perks=1866048759,2117683199
+dimwishlist:item=2443900757&perks=1546637391,2117683199
 
 //notes: PVP@4/10
 dimwishlist:item=1028582252&perks=1546637391,1866048759
 dimwishlist:item=2443900757&perks=1546637391,1866048759
-
-//notes: PVE@7/10, PVP@10/10
-dimwishlist:item=2723909519&perks=1570042021,3425386926
-
-//notes: PVE@7/10, PVP@7/10
-dimwishlist:item=2723909519&perks=3425386926,3436462433
-
-//notes: PVE@4/10, PVP@7/10
-dimwishlist:item=2723909519&perks=1570042021,3592538738
-
-//notes: PVE@4/10, PVP@4/10
-dimwishlist:item=2723909519&perks=3436462433,3592538738
-
-//notes: PVE@10/10
-dimwishlist:item=2723909519&perks=3425386926,3643424744
-
-//notes: PVE@7/10
-dimwishlist:item=2723909519&perks=2779035018,3425386926
-dimwishlist:item=2723909519&perks=11612903,3643424744
-dimwishlist:item=2723909519&perks=3643424744,4104185692
-dimwishlist:item=2723909519&perks=3592538738,3643424744
-
-//notes: PVE@4/10
-dimwishlist:item=2723909519&perks=11612903,2779035018
-dimwishlist:item=2723909519&perks=11612903,1570042021
-dimwishlist:item=2723909519&perks=11612903,3436462433
-dimwishlist:item=2723909519&perks=2779035018,4104185692
-dimwishlist:item=2723909519&perks=1570042021,4104185692
-dimwishlist:item=2723909519&perks=3436462433,4104185692
-dimwishlist:item=2723909519&perks=2779035018,3592538738
-
-//notes: PVE@10/10 (Стрельба в скольжении - Любой перк)
-dimwishlist:item=304659313
-
-//notes: PVP@10/10
-dimwishlist:item=304659313&perks=2726471870,3161816588
-
-//notes: PVP@7/10
-dimwishlist:item=304659313&perks=3161816588,3523296417
 
 //notes: PVE@7/10, PVP@7/10
 dimwishlist:item=2408405461&perks=1015611457
@@ -1744,11 +1693,26 @@ dimwishlist:item=2408405461&perks=460017080,1015611457
 dimwishlist:item=2408405461&perks=460017080
 
 //notes: PVE@10/10
-dimwishlist:item=1967303408&perks=2869569095,3425386926
+dimwishlist:item=829330711&perks=1820235745,4082225868
 
 //notes: PVE@7/10
-dimwishlist:item=1967303408&perks=2869569095
-dimwishlist:item=1967303408&perks=3425386926
+dimwishlist:item=829330711&perks=972757866,4082225868
+dimwishlist:item=829330711&perks=124408337,1820235745
+dimwishlist:item=829330711&perks=1820235745,3523296417
+dimwishlist:item=829330711&perks=438098033,1820235745
+
+//notes: PVE@4/10
+dimwishlist:item=829330711&perks=124408337,972757866
+dimwishlist:item=829330711&perks=972757866,3523296417
+dimwishlist:item=829330711&perks=438098033,972757866
+
+//notes: PVP@10/10
+dimwishlist:item=829330711&perks=438098033,2846385770
+
+//notes: PVP@7/10
+dimwishlist:item=829330711&perks=2846385770,4082225868
+dimwishlist:item=829330711&perks=591790007,2846385770
+dimwishlist:item=829330711&perks=124408337,2846385770
 
 //notes: PVE@10/10
 dimwishlist:item=2222560548&perks=3523296417,4071163871
@@ -1777,28 +1741,14 @@ dimwishlist:item=1645386487&perks=957782887,2866798147
 dimwishlist:item=1645386487&perks=2866798147
 dimwishlist:item=1645386487&perks=957782887
 
-//notes: PVE@7/10, PVP@10/10
-dimwishlist:item=541188001&perks=2117683199,2458213969
+//notes: PVE@10/10 (Стрельба в скольжении - Любой перк)
+dimwishlist:item=304659313
 
-//notes: PVE@10/10
-dimwishlist:item=541188001&perks=1820235745,2458213969
-
-//notes: PVE@7/10
-dimwishlist:item=541188001&perks=11612903,1820235745
-dimwishlist:item=541188001&perks=1820235745,4104185692
-
-//notes: PVE@4/10
-dimwishlist:item=541188001&perks=11612903,2117683199
-dimwishlist:item=541188001&perks=2117683199,4104185692
+//notes: PVP@10/10
+dimwishlist:item=304659313&perks=2726471870,3161816588
 
 //notes: PVP@7/10
-dimwishlist:item=541188001&perks=1570042021,2458213969
-dimwishlist:item=541188001&perks=2458213969,2846385770
-dimwishlist:item=541188001&perks=2117683199,2726471870
-
-//notes: PVP@4/10
-dimwishlist:item=541188001&perks=1570042021,2726471870
-dimwishlist:item=541188001&perks=2726471870,2846385770
+dimwishlist:item=304659313&perks=3161816588,3523296417
 
 //notes: PVE@7/10, PVP@7/10
 dimwishlist:item=48643186&perks=247725512,4082225868
@@ -1817,92 +1767,6 @@ dimwishlist:item=48643186&perks=247725512,1015611457
 
 //notes: PVP@7/10
 dimwishlist:item=48643186&perks=247725512,2846385770
-
-//notes: PVE@10/10
-dimwishlist:item=829330711&perks=1820235745,4082225868
-
-//notes: PVE@7/10
-dimwishlist:item=829330711&perks=972757866,4082225868
-dimwishlist:item=829330711&perks=124408337,1820235745
-dimwishlist:item=829330711&perks=1820235745,3523296417
-dimwishlist:item=829330711&perks=438098033,1820235745
-
-//notes: PVE@4/10
-dimwishlist:item=829330711&perks=124408337,972757866
-dimwishlist:item=829330711&perks=972757866,3523296417
-dimwishlist:item=829330711&perks=438098033,972757866
-
-//notes: PVP@10/10
-dimwishlist:item=829330711&perks=438098033,2846385770
-
-//notes: PVP@7/10
-dimwishlist:item=829330711&perks=2846385770,4082225868
-dimwishlist:item=829330711&perks=591790007,2846385770
-dimwishlist:item=829330711&perks=124408337,2846385770
-
-//notes: PVE@10/10
-dimwishlist:item=3616586446&perks=1546637391,3300816228
-
-//notes: PVE@7/10
-dimwishlist:item=3616586446&perks=3300816228
-dimwishlist:item=3616586446&perks=1546637391
-
-//notes: PVE@10/10
-dimwishlist:item=1016668089&perks=2679249093,3300816228
-
-//notes: PVE@7/10
-dimwishlist:item=1016668089&perks=2679249093,2779035018
-dimwishlist:item=1016668089&perks=1556840489,2679249093
-dimwishlist:item=1016668089&perks=2360754333,3300816228
-dimwishlist:item=1016668089&perks=3300816228,4082225868
-
-//notes: PVE@4/10
-dimwishlist:item=1016668089&perks=2360754333,2779035018
-dimwishlist:item=1016668089&perks=1556840489,2360754333
-dimwishlist:item=1016668089&perks=2779035018,4082225868
-dimwishlist:item=1016668089&perks=1556840489,4082225868
-
-//notes: PVP@10/10
-dimwishlist:item=1016668089&perks=3436462433,4082225868
-
-//notes: PVP@7/10
-dimwishlist:item=1016668089&perks=3161816588,4082225868
-dimwishlist:item=1016668089&perks=2726471870,3436462433
-
-//notes: PVP@4/10
-dimwishlist:item=1016668089&perks=2726471870,3161816588
-
-//notes: PVE@10/10, PVP@10/10
-dimwishlist:item=1621558458&perks=1570042021,2458213969
-
-//notes: PVE@7/10, PVP@7/10
-dimwishlist:item=1621558458&perks=2450788523,2458213969
-
-//notes: PVE@7/10
-dimwishlist:item=1621558458&perks=2039302152,2458213969
-dimwishlist:item=1621558458&perks=11612903,1570042021
-dimwishlist:item=1621558458&perks=1570042021,4104185692
-
-//notes: PVE@4/10
-dimwishlist:item=1621558458&perks=11612903,2450788523
-dimwishlist:item=1621558458&perks=11612903,2039302152
-dimwishlist:item=1621558458&perks=2450788523,4104185692
-dimwishlist:item=1621558458&perks=2039302152,4104185692
-
-//notes: PVP@7/10
-dimwishlist:item=1621558458&perks=2458213969,2946784966
-dimwishlist:item=1621558458&perks=1570042021,2726471870
-
-//notes: PVP@4/10
-dimwishlist:item=1621558458&perks=2450788523,2726471870
-dimwishlist:item=1621558458&perks=2726471870,2946784966
-
-//notes: PVP@10/10
-dimwishlist:item=3454326177&perks=957782887,3337692349
-
-//notes: PVP@7/10
-dimwishlist:item=3454326177&perks=3337692349
-dimwishlist:item=3454326177&perks=957782887
 
 //notes: PVE@10/10
 dimwishlist:item=1076810832&perks=3425386926,3436462433
@@ -1933,6 +1797,49 @@ dimwishlist:item=1076810832&perks=2387244414,3592538738
 dimwishlist:item=1076810832&perks=2946784966,3592538738
 
 //notes: PVE@10/10
+dimwishlist:item=3616586446&perks=1546637391,2117683199
+
+//notes: PVE@7/10
+dimwishlist:item=3616586446&perks=2117683199
+dimwishlist:item=3616586446&perks=1546637391
+
+//notes: PVE@10/10, PVE@7/10, PVE@7/10, PVE@7/10, PVE@4/10, PVE@4/10, PVP@10/10, PVP@7/10, PVP@7/10, PVP@4/10
+dimwishlist:item=1016668089&perks=2117683199,2117683199
+
+//notes: PVE@7/10, PVE@4/10, PVE@4/10
+dimwishlist:item=1016668089&perks=1556840489,2117683199
+
+//notes: PVE@7/10, PVP@10/10
+dimwishlist:item=541188001&perks=2458213969,4267945040
+
+//notes: PVE@10/10
+dimwishlist:item=541188001&perks=1820235745,2458213969
+
+//notes: PVE@7/10
+dimwishlist:item=541188001&perks=11612903,1820235745
+dimwishlist:item=541188001&perks=1820235745,4104185692
+
+//notes: PVE@4/10
+dimwishlist:item=541188001&perks=11612903,4267945040
+dimwishlist:item=541188001&perks=4104185692,4267945040
+
+//notes: PVP@7/10
+dimwishlist:item=541188001&perks=1570042021,2458213969
+dimwishlist:item=541188001&perks=2458213969,2846385770
+dimwishlist:item=541188001&perks=2726471870,4267945040
+
+//notes: PVP@4/10
+dimwishlist:item=541188001&perks=1570042021,2726471870
+dimwishlist:item=541188001&perks=2726471870,2846385770
+
+//notes: PVP@10/10
+dimwishlist:item=3454326177&perks=957782887,3337692349
+
+//notes: PVP@7/10
+dimwishlist:item=3454326177&perks=3337692349
+dimwishlist:item=3454326177&perks=957782887
+
+//notes: PVE@10/10
 dimwishlist:item=407621213&perks=2284787283,3300816228
 
 //notes: PVE@7/10
@@ -1941,59 +1848,6 @@ dimwishlist:item=407621213&perks=2284787283,3275789089
 
 //notes: PVE@4/10
 dimwishlist:item=407621213&perks=2869569095,3275789089
-
-//notes: PVE@10/10
-dimwishlist:item=599895591&perks=3300816228,4104185692
-
-//notes: PVE@7/10
-dimwishlist:item=599895591&perks=3300816228,3708227201
-
-//notes: PVP@10/10
-dimwishlist:item=599895591&perks=47981717,706527188
-
-//notes: PVP@7/10
-dimwishlist:item=599895591&perks=706527188
-dimwishlist:item=599895591&perks=47981717
-
-//notes: PVE@10/10
-dimwishlist:item=4277547616&perks=1570042021,2458213969
-
-//notes: PVE@7/10
-dimwishlist:item=4277547616&perks=1820235745,2458213969
-dimwishlist:item=4277547616&perks=2010801679,2458213969
-dimwishlist:item=4277547616&perks=11612903,1570042021
-dimwishlist:item=4277547616&perks=1570042021,3592538738
-
-//notes: PVE@4/10
-dimwishlist:item=4277547616&perks=11612903,1820235745
-dimwishlist:item=4277547616&perks=11612903,2010801679
-dimwishlist:item=4277547616&perks=1820235745,3592538738
-dimwishlist:item=4277547616&perks=2010801679,3592538738
-
-//notes: PVP@10/10
-dimwishlist:item=4277547616&perks=1015611457,2846385770
-
-//notes: PVP@7/10
-dimwishlist:item=4277547616&perks=2846385770
-dimwishlist:item=4277547616&perks=1015611457
-
-//notes: PVE@10/10
-dimwishlist:item=4248569242&perks=469285294,1523832109
-
-//notes: PVE@7/10
-dimwishlist:item=4248569242&perks=469285294,3300816228
-dimwishlist:item=4248569242&perks=1523832109,2726471870
-
-//notes: PVE@4/10
-dimwishlist:item=4248569242&perks=2726471870,3300816228
-
-//notes: PVP@10/10
-dimwishlist:item=4248569242&perks=2726471870,3161816588
-
-//notes: PVP@7/10
-dimwishlist:item=4248569242&perks=2450788523,3161816588
-dimwishlist:item=4248569242&perks=588594999,3161816588
-dimwishlist:item=4248569242&perks=957782887,3161816588
 
 //notes: PVE@10/10, PVP@10/10
 dimwishlist:item=3658188704&perks=247725512,3047969693
@@ -2046,39 +1900,65 @@ dimwishlist:item=1173780905&perks=460017080,2450788523
 dimwishlist:item=1173780905&perks=460017080,1168162263
 
 //notes: PVE@10/10
-dimwishlist:item=2434225986&perks=2869569095,3425386926
+dimwishlist:item=4277547616&perks=1570042021,2458213969
 
 //notes: PVE@7/10
-dimwishlist:item=2434225986&perks=3300816228,3425386926
-dimwishlist:item=2434225986&perks=11612903,2869569095
+dimwishlist:item=4277547616&perks=1820235745,2458213969
+dimwishlist:item=4277547616&perks=2010801679,2458213969
+dimwishlist:item=4277547616&perks=11612903,1570042021
+dimwishlist:item=4277547616&perks=1570042021,3592538738
 
 //notes: PVE@4/10
-dimwishlist:item=2434225986&perks=11612903,3300816228
-
-//notes: PVE@10/10
-dimwishlist:item=3690523502&perks=2869569095,2888557110
-
-//notes: PVE@7/10
-dimwishlist:item=3690523502&perks=2888557110,3300816228
-dimwishlist:item=3690523502&perks=2284787283,2888557110
-dimwishlist:item=3690523502&perks=2396489472,2869569095
-
-//notes: PVE@4/10
-dimwishlist:item=3690523502&perks=2396489472,3300816228
-dimwishlist:item=3690523502&perks=2284787283,2396489472
-
-//notes: PVE@10/10
-dimwishlist:item=2990047042&perks=1523832109,1546637391
-
-//notes: PVE@7/10
-dimwishlist:item=2990047042&perks=469285294,1523832109
+dimwishlist:item=4277547616&perks=11612903,1820235745
+dimwishlist:item=4277547616&perks=11612903,2010801679
+dimwishlist:item=4277547616&perks=1820235745,3592538738
+dimwishlist:item=4277547616&perks=2010801679,3592538738
 
 //notes: PVP@10/10
-dimwishlist:item=2990047042&perks=588594999,957782887
+dimwishlist:item=4277547616&perks=1015611457,2846385770
 
 //notes: PVP@7/10
-dimwishlist:item=2990047042&perks=588594999
-dimwishlist:item=2990047042&perks=957782887
+dimwishlist:item=4277547616&perks=2846385770
+dimwishlist:item=4277547616&perks=1015611457
+
+//notes: PVE@10/10, PVP@10/10
+dimwishlist:item=1621558458&perks=1570042021,2458213969
+
+//notes: PVE@7/10, PVP@7/10
+dimwishlist:item=1621558458&perks=2450788523,2458213969
+
+//notes: PVE@7/10
+dimwishlist:item=1621558458&perks=2039302152,2458213969
+dimwishlist:item=1621558458&perks=11612903,1570042021
+dimwishlist:item=1621558458&perks=1570042021,4104185692
+
+//notes: PVE@4/10
+dimwishlist:item=1621558458&perks=11612903,2450788523
+dimwishlist:item=1621558458&perks=11612903,2039302152
+dimwishlist:item=1621558458&perks=2450788523,4104185692
+dimwishlist:item=1621558458&perks=2039302152,4104185692
+
+//notes: PVP@7/10
+dimwishlist:item=1621558458&perks=2458213969,2946784966
+dimwishlist:item=1621558458&perks=1570042021,2726471870
+
+//notes: PVP@4/10
+dimwishlist:item=1621558458&perks=2450788523,2726471870
+dimwishlist:item=1621558458&perks=2726471870,2946784966
+
+//notes: PVE@4/10, PVP@10/10, PVP@7/10
+dimwishlist:item=4248569242&perks=2117683199,2117683199
+
+//notes: PVE@10/10
+dimwishlist:item=4248569242&perks=469285294,1523832109
+
+//notes: PVE@7/10
+dimwishlist:item=4248569242&perks=469285294,2117683199
+dimwishlist:item=4248569242&perks=1523832109,2117683199
+
+//notes: PVP@7/10
+dimwishlist:item=4248569242&perks=588594999,2117683199
+dimwishlist:item=4248569242&perks=957782887,2117683199
 
 //notes: PVE@10/10
 dimwishlist:item=2351180975&perks=1168162263,3425386926
@@ -2102,6 +1982,41 @@ dimwishlist:item=2527666306&perks=247725512,4049631843
 dimwishlist:item=2351180975
 dimwishlist:item=2527666306
 
+//notes: PVE@10/10
+dimwishlist:item=3690523502&perks=2869569095,2888557110
+
+//notes: PVE@7/10
+dimwishlist:item=3690523502&perks=2888557110,3300816228
+dimwishlist:item=3690523502&perks=2284787283,2888557110
+dimwishlist:item=3690523502&perks=2396489472,2869569095
+
+//notes: PVE@4/10
+dimwishlist:item=3690523502&perks=2396489472,3300816228
+dimwishlist:item=3690523502&perks=2284787283,2396489472
+
+//notes: PVE@10/10, PVE@7/10
+dimwishlist:item=599895591&perks=2117683199,2117683199
+
+//notes: PVP@10/10
+dimwishlist:item=599895591&perks=47981717,706527188
+
+//notes: PVP@7/10
+dimwishlist:item=599895591&perks=706527188
+dimwishlist:item=599895591&perks=47981717
+
+//notes: PVE@10/10
+dimwishlist:item=2990047042&perks=1523832109,1546637391
+
+//notes: PVE@7/10
+dimwishlist:item=2990047042&perks=469285294,1523832109
+
+//notes: PVP@10/10
+dimwishlist:item=2990047042&perks=588594999,957782887
+
+//notes: PVP@7/10
+dimwishlist:item=2990047042&perks=588594999
+dimwishlist:item=2990047042&perks=957782887
+
 //notes: PVE@10/10, PVP@10/10
 dimwishlist:item=3504336176&perks=247725512,3038247973
 
@@ -2122,30 +2037,6 @@ dimwishlist:item=3870811754&perks=1749209109
 dimwishlist:item=3870811754&perks=1546637391
 
 //notes: PVE@10/10
-dimwishlist:item=1622998472&perks=124408337,1168162263
-
-//notes: PVE@7/10
-dimwishlist:item=1622998472&perks=124408337,3700496672
-dimwishlist:item=1622998472&perks=1168162263,3038247973
-dimwishlist:item=1622998472&perks=1168162263,2458213969
-
-//notes: PVE@4/10
-dimwishlist:item=1622998472&perks=3038247973,3700496672
-dimwishlist:item=1622998472&perks=2458213969,3700496672
-
-//notes: PVP@10/10
-dimwishlist:item=1622998472&perks=438098033,2450788523
-
-//notes: PVP@7/10
-dimwishlist:item=1622998472&perks=438098033,1195158366
-dimwishlist:item=1622998472&perks=438098033,2946784966
-dimwishlist:item=1622998472&perks=2450788523,3038247973
-
-//notes: PVP@4/10
-dimwishlist:item=1622998472&perks=1195158366,3038247973
-dimwishlist:item=1622998472&perks=2946784966,3038247973
-
-//notes: PVE@10/10
 dimwishlist:item=1313528549&perks=1749209109,2396489472
 dimwishlist:item=3847137620&perks=1749209109,2396489472
 
@@ -2161,15 +2052,15 @@ dimwishlist:item=3847137620&perks=354401740,1749209109
 dimwishlist:item=1313528549
 dimwishlist:item=3847137620
 
-//notes: PVE@10/10 (Любой перк в третьем столбце - Один за всех)
-dimwishlist:item=3281285075
+//notes: PVE@10/10
+dimwishlist:item=2434225986&perks=2869569095,3425386926
 
-//notes: PVP@10/10
-dimwishlist:item=3281285075&perks=247725512,3425386926
+//notes: PVE@7/10
+dimwishlist:item=2434225986&perks=3300816228,3425386926
+dimwishlist:item=2434225986&perks=11612903,2869569095
 
-//notes: PVP@7/10
-dimwishlist:item=3281285075&perks=247725512
-dimwishlist:item=3281285075&perks=3425386926
+//notes: PVE@4/10
+dimwishlist:item=2434225986&perks=11612903,3300816228
 
 //notes: PVE@10/10
 dimwishlist:item=821154603&perks=2387244414,3425386926
@@ -2192,6 +2083,16 @@ dimwishlist:item=821154603&perks=1015611457,2387244414
 dimwishlist:item=821154603&perks=2387244414
 dimwishlist:item=821154603&perks=1015611457
 
+//notes: PVE@10/10 (Любой перк в третьем столбце - Один за всех)
+dimwishlist:item=3281285075
+
+//notes: PVP@10/10
+dimwishlist:item=3281285075&perks=247725512,3425386926
+
+//notes: PVP@7/10
+dimwishlist:item=3281285075&perks=247725512
+dimwishlist:item=3281285075&perks=3425386926
+
 //notes: PVE@10/10
 dimwishlist:item=3325778512&perks=11612903,2869569095
 
@@ -2206,32 +2107,6 @@ dimwishlist:item=3325778512&perks=3300816228,4049631843
 dimwishlist:item=3325778512&perks=2284787283,4049631843
 dimwishlist:item=3325778512&perks=3300816228,4104185692
 dimwishlist:item=3325778512&perks=2284787283,4104185692
-
-//notes: PVE@7/10, PVP@4/10
-dimwishlist:item=3184681056&perks=438098033,2117683199
-
-//notes: PVE@10/10
-dimwishlist:item=3184681056&perks=438098033,1556840489
-
-//notes: PVE@7/10
-dimwishlist:item=3184681056&perks=1556840489,2360754333
-
-//notes: PVE@4/10
-dimwishlist:item=3184681056&perks=2117683199,2360754333
-
-//notes: PVP@10/10
-dimwishlist:item=3184681056&perks=47981717,706527188
-
-//notes: PVP@7/10
-dimwishlist:item=3184681056&perks=47981717,2117683199
-dimwishlist:item=3184681056&perks=47981717,3161816588
-dimwishlist:item=3184681056&perks=706527188,2726471870
-dimwishlist:item=3184681056&perks=438098033,706527188
-
-//notes: PVP@4/10
-dimwishlist:item=3184681056&perks=2117683199,2726471870
-dimwishlist:item=3184681056&perks=2726471870,3161816588
-dimwishlist:item=3184681056&perks=438098033,3161816588
 
 //notes: PVE@10/10, PVP@4/10
 dimwishlist:item=3164743584&perks=1546637391,3436462433
@@ -2265,6 +2140,37 @@ dimwishlist:item=3637570176&perks=47981717,2866798147
 dimwishlist:item=3637570176&perks=47981717,3436462433
 dimwishlist:item=3637570176&perks=1546637391,2866798147
 
+//notes: PVE@10/10
+dimwishlist:item=1622998472&perks=124408337,1168162263
+
+//notes: PVE@7/10
+dimwishlist:item=1622998472&perks=124408337,3700496672
+dimwishlist:item=1622998472&perks=1168162263,3038247973
+dimwishlist:item=1622998472&perks=1168162263,2458213969
+
+//notes: PVE@4/10
+dimwishlist:item=1622998472&perks=3038247973,3700496672
+dimwishlist:item=1622998472&perks=2458213969,3700496672
+
+//notes: PVP@10/10
+dimwishlist:item=1622998472&perks=438098033,2450788523
+
+//notes: PVP@7/10
+dimwishlist:item=1622998472&perks=438098033,1195158366
+dimwishlist:item=1622998472&perks=438098033,2946784966
+dimwishlist:item=1622998472&perks=2450788523,3038247973
+
+//notes: PVP@4/10
+dimwishlist:item=1622998472&perks=1195158366,3038247973
+dimwishlist:item=1622998472&perks=2946784966,3038247973
+
+//notes: PVP@10/10
+dimwishlist:item=2957367743&perks=957782887,2117683199
+
+//notes: PVP@7/10
+dimwishlist:item=2957367743&perks=2117683199
+dimwishlist:item=2957367743&perks=957782887
+
 //notes: PVE@7/10, PVP@4/10
 dimwishlist:item=1392919471&perks=3436462433,3592538738
 
@@ -2293,13 +2199,6 @@ dimwishlist:item=1392919471&perks=2450788523,3592538738
 dimwishlist:item=1392919471&perks=699525795,2450788523
 dimwishlist:item=1392919471&perks=699525795,3436462433
 
-//notes: PVP@10/10
-dimwishlist:item=2957367743&perks=957782887,4071163871
-
-//notes: PVP@7/10
-dimwishlist:item=2957367743&perks=4071163871
-dimwishlist:item=2957367743&perks=957782887
-
 //notes: PVE@10/10
 dimwishlist:item=2931957300&perks=1645158859,3708227201
 
@@ -2314,24 +2213,6 @@ dimwishlist:item=2931957300&perks=1570042021,2213355989
 dimwishlist:item=2931957300&perks=1556840489,2213355989
 dimwishlist:item=2931957300&perks=1570042021,4104185692
 dimwishlist:item=2931957300&perks=1556840489,4104185692
-
-//notes: PVE@10/10
-dimwishlist:item=1337707096&perks=1168162263,2458213969
-
-//notes: PVE@7/10
-dimwishlist:item=1337707096&perks=1570042021,2458213969
-dimwishlist:item=1337707096&perks=1354429876,2458213969
-dimwishlist:item=1337707096&perks=1168162263,4104185692
-dimwishlist:item=1337707096&perks=1168162263,2848615171
-
-//notes: PVE@4/10
-dimwishlist:item=1337707096&perks=1570042021,4104185692
-dimwishlist:item=1337707096&perks=1354429876,4104185692
-dimwishlist:item=1337707096&perks=1570042021,2848615171
-dimwishlist:item=1337707096&perks=1354429876,2848615171
-
-//notes: PVP@10/10 (Компенсатор раскачки - Любой перк)
-dimwishlist:item=1337707096
 
 //notes: PVE@7/10, PVP@7/10
 dimwishlist:item=3682803680&perks=438098033,1359896290
@@ -2383,6 +2264,50 @@ dimwishlist:item=4023807721&perks=1570042021,3511092054
 dimwishlist:item=4023807721&perks=2450788523,3511092054
 dimwishlist:item=4023807721&perks=2946784966,3511092054
 
+//notes: PVE@7/10, PVP@4/10, PVP@4/10
+dimwishlist:item=3184681056&perks=438098033,2117683199
+
+//notes: PVE@4/10, PVP@4/10, PVP@4/10
+dimwishlist:item=3184681056&perks=2117683199,2117683199
+
+//notes: PVP@7/10, PVP@7/10
+dimwishlist:item=3184681056&perks=47981717,2117683199
+
+//notes: PVE@10/10
+dimwishlist:item=3184681056&perks=438098033,1556840489
+
+//notes: PVE@7/10
+dimwishlist:item=3184681056&perks=1556840489,2117683199
+
+//notes: PVP@10/10
+dimwishlist:item=3184681056&perks=47981717,706527188
+
+//notes: PVP@7/10
+dimwishlist:item=3184681056&perks=706527188,2117683199
+dimwishlist:item=3184681056&perks=438098033,706527188
+
+//notes: PVE@10/10
+dimwishlist:item=2199171672&perks=247725512,2458213969
+
+//notes: PVE@7/10
+dimwishlist:item=2199171672&perks=2458213969,4267945040
+dimwishlist:item=2199171672&perks=1168162263,2458213969
+dimwishlist:item=2199171672&perks=247725512,3425386926
+dimwishlist:item=2199171672&perks=247725512,3523296417
+
+//notes: PVE@4/10
+dimwishlist:item=2199171672&perks=3425386926,4267945040
+dimwishlist:item=2199171672&perks=1168162263,3425386926
+dimwishlist:item=2199171672&perks=3523296417,4267945040
+dimwishlist:item=2199171672&perks=1168162263,3523296417
+
+//notes: PVP@10/10
+dimwishlist:item=2199171672&perks=247725512,1015611457
+
+//notes: PVP@7/10
+dimwishlist:item=2199171672&perks=247725512
+dimwishlist:item=2199171672&perks=1015611457
+
 //notes: PVE@10/10
 dimwishlist:item=4230965989&perks=1523832109,3425386926
 
@@ -2402,26 +2327,22 @@ dimwishlist:item=4230965989&perks=588594999,1359896290
 dimwishlist:item=4230965989&perks=1359896290,1645158859
 
 //notes: PVE@10/10
-dimwishlist:item=2199171672&perks=247725512,2458213969
+dimwishlist:item=1337707096&perks=1168162263,2458213969
 
 //notes: PVE@7/10
-dimwishlist:item=2199171672&perks=2117683199,2458213969
-dimwishlist:item=2199171672&perks=1168162263,2458213969
-dimwishlist:item=2199171672&perks=247725512,3425386926
-dimwishlist:item=2199171672&perks=247725512,3523296417
+dimwishlist:item=1337707096&perks=1570042021,2458213969
+dimwishlist:item=1337707096&perks=1354429876,2458213969
+dimwishlist:item=1337707096&perks=1168162263,4104185692
+dimwishlist:item=1337707096&perks=1168162263,2848615171
 
 //notes: PVE@4/10
-dimwishlist:item=2199171672&perks=2117683199,3425386926
-dimwishlist:item=2199171672&perks=1168162263,3425386926
-dimwishlist:item=2199171672&perks=2117683199,3523296417
-dimwishlist:item=2199171672&perks=1168162263,3523296417
+dimwishlist:item=1337707096&perks=1570042021,4104185692
+dimwishlist:item=1337707096&perks=1354429876,4104185692
+dimwishlist:item=1337707096&perks=1570042021,2848615171
+dimwishlist:item=1337707096&perks=1354429876,2848615171
 
-//notes: PVP@10/10
-dimwishlist:item=2199171672&perks=247725512,1015611457
-
-//notes: PVP@7/10
-dimwishlist:item=2199171672&perks=247725512
-dimwishlist:item=2199171672&perks=1015611457
+//notes: PVP@10/10 (Компенсатор раскачки - Любой перк)
+dimwishlist:item=1337707096
 
 //notes: PVE@7/10, PVP@10/10
 dimwishlist:item=1621657423&perks=2450788523,3365897133
@@ -2437,35 +2358,6 @@ dimwishlist:item=1621657423&perks=247725512,3365897133
 
 //notes: PVP@7/10
 dimwishlist:item=1621657423&perks=2450788523,2846385770
-
-//notes: PVE@10/10
-dimwishlist:item=3366545721&perks=1749209109,3708227201
-
-//notes: PVE@7/10
-dimwishlist:item=3366545721&perks=2726471870,3708227201
-dimwishlist:item=3366545721&perks=354401740,1749209109
-
-//notes: PVE@4/10
-dimwishlist:item=3366545721&perks=354401740,2726471870
-
-//notes: PVE@7/10, PVP@7/10
-dimwishlist:item=3472875143&perks=201365942,3673922083
-
-//notes: PVE@10/10
-dimwishlist:item=3472875143&perks=201365942,3523296417
-
-//notes: PVE@7/10
-dimwishlist:item=3472875143&perks=3523296417,3700496672
-dimwishlist:item=3472875143&perks=201365942,2848615171
-dimwishlist:item=3472875143&perks=201365942,4104185692
-
-//notes: PVE@4/10
-dimwishlist:item=3472875143&perks=2848615171,3700496672
-dimwishlist:item=3472875143&perks=3700496672,4104185692
-dimwishlist:item=3472875143&perks=3673922083,3700496672
-
-//notes: PVP@10/10
-dimwishlist:item=3472875143&perks=201365942,438098033
 
 //notes: PVE@10/10
 dimwishlist:item=1399243961&perks=1546637391,3400784728
@@ -2505,6 +2397,35 @@ dimwishlist:item=3745990145&perks=588594999,957782887
 dimwishlist:item=3745990145&perks=957782887
 dimwishlist:item=3745990145&perks=588594999
 
+//notes: PVE@10/10
+dimwishlist:item=3366545721&perks=1749209109,3708227201
+
+//notes: PVE@7/10
+dimwishlist:item=3366545721&perks=2726471870,3708227201
+dimwishlist:item=3366545721&perks=354401740,1749209109
+
+//notes: PVE@4/10
+dimwishlist:item=3366545721&perks=354401740,2726471870
+
+//notes: PVE@7/10, PVP@7/10
+dimwishlist:item=3472875143&perks=201365942,3673922083
+
+//notes: PVE@10/10
+dimwishlist:item=3472875143&perks=201365942,3523296417
+
+//notes: PVE@7/10
+dimwishlist:item=3472875143&perks=3523296417,3700496672
+dimwishlist:item=3472875143&perks=201365942,2848615171
+dimwishlist:item=3472875143&perks=201365942,4104185692
+
+//notes: PVE@4/10
+dimwishlist:item=3472875143&perks=2848615171,3700496672
+dimwishlist:item=3472875143&perks=3700496672,4104185692
+dimwishlist:item=3472875143&perks=3673922083,3700496672
+
+//notes: PVP@10/10
+dimwishlist:item=3472875143&perks=201365942,438098033
+
 //notes: PVE@10/10, PVP@10/10
 dimwishlist:item=2870169846&perks=3436462433,3592538738
 
@@ -2515,26 +2436,23 @@ dimwishlist:item=2870169846&perks=3592538738
 //notes: PVP@7/10
 dimwishlist:item=2870169846&perks=1168162263,3592538738
 dimwishlist:item=2870169846&perks=3436462433,3523296417
-dimwishlist:item=2870169846&perks=2117683199,3436462433
+dimwishlist:item=2870169846&perks=3436462433,4267945040
 
 //notes: PVP@4/10
 dimwishlist:item=2870169846&perks=1168162263,3523296417
-dimwishlist:item=2870169846&perks=1168162263,2117683199
+dimwishlist:item=2870169846&perks=1168162263,4267945040
 
-//notes: PVP@10/10
-dimwishlist:item=3044460004&perks=1645158859,1754714824
+//notes: PVE@10/10
+dimwishlist:item=720351795&perks=3365897133,3425386926
 
-//notes: PVP@7/10
-dimwishlist:item=3044460004&perks=1754714824,3436462433
-dimwishlist:item=3044460004&perks=1570042021,1754714824
-dimwishlist:item=3044460004&perks=1645158859,1799762209
-dimwishlist:item=3044460004&perks=1645158859,2213355989
+//notes: PVE@7/10
+dimwishlist:item=720351795&perks=2848615171,3365897133
+dimwishlist:item=720351795&perks=1866048759,3365897133
+dimwishlist:item=720351795&perks=201365942,3425386926
 
-//notes: PVP@4/10
-dimwishlist:item=3044460004&perks=1799762209,3436462433
-dimwishlist:item=3044460004&perks=1570042021,1799762209
-dimwishlist:item=3044460004&perks=2213355989,3436462433
-dimwishlist:item=3044460004&perks=1570042021,2213355989
+//notes: PVE@4/10
+dimwishlist:item=720351795&perks=201365942,2848615171
+dimwishlist:item=720351795&perks=201365942,1866048759
 
 //notes: PVE@10/10, PVP@7/10
 dimwishlist:item=2171478765&perks=3038247973,3824105627
@@ -2572,17 +2490,20 @@ dimwishlist:item=2171478765&perks=2726471870,3824105627
 dimwishlist:item=2171478765&perks=2450788523,3824105627
 dimwishlist:item=2171478765&perks=2946784966,3824105627
 
-//notes: PVE@10/10
-dimwishlist:item=720351795&perks=3365897133,3425386926
+//notes: PVP@10/10
+dimwishlist:item=3044460004&perks=1645158859,1754714824
 
-//notes: PVE@7/10
-dimwishlist:item=720351795&perks=2848615171,3365897133
-dimwishlist:item=720351795&perks=1866048759,3365897133
-dimwishlist:item=720351795&perks=201365942,3425386926
+//notes: PVP@7/10
+dimwishlist:item=3044460004&perks=1754714824,3436462433
+dimwishlist:item=3044460004&perks=1570042021,1754714824
+dimwishlist:item=3044460004&perks=1645158859,1799762209
+dimwishlist:item=3044460004&perks=1645158859,2213355989
 
-//notes: PVE@4/10
-dimwishlist:item=720351795&perks=201365942,2848615171
-dimwishlist:item=720351795&perks=201365942,1866048759
+//notes: PVP@4/10
+dimwishlist:item=3044460004&perks=1799762209,3436462433
+dimwishlist:item=3044460004&perks=1570042021,1799762209
+dimwishlist:item=3044460004&perks=2213355989,3436462433
+dimwishlist:item=3044460004&perks=1570042021,2213355989
 
 //notes: PVE@10/10, PVP@10/10
 dimwishlist:item=1197486957&perks=2450788523,3592538738
@@ -2592,25 +2513,24 @@ dimwishlist:item=1197486957&perks=2450788523
 dimwishlist:item=1197486957&perks=3592538738
 
 //notes: PVP@7/10
-dimwishlist:item=1197486957&perks=2117683199,3592538738
+dimwishlist:item=1197486957&perks=3592538738,4267945040
 dimwishlist:item=1197486957&perks=460017080,2450788523
 
 //notes: PVP@4/10
-dimwishlist:item=1197486957&perks=460017080,2117683199
+dimwishlist:item=1197486957&perks=460017080,4267945040
 
 //notes: PVE@10/10
-dimwishlist:item=2066434718&perks=1546637391,2869569095
+dimwishlist:item=188882152&perks=1168162263,3425386926
 
 //notes: PVE@7/10
-dimwishlist:item=2066434718&perks=2869569095
-dimwishlist:item=2066434718&perks=1546637391
+dimwishlist:item=188882152&perks=1168162263
+dimwishlist:item=188882152&perks=3425386926
 
 //notes: PVP@10/10
-dimwishlist:item=2066434718&perks=951095735,2396489472
+dimwishlist:item=188882152&perks=1015611457,2846385770
 
 //notes: PVP@7/10
-dimwishlist:item=2066434718&perks=951095735
-dimwishlist:item=2066434718&perks=2396489472
+dimwishlist:item=188882152&perks=2846385770,4267945040
 
 //notes: PVE@10/10
 dimwishlist:item=3186018373&perks=3592538738,3824105627
@@ -2643,18 +2563,25 @@ dimwishlist:item=20935540&perks=1546637391,1820235745
 //notes: PVP@7/10
 dimwishlist:item=20935540&perks=2450788523,3511092054
 
-//notes: PVE@10/10
-dimwishlist:item=188882152&perks=1168162263,3425386926
-
-//notes: PVE@7/10
-dimwishlist:item=188882152&perks=1168162263
-dimwishlist:item=188882152&perks=3425386926
-
 //notes: PVP@10/10
-dimwishlist:item=188882152&perks=1015611457,2846385770
+dimwishlist:item=3356526253&perks=957782887,2117683199
 
 //notes: PVP@7/10
-dimwishlist:item=188882152&perks=2117683199,2846385770
+dimwishlist:item=3356526253&perks=47981717,2117683199
+
+//notes: PVE@10/10
+dimwishlist:item=2066434718&perks=1546637391,2869569095
+
+//notes: PVE@7/10
+dimwishlist:item=2066434718&perks=2869569095
+dimwishlist:item=2066434718&perks=1546637391
+
+//notes: PVP@10/10
+dimwishlist:item=2066434718&perks=951095735,2396489472
+
+//notes: PVP@7/10
+dimwishlist:item=2066434718&perks=951095735
+dimwishlist:item=2066434718&perks=2396489472
 
 //notes: PVE@10/10
 dimwishlist:item=3653573172&perks=2213355989,3418782618
@@ -2664,66 +2591,47 @@ dimwishlist:item=3653573172&perks=3418782618,4104185692
 dimwishlist:item=3653573172&perks=11612903,3418782618
 
 //notes: PVP@10/10
-dimwishlist:item=3356526253&perks=957782887,3161816588
-
-//notes: PVP@7/10
-dimwishlist:item=3356526253&perks=47981717,3161816588
-
-//notes: PVE@10/10
-dimwishlist:item=3197270240&perks=1546637391,3300816228
-
-//notes: PVE@7/10
-dimwishlist:item=3197270240&perks=1546637391,3418782618
-dimwishlist:item=3197270240&perks=2679249093,3300816228
-
-//notes: PVE@4/10
-dimwishlist:item=3197270240&perks=2679249093,3418782618
-
-//notes: PVP@10/10
-dimwishlist:item=3197270240&perks=47981717,3436462433
-
-//notes: PVP@7/10
-dimwishlist:item=3197270240&perks=47981717,3161816588
-dimwishlist:item=3197270240&perks=47981717,2117683199
-dimwishlist:item=3197270240&perks=1546637391,3436462433
-dimwishlist:item=3197270240&perks=3436462433,3523296417
-
-//notes: PVP@4/10
-dimwishlist:item=3197270240&perks=1546637391,3161816588
-dimwishlist:item=3197270240&perks=1546637391,2117683199
-dimwishlist:item=3197270240&perks=3161816588,3523296417
-dimwishlist:item=3197270240&perks=2117683199,3523296417
-
-//notes: PVE@10/10
-dimwishlist:item=4037745684&perks=3300816228,3523296417
-
-//notes: PVE@7/10
-dimwishlist:item=4037745684&perks=3436462433,3523296417
-dimwishlist:item=4037745684&perks=2848615171,3300816228
-dimwishlist:item=4037745684&perks=3300816228,4049631843
-
-//notes: PVE@4/10
-dimwishlist:item=4037745684&perks=2848615171,3436462433
-dimwishlist:item=4037745684&perks=3436462433,4049631843
-
-//notes: PVP@10/10
-dimwishlist:item=4037745684&perks=47981717,3436462433
-
-//notes: PVP@7/10
-dimwishlist:item=4037745684&perks=3436462433
-dimwishlist:item=4037745684&perks=47981717
-
-//notes: PVP@10/10
-dimwishlist:item=2009277538&perks=1015611457,2117683199
+dimwishlist:item=2009277538&perks=1015611457,4267945040
 
 //notes: PVP@7/10
 dimwishlist:item=2009277538&perks=588594999,1015611457
-dimwishlist:item=2009277538&perks=2117683199,2387244414
-dimwishlist:item=2009277538&perks=2117683199,2846385770
+dimwishlist:item=2009277538&perks=2387244414,4267945040
+dimwishlist:item=2009277538&perks=2846385770,4267945040
 
 //notes: PVP@4/10
 dimwishlist:item=2009277538&perks=588594999,2387244414
 dimwishlist:item=2009277538&perks=588594999,2846385770
+
+//notes: PVE@10/10, PVE@7/10, PVP@7/10, PVP@4/10, PVP@4/10
+dimwishlist:item=3197270240&perks=1546637391,2117683199
+
+//notes: PVE@7/10, PVE@4/10, PVP@7/10, PVP@4/10, PVP@4/10
+dimwishlist:item=3197270240&perks=2117683199,2117683199
+
+//notes: PVP@10/10, PVP@7/10, PVP@7/10
+dimwishlist:item=3197270240&perks=47981717,2117683199
+
+//notes: PVE@10/10, PVE@7/10, PVE@7/10, PVE@7/10, PVE@4/10, PVE@4/10
+dimwishlist:item=4037745684&perks=2117683199,2117683199
+
+//notes: PVP@10/10
+dimwishlist:item=4037745684&perks=47981717,2117683199
+
+//notes: PVP@7/10
+dimwishlist:item=4037745684&perks=2117683199
+dimwishlist:item=4037745684&perks=47981717
+
+//notes: PVE@10/10
+dimwishlist:item=4146702548&perks=706527188,3300816228
+
+//notes: PVE@7/10
+dimwishlist:item=4146702548&perks=706527188,2869569095
+dimwishlist:item=4146702548&perks=2010801679,3300816228
+dimwishlist:item=4146702548&perks=1523832109,3300816228
+
+//notes: PVE@4/10
+dimwishlist:item=4146702548&perks=2010801679,2869569095
+dimwishlist:item=4146702548&perks=1523832109,2869569095
 
 //notes: PVE@10/10, PVP@4/10
 dimwishlist:item=471518543&perks=3523296417,3824105627
@@ -2778,36 +2686,11 @@ dimwishlist:item=1766088024&perks=1359896290,2450788523
 dimwishlist:item=1766088024&perks=2450788523,3592538738
 
 //notes: PVE@10/10
-dimwishlist:item=4146702548&perks=706527188,3300816228
+dimwishlist:item=991314988&perks=1275731761,3300816228
 
 //notes: PVE@7/10
-dimwishlist:item=4146702548&perks=706527188,2869569095
-dimwishlist:item=4146702548&perks=2010801679,3300816228
-dimwishlist:item=4146702548&perks=1523832109,3300816228
-
-//notes: PVE@4/10
-dimwishlist:item=4146702548&perks=2010801679,2869569095
-dimwishlist:item=4146702548&perks=1523832109,2869569095
-
-//notes: PVE@10/10
-dimwishlist:item=42351395&perks=1275731761,3436462433
-
-//notes: PVE@7/10
-dimwishlist:item=42351395&perks=1275731761,2450788523
-dimwishlist:item=42351395&perks=3436462433,3523296417
-dimwishlist:item=42351395&perks=2726471870,3436462433
-dimwishlist:item=42351395&perks=2396489472,3436462433
-
-//notes: PVE@4/10
-dimwishlist:item=42351395&perks=2450788523,3523296417
-dimwishlist:item=42351395&perks=2450788523,2726471870
-dimwishlist:item=42351395&perks=2396489472,2450788523
-
-//notes: PVP@10/10
-dimwishlist:item=42351395&perks=706527188,1275731761
-
-//notes: PVP@7/10
-dimwishlist:item=42351395&perks=706527188,2396489472
+dimwishlist:item=991314988&perks=3300816228
+dimwishlist:item=991314988&perks=1275731761
 
 //notes: PVE@10/10
 dimwishlist:item=4050645223&perks=1546637391,3643424744
@@ -2828,18 +2711,31 @@ dimwishlist:item=4050645223&perks=951095735,1275731761
 dimwishlist:item=4050645223
 
 //notes: PVE@10/10
-dimwishlist:item=991314988&perks=1275731761,3300816228
-
-//notes: PVE@7/10
-dimwishlist:item=991314988&perks=3300816228
-dimwishlist:item=991314988&perks=1275731761
-
-//notes: PVE@10/10
 dimwishlist:item=4230993599&perks=1749209109,3913600130
 
 //notes: PVE@7/10
 dimwishlist:item=4230993599&perks=1749209109
 dimwishlist:item=4230993599&perks=3913600130
+
+//notes: PVE@10/10
+dimwishlist:item=42351395&perks=1275731761,3436462433
+
+//notes: PVE@7/10
+dimwishlist:item=42351395&perks=1275731761,2450788523
+dimwishlist:item=42351395&perks=3436462433,3523296417
+dimwishlist:item=42351395&perks=2726471870,3436462433
+dimwishlist:item=42351395&perks=2396489472,3436462433
+
+//notes: PVE@4/10
+dimwishlist:item=42351395&perks=2450788523,3523296417
+dimwishlist:item=42351395&perks=2450788523,2726471870
+dimwishlist:item=42351395&perks=2396489472,2450788523
+
+//notes: PVP@10/10
+dimwishlist:item=42351395&perks=706527188,1275731761
+
+//notes: PVP@7/10
+dimwishlist:item=42351395&perks=706527188,2396489472
 
 //notes: PVE@10/10
 dimwishlist:item=1946491241&perks=3300816228,3523296417
@@ -2888,11 +2784,8 @@ dimwishlist:item=3514096004&perks=247725512,1015611457
 dimwishlist:item=3514096004&perks=247725512
 dimwishlist:item=3514096004&perks=1015611457
 
-//notes: PVP@10/10
-dimwishlist:item=1402766122&perks=706527188,4082225868
-
-//notes: PVP@7/10
-dimwishlist:item=1402766122&perks=706527188,2726471870
+//notes: PVP@10/10, PVP@7/10
+dimwishlist:item=1402766122&perks=706527188,2117683199
 
 //notes: PVE@7/10, PVP@10/10
 dimwishlist:item=2481881293&perks=1645158859,2213355989
@@ -2951,33 +2844,32 @@ dimwishlist:item=3556999246&perks=1168162263,3523296417
 dimwishlist:item=3556999246&perks=1820235745,3592538738
 dimwishlist:item=3556999246&perks=1820235745,3523296417
 
+//notes: PVE@7/10, PVE@7/10
+dimwishlist:item=217140611&perks=2117683199,2117683199
+
+//notes: PVE@4/10, PVE@4/10
+dimwishlist:item=217140611&perks=1631667848,2117683199
+dimwishlist:item=217140611&perks=1556840489,2117683199
+
 //notes: PVE@10/10
-dimwishlist:item=217140611&perks=1546637391,3436462433
+dimwishlist:item=217140611&perks=1546637391,2117683199
 
 //notes: PVE@7/10
 dimwishlist:item=217140611&perks=1546637391,1631667848
 dimwishlist:item=217140611&perks=1546637391,1556840489
-dimwishlist:item=217140611&perks=2679249093,3436462433
-dimwishlist:item=217140611&perks=3436462433,3523296417
-
-//notes: PVE@4/10
-dimwishlist:item=217140611&perks=1631667848,2679249093
-dimwishlist:item=217140611&perks=1556840489,2679249093
-dimwishlist:item=217140611&perks=1631667848,3523296417
-dimwishlist:item=217140611&perks=1556840489,3523296417
 
 //notes: PVE@10/10, PVP@7/10
-dimwishlist:item=2414141462&perks=2117683199,4082225868
+dimwishlist:item=2414141462&perks=4082225868,4267945040
 
 //notes: PVE@7/10
 dimwishlist:item=2414141462&perks=3436462433,4082225868
-dimwishlist:item=2414141462&perks=2117683199,4049631843
+dimwishlist:item=2414141462&perks=4049631843,4267945040
 
 //notes: PVE@4/10
 dimwishlist:item=2414141462&perks=3436462433,4049631843
 
 //notes: PVP@10/10
-dimwishlist:item=2414141462&perks=1015611457,2117683199
+dimwishlist:item=2414141462&perks=1015611457,4267945040
 
 //notes: PVP@7/10
 dimwishlist:item=2414141462&perks=1015611457,2450788523
@@ -3047,10 +2939,10 @@ dimwishlist:item=1200824700&perks=3400784728
 dimwishlist:item=1200824700&perks=3425386926
 
 //notes: PVE@10/10
-dimwishlist:item=1096206669&perks=2360754333,4071163871
+dimwishlist:item=1096206669&perks=2117683199,2117683199
 
 //notes: PVE@7/10
-dimwishlist:item=1096206669&perks=1546637391,4071163871
+dimwishlist:item=1096206669&perks=1546637391,2117683199
 
 //notes: PVE@7/10, PVP@4/10
 dimwishlist:item=602618796&perks=3425386926,3436462433
