@@ -7,14 +7,13 @@ const READ_CSV_OPTIONS = {
 };
 
 const files = [
+  '_Авангард_',
+  'Рейды',
+  'Другие источники (ALPHA)',
   'Пункты назначения',
-  'Рейды',
-  'Мероприятия (BETA)',
-  'Вендоры (BETA)',
-  'Мировой лут пул (BETA)',
-  'Сезоны',
   'Гамбит',
-  '"Авангард"',
+  'Сезоны',
+  'Мировой лут пул',
   'Горнило',
   'Подземелья',
 ].map((s) => `./src/data/rollsCSV/Оружие Destiny 2 от MadnessBuccaneer - ${s}.csv`);
@@ -39,7 +38,8 @@ const main = async () => {
             fileContents += wish;
             ++total;
           } catch (error) {
-            console.log(error.message);
+            console.log('ERR while processing ::', title);
+            console.log(error);
           }
         }
       }

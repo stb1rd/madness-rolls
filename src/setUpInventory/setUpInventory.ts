@@ -44,6 +44,7 @@ const WHITE_TYPES_RU = [
   'Боевой лук',
   'Плазменная винтовка',
   'Линейно-плазменная винтовка',
+  'Глефа',
 ] as const;
 
 const PERK_LOCALE_EN = 'Trait';

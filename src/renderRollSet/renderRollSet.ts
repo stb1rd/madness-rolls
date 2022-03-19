@@ -13,6 +13,9 @@ const madnessTraitFails = new Map([
 const madnessWeaponFails = new Map([
   ['Житель пустоши М5', 'Житель пустоши M5'],
   ['Воспоминания Беренгера', 'Воспоминание Беренгера'],
+  ['Рангильд-Д', 'Рагнгильд-Д'],
+  ['ПВ-5 Снорри', 'ПВ5 Снорри'],
+  ['Фортисиммо-11', 'Фортиссимо-11'],
 ]);
 
 const preSearchClean = (name: string) => name.toLowerCase().trim();
@@ -127,7 +130,9 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<str
       continue;
     }
 
-    bakeRoll([getInvTrait(traits[1][0])!.hash, getInvTrait(traits[0][0])!.hash], activity, Grades.G10);
+    if (traits[1]) {
+      bakeRoll([getInvTrait(traits[1][0])!.hash, getInvTrait(traits[0][0])!.hash], activity, Grades.G10);
+    }
 
     if (traits[0].length === 1) {
       bakeRoll([getInvTrait(traits[1][0])!.hash], activity, Grades.G7);
@@ -135,19 +140,21 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<str
       continue;
     }
 
-    traits[1].slice(1).forEach((traitName) => {
-      bakeRoll([getInvTrait(traits[0][0])!.hash, getInvTrait(traitName)!.hash], activity, Grades.G7);
-    });
-    traits[0].slice(1).forEach((traitName) => {
-      bakeRoll([getInvTrait(traits[1][0])!.hash, getInvTrait(traitName)!.hash], activity, Grades.G7);
-    });
-
-    if (traits[0].slice(1).length >= 1 && traits[1].slice(1).length >= 1) {
-      traits[0].slice(1).forEach((traitName0) => {
-        traits[1].slice(1).forEach((traitName1) => {
-          bakeRoll([getInvTrait(traitName0)!.hash, getInvTrait(traitName1)!.hash], activity, Grades.G4);
-        });
+    if (traits[1]) {
+      traits[1].slice(1).forEach((traitName) => {
+        bakeRoll([getInvTrait(traits[0][0])!.hash, getInvTrait(traitName)!.hash], activity, Grades.G7);
       });
+      traits[0].slice(1).forEach((traitName) => {
+        bakeRoll([getInvTrait(traits[1][0])!.hash, getInvTrait(traitName)!.hash], activity, Grades.G7);
+      });
+
+      if (traits[0].slice(1).length >= 1 && traits[1].slice(1).length >= 1) {
+        traits[0].slice(1).forEach((traitName0) => {
+          traits[1].slice(1).forEach((traitName1) => {
+            bakeRoll([getInvTrait(traitName0)!.hash, getInvTrait(traitName1)!.hash], activity, Grades.G4);
+          });
+        });
+      }
     }
   }
 

@@ -19,3 +19,6 @@ wishlistnotes:PVP@4/10
 ```
 ...
 - PROFIT
+
+## Bugs
+БОГОУБИЙЦА
