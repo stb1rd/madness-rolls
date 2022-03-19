@@ -56,6 +56,7 @@ interface ItemDefEntity {
   hash: number;
   itemCategoryHashes: number[];
   quality: { versions: Array<{ powerCapHash: number }> };
+  crafting: { outputItemHash: number };
 }
 
 export interface InventoryItemEntity {
@@ -70,17 +71,20 @@ const setUpInventory = async () => {
 
   const itemDefsRaw = await Deno.readTextFile('./src/data/inventory/itemDefinitionsResponseRu.json');
   const itemDefs: ItemDefEntity[] = Object.values(JSON.parse(itemDefsRaw));
-  itemDefs.forEach(({ itemTypeDisplayName, displayProperties: { name }, hash, itemCategoryHashes, quality: { versions = [] } = {} }) => {
-    if (
-      WHITE_TYPES_RU.includes(itemTypeDisplayName) &&
-      !itemCategoryHashes.includes(CLASSIFIED_CATEGORY) &&
-      !OBSOLETE_HASHES.includes(hash)
-    ) {
-      if (itemTypeDisplayName === PERK_LOCALE_RU || versions.find(({ powerCapHash }) => powerCapHash === NO_CAP_HASH)) {
-        inventoryItems.push({ type: itemTypeDisplayName, name: normalizeName(name), hash });
+  itemDefs.forEach(
+    ({ itemTypeDisplayName, displayProperties: { name }, hash, itemCategoryHashes, quality: { versions = [] } = {}, crafting }) => {
+      if (
+        WHITE_TYPES_RU.includes(itemTypeDisplayName) &&
+        !itemCategoryHashes.includes(CLASSIFIED_CATEGORY) &&
+        !OBSOLETE_HASHES.includes(hash) &&
+        !crafting
+      ) {
+        if (itemTypeDisplayName === PERK_LOCALE_RU || versions.find(({ powerCapHash }) => powerCapHash === NO_CAP_HASH)) {
+          inventoryItems.push({ type: itemTypeDisplayName, name: normalizeName(name), hash });
+        }
       }
     }
-  });
+  );
 
   const fileName = './src/data/inventory/inventory.json';
   await Deno.writeTextFile(fileName, JSON.stringify(inventoryItems));
