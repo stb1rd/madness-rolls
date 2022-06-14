@@ -7,7 +7,7 @@ const madnessFails = new Map([
 ]);
 
 export const cleanActivityCell = (cell: string): string[][] => {
-  if (cell === '-') {
+  if (['-', 'Слишком много роллов'].includes(cell)) {
     return [];
   }
 
