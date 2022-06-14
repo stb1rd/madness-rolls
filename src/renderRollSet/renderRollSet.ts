@@ -72,6 +72,7 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<str
 
     [...labelsAndTraits].forEach(([label, traits]) => {
       const weaponHashes = [weapon.hash, ...(adept ? [adept.hash] : [])];
+      // if (traits === )
       if (traits[0]?.includes(ANY_TRAIT)) {
         wishList += `//notes: ${label} (${traits[0]})\n`;
         weaponHashes.forEach((hash, i) => {

@@ -4,7 +4,6 @@
   "deno.unstable": true,
   "editor.wrappingIndent": "indent",
   "editor.formatOnSave": true,
-  "editor.renderIndentGuides": true,
   "editor.rulers": [120],
   "editor.tabSize": 2,
   "scss.validate": false,
@@ -19,5 +18,6 @@
   "javascript.preferences.importModuleSpecifier": "shortest",
   "typescript.preferences.importModuleSpecifier": "shortest",
   "typescript.tsdk": "node_modules/typescript/lib",
-  "cucumberautocomplete.strictGherkinCompletion": true
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "editor.guides.indentation": true
 }
