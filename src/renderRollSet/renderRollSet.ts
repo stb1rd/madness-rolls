@@ -32,7 +32,7 @@ const ACTIVITIES = ['PVE', 'PVP'] as const;
 const ANY_TRAIT = 'Любой перк';
 const ADEPT = 'адепт';
 
-export const renderRollSet = async (name: string, rollSet: RollSet): Promise<string> => {
+export const renderRollSet = async (name: string, rollSet: RollSet): Promise<{ wishList: string; wishListCount: number }> => {
   const inventoryRaw = await Deno.readTextFile('./src/data/inventory/inventory.json');
   const inventory: InventoryItemEntity[] = JSON.parse(inventoryRaw);
   const weapon = inventory.find(({ name: invName }) => preSearchClean(invName) === normalizeName(name));
@@ -42,7 +42,8 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<str
     throw new Error(`ERR :: weapon not found :: ${normalizeName(name)}`);
   }
 
-  let wishList = '';
+  let wishList = `// ${name}\n`;
+  let wishListCount = 0;
 
   const traitsAndLabels = new Map<string, string[]>();
   const bakeRoll = (perks: number[] | string[], activity: typeof ACTIVITIES[number], grade: Grades) => {
@@ -72,7 +73,6 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<str
 
     [...labelsAndTraits].forEach(([label, traits]) => {
       const weaponHashes = [weapon.hash, ...(adept ? [adept.hash] : [])];
-      // if (traits === )
       if (traits[0]?.includes(ANY_TRAIT)) {
         wishList += `//notes: ${label} (${traits[0]})\n`;
         weaponHashes.forEach((hash, i) => {
@@ -80,14 +80,27 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<str
             wishList += '\n';
           }
           wishList += `dimwishlist:item=${hash}`;
+          wishListCount++;
         });
       } else {
-        wishList += `//notes: ${label}\n`;
+        let perfection = '';
+        if ([[ACTIVITIES[0], Grades.G10].join('@'), [ACTIVITIES[1], Grades.G10].join('@')].includes(label)) {
+          perfection = `(${traits[0]
+            .split(',')
+            .map((hash) => inventory.find(({ hash: invHash }) => String(invHash) === hash)?.name || '')
+            .join(', ')})`;
+        }
+        wishList += `//notes: ${label} ${perfection}\n`;
         weaponHashes.forEach((hash, i) => {
           if (i === 1) {
             wishList += '\n';
           }
-          wishList += traits.map((trait) => `dimwishlist:item=${hash}&perks=${trait}`).join('\n');
+          wishList += traits
+            .map((trait) => {
+              wishListCount++;
+              return `dimwishlist:item=${hash}&perks=${trait}`;
+            })
+            .join('\n');
         });
       }
       wishList += '\n\n';
@@ -106,7 +119,7 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<str
       set.forEach((traitName) => {
         const trait = correctTrait(traitName);
         const invTrait = inventory.find(({ name: invName, hash }) => {
-          if (invName === 'Система автоспуска') {
+          if (traitName === 'Система автоспуска') {
             if (weapon.type === 'Дробовик') {
               return hash === 2117683199;
             } else {
@@ -160,5 +173,5 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<str
   }
 
   populateWishlist();
-  return wishList;
+  return { wishList, wishListCount };
 };

@@ -21,6 +21,10 @@ wishlistnotes:PVP@4/10
 - PROFIT
 
 ## Bugs
-БОГОУБИЙЦА
-РАГНГИЛЬД-Д
-Мертвый груз
+- БОГОУБИЙЦА
+- Мертвый груз
+- Уроженец Рииса // trait sort
+
+## TODO
+- update tests
+- make override list

@@ -19,8 +19,9 @@ const files = [
 ].map((s) => `./src/data/rollsCSV/Оружие Destiny 2 от MadnessBuccaneer - ${s}.csv`);
 
 const main = async () => {
-  let fileContents = 'title:Madness wishes\n';
+  let fileContents = '';
   let total = 0;
+  let totalRollCount = 0;
 
   await Promise.all(
     files.map(async (file) => {
@@ -34,9 +35,10 @@ const main = async () => {
         const [icon, title, damage, type, pve, pvp] = cells;
         if (!icon && title) {
           try {
-            const wish = await renderRollSet(title, { PVE: cleanActivityCell(pve), PVP: cleanActivityCell(pvp) });
-            fileContents += wish;
+            const { wishList, wishListCount } = await renderRollSet(title, { PVE: cleanActivityCell(pve), PVP: cleanActivityCell(pvp) });
+            fileContents += wishList;
             ++total;
+            totalRollCount += wishListCount;
           } catch (error) {
             console.log('ERR while processing ::', title);
             console.log(error);
@@ -49,8 +51,10 @@ const main = async () => {
   );
 
   const resultFileName = './wish_list.txt';
-  await Deno.writeTextFile(resultFileName, fileContents);
-  console.log(`success :: ${resultFileName} :: total of ${total} weapons`);
+  const meta = `total of ${total} weapons and ${totalRollCount} rolls`;
+  const header = `title:Madness wishes\ndescription:${meta}, last update: ${new Date().toLocaleString()}\n\n`;
+  await Deno.writeTextFile(resultFileName, header + fileContents);
+  console.log(`success :: ${resultFileName} :: ${meta}`);
 };
 
 main();
