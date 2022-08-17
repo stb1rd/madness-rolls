@@ -1,4 +1,4 @@
-import { readCSV } from 'https://deno.land/x/csv/mod.ts';
+import { readCSV } from 'https://deno.land/x/csv@v0.7.3/mod.ts';
 import { cleanActivityCell } from './cleanActivityCell/cleanActivityCell.ts';
 import { renderRollSet } from './renderRollSet/renderRollSet.ts';
 
