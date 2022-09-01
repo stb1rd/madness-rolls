@@ -1,5 +1,5 @@
 title:Madness wishes
-description:total of 166 weapons and 1582 rolls, last update: 17.08.2022, 20:09:34
+description:total of 185 weapons and 1900 rolls, last update: 01.09.2022, 20:33:57
 
 // Ксенокласт IV
 //notes: PVE@10/10 (Стрижающее оружие, Кобура с автоподзарядом)
@@ -30,30 +30,12 @@ dimwishlist:item=2891672170&perks=2450788523,3436462433
 //notes: PVP@4/10 
 dimwishlist:item=2891672170&perks=2450788523,3161816588
 
-// Простите за прах
-//notes: PVE@10/10 (Кобура с автоподзарядом - Любой перк)
-dimwishlist:item=3849810018
-
-// Крайт
-//notes: PVE@7/10, PVP@7/10 
-dimwishlist:item=2852052802&perks=1546637391,3643424744
-
-//notes: PVE@10/10 (Надгробие, Переполнение)
-dimwishlist:item=2852052802&perks=124408337,3643424744
+// Народ зверей
+//notes: PVE@10/10 (Изгой, Стрекоза)
+dimwishlist:item=654370424&perks=1168162263,2848615171
 
 //notes: PVE@7/10 
-dimwishlist:item=2852052802&perks=124408337,1820235745
-dimwishlist:item=2852052802&perks=124408337,1583705720
-dimwishlist:item=2852052802&perks=3643424744,4049631843
-
-//notes: PVE@4/10 
-dimwishlist:item=2852052802&perks=1820235745,4049631843
-dimwishlist:item=2852052802&perks=1583705720,4049631843
-dimwishlist:item=2852052802&perks=1546637391,1820235745
-dimwishlist:item=2852052802&perks=1546637391,1583705720
-
-//notes: PVP@10/10 (Движущаяся цель, Переполнение)
-dimwishlist:item=2852052802&perks=588594999,3643424744
+dimwishlist:item=654370424&perks=1168162263,3425386926
 
 // Старая история
 //notes: PVP@10/10 (Быстрое извлечение, Быстрый прицел)
@@ -67,6 +49,36 @@ dimwishlist:item=346136302&perks=706527188,1546637391
 //notes: PVP@4/10 
 dimwishlist:item=346136302&perks=3161816588,3523296417
 dimwishlist:item=346136302&perks=1546637391,3161816588
+
+// Любимец толпы
+//notes: PVE@10/10 (Цепная реакция, Тактическая подготовка)
+dimwishlist:item=3565520715&perks=2396489472,2869569095
+
+//notes: PVE@7/10 
+dimwishlist:item=3565520715&perks=2284787283,2396489472
+dimwishlist:item=3565520715&perks=2869569095,3523296417
+
+//notes: PVE@4/10 
+dimwishlist:item=3565520715&perks=2284787283,3523296417
+
+//notes: PVP@10/10 (Цепная реакция, Излишки)
+dimwishlist:item=3565520715&perks=2396489472,3436462433
+
+//notes: PVP@7/10 
+dimwishlist:item=3565520715&perks=706527188,3436462433
+dimwishlist:item=3565520715&perks=3436462433,3523296417
+dimwishlist:item=3565520715&perks=2726471870,3436462433
+
+// Простите за прах
+//notes: PVE@10/10 (Кобура с автоподзарядом, Диверсант)
+dimwishlist:item=3849810018&perks=3300816228,3523296417
+
+//notes: PVE@7/10 
+dimwishlist:item=3849810018&perks=2010801679,3523296417
+dimwishlist:item=3849810018&perks=1546637391,3300816228
+
+//notes: PVE@4/10 
+dimwishlist:item=3849810018&perks=1546637391,2010801679
 
 // Звезды во тьме
 //notes: PVE@10/10 (Изгой, Диверсант)
@@ -101,24 +113,20 @@ dimwishlist:item=2050789284&perks=460017080,3436462433
 dimwishlist:item=2050789284&perks=280464955,2726471870
 dimwishlist:item=2050789284&perks=2726471870,3436462433
 
-// Любимец толпы
-//notes: PVE@10/10 (Цепная реакция, Тактическая подготовка)
-dimwishlist:item=3565520715&perks=2396489472,2869569095
+// Последний вздох
+//notes: PVE@10/10 (Жажда адреналина, Диверсант)
+dimwishlist:item=507038823&perks=11612903,3523296417
 
 //notes: PVE@7/10 
-dimwishlist:item=3565520715&perks=2284787283,2396489472
-dimwishlist:item=3565520715&perks=2869569095,3523296417
+dimwishlist:item=507038823&perks=1774574192,3523296417
+dimwishlist:item=507038823&perks=3523296417,4049631843
 
-//notes: PVE@4/10 
-dimwishlist:item=3565520715&perks=2284787283,3523296417
-
-//notes: PVP@10/10 (Цепная реакция, Излишки)
-dimwishlist:item=3565520715&perks=2396489472,3436462433
+//notes: PVP@10/10 (Компенсатор раскачки, Дальномер)
+dimwishlist:item=507038823&perks=1359896290,2846385770
 
 //notes: PVP@7/10 
-dimwishlist:item=3565520715&perks=706527188,3436462433
-dimwishlist:item=3565520715&perks=3436462433,3523296417
-dimwishlist:item=3565520715&perks=2726471870,3436462433
+dimwishlist:item=507038823&perks=1359896290
+dimwishlist:item=507038823&perks=2846385770
 
 // Клубок мыслей
 //notes: PVE@7/10, PVP@7/10 
@@ -148,45 +156,26 @@ dimwishlist:item=2097055732&perks=1570042021,3511092054
 dimwishlist:item=2097055732&perks=11612903,1570042021
 dimwishlist:item=2097055732&perks=438098033,1570042021
 
-// Последний вздох
-//notes: PVE@10/10 (Жажда адреналина, Диверсант)
-dimwishlist:item=507038823&perks=11612903,3523296417
+// Крайт
+//notes: PVE@7/10, PVP@7/10 
+dimwishlist:item=2852052802&perks=1546637391,3643424744
+
+//notes: PVE@10/10 (Надгробие, Переполнение)
+dimwishlist:item=2852052802&perks=124408337,3643424744
 
 //notes: PVE@7/10 
-dimwishlist:item=507038823&perks=1774574192,3523296417
-dimwishlist:item=507038823&perks=3523296417,4049631843
-
-//notes: PVP@10/10 (Компенсатор раскачки, Дальномер)
-dimwishlist:item=507038823&perks=1359896290,2846385770
-
-//notes: PVP@7/10 
-dimwishlist:item=507038823&perks=1359896290
-dimwishlist:item=507038823&perks=2846385770
-
-// Народ зверей
-//notes: PVE@10/10 (Изгой, Стрекоза)
-dimwishlist:item=654370424&perks=1168162263,2848615171
-
-//notes: PVE@7/10 
-dimwishlist:item=654370424&perks=1168162263,3425386926
-
-// "Житель пустоши" М5
-//notes: PVE@10/10 (Золотой свинец, Двойной удар)
-dimwishlist:item=1679868061&perks=1556840489,2679249093
-
-//notes: PVE@7/10 
-dimwishlist:item=1679868061&perks=1820235745,2679249093
-dimwishlist:item=1679868061&perks=1556840489,2360754333
+dimwishlist:item=2852052802&perks=124408337,1820235745
+dimwishlist:item=2852052802&perks=124408337,1583705720
+dimwishlist:item=2852052802&perks=3643424744,4049631843
 
 //notes: PVE@4/10 
-dimwishlist:item=1679868061&perks=1820235745,2360754333
+dimwishlist:item=2852052802&perks=1820235745,4049631843
+dimwishlist:item=2852052802&perks=1583705720,4049631843
+dimwishlist:item=2852052802&perks=1546637391,1820235745
+dimwishlist:item=2852052802&perks=1546637391,1583705720
 
-//notes: PVP@10/10 (Первый выстрел, Стрельба в скольжении)
-dimwishlist:item=1679868061&perks=47981717,3161816588
-
-//notes: PVP@7/10 
-dimwishlist:item=1679868061&perks=3161816588
-dimwishlist:item=1679868061&perks=47981717
+//notes: PVP@10/10 (Движущаяся цель, Переполнение)
+dimwishlist:item=2852052802&perks=588594999,3643424744
 
 // Прибытие короля
 //notes: PVE@10/10 (Усилитель импульса, Обойма-сюрприз)
@@ -198,6 +187,20 @@ dimwishlist:item=2448907086&perks=951095735,3927722942
 
 //notes: PVE@4/10 
 dimwishlist:item=2448907086&perks=2869569095,3927722942
+
+// Превосходство
+//notes: PVE@10/10 (Быстрый прицел, Тройной выстрел)
+dimwishlist:item=686951703&perks=957782887,3400784728
+
+//notes: PVE@7/10 
+dimwishlist:item=686951703&perks=957782887
+dimwishlist:item=686951703&perks=3400784728
+
+//notes: PVP@10/10 (Быстрый прицел, Киллерский магазин)
+dimwishlist:item=686951703&perks=957782887,1015611457
+
+//notes: PVP@7/10 
+dimwishlist:item=686951703&perks=957782887,3425386926
 
 // Долг пробудившихся
 //notes: PVP@10/10 (Киллерский магазин, Дальномер)
@@ -257,71 +260,6 @@ dimwishlist:item=1046651176&perks=47981717,2450788523
 dimwishlist:item=1046651176&perks=706527188,3592538738
 dimwishlist:item=1046651176&perks=2450788523,3592538738
 
-// Синкопа-53
-//notes: PVE@10/10 (Надгробие, Изгой)
-dimwishlist:item=2856514843&perks=124408337,1168162263
-
-//notes: PVE@7/10 
-dimwishlist:item=2856514843&perks=1168162263
-dimwishlist:item=2856514843&perks=124408337
-
-//notes: PVP@10/10 (Движущаяся цель, Дальномер)
-dimwishlist:item=2856514843&perks=588594999,2846385770
-
-//notes: PVP@7/10 
-dimwishlist:item=2856514843&perks=588594999
-dimwishlist:item=2856514843&perks=2846385770
-
-// Замороженная орбита
-//notes: PVE@10/10 (Стрижающее оружие, Тройной выстрел)
-dimwishlist:item=3473290087&perks=1546637391,3400784728
-
-//notes: PVE@7/10 
-dimwishlist:item=3473290087&perks=3400784728
-dimwishlist:item=3473290087&perks=1546637391
-
-//notes: PVP@10/10 (Движущаяся цель, Быстрый прицел)
-dimwishlist:item=3473290087&perks=588594999,957782887
-
-//notes: PVP@7/10 
-dimwishlist:item=3473290087&perks=957782887,2866798147
-dimwishlist:item=3473290087&perks=588594999,706527188
-
-//notes: PVP@4/10 
-dimwishlist:item=3473290087&perks=706527188,2866798147
-
-// Безмыслие
-//notes: PVE@10/10 (Линия огня, Переполнение)
-dimwishlist:item=4067556514&perks=1771339417,3643424744
-
-//notes: PVE@7/10 
-dimwishlist:item=4067556514&perks=247725512,1771339417
-dimwishlist:item=4067556514&perks=2896038713,3643424744
-
-//notes: PVE@4/10 
-dimwishlist:item=4067556514&perks=247725512,2896038713
-
-//notes: PVP@10/10 (Быстрый прицел, Вечное движение)
-dimwishlist:item=4067556514&perks=957782887,1428297954
-
-//notes: PVP@7/10 
-dimwishlist:item=4067556514&perks=1428297954
-dimwishlist:item=4067556514&perks=957782887
-
-// Превосходство
-//notes: PVE@10/10 (Быстрый прицел, Тройной выстрел)
-dimwishlist:item=686951703&perks=957782887,3400784728
-
-//notes: PVE@7/10 
-dimwishlist:item=686951703&perks=957782887
-dimwishlist:item=686951703&perks=3400784728
-
-//notes: PVP@10/10 (Быстрый прицел, Киллерский магазин)
-dimwishlist:item=686951703&perks=957782887,1015611457
-
-//notes: PVP@7/10 
-dimwishlist:item=686951703&perks=957782887,3425386926
-
 // Правосудие
 //notes: PVE@10/10 (Жажда адреналина, Диверсант)
 dimwishlist:item=1476654960&perks=11612903,3523296417
@@ -343,43 +281,79 @@ dimwishlist:item=1476654960&perks=1195158366,2458213969
 dimwishlist:item=1476654960&perks=2458213969,2946784966
 dimwishlist:item=1476654960&perks=2458213969,3161816588
 
-// Боевик BxR-55
-//notes: PVE@7/10, PVP@4/10 
-dimwishlist:item=2708806099&perks=454085387,3523296417
-
-//notes: PVE@10/10 (Жажда адреналина, Диверсант)
-dimwishlist:item=2708806099&perks=11612903,3523296417
+// "Житель пустоши" М5
+//notes: PVE@10/10 (Золотой свинец, Двойной удар)
+dimwishlist:item=1679868061&perks=1556840489,2679249093
 
 //notes: PVE@7/10 
-dimwishlist:item=2708806099&perks=11612903,1168162263
+dimwishlist:item=1679868061&perks=1820235745,2679249093
+dimwishlist:item=1679868061&perks=1556840489,2360754333
+dimwishlist:item=1679868061&perks=1546637391,1556840489
 
 //notes: PVE@4/10 
-dimwishlist:item=2708806099&perks=454085387,1168162263
+dimwishlist:item=1679868061&perks=1820235745,2360754333
+dimwishlist:item=1679868061&perks=1546637391,1820235745
 
-//notes: PVP@10/10 (Киллерский магазин, Вечное движение)
-dimwishlist:item=2708806099&perks=1015611457,1428297954
+//notes: PVP@10/10 (Первый выстрел, Стрельба в скольжении)
+dimwishlist:item=1679868061&perks=47981717,3161816588
 
 //notes: PVP@7/10 
-dimwishlist:item=2708806099&perks=1015611457,2450788523
-dimwishlist:item=2708806099&perks=1015611457,3523296417
-dimwishlist:item=2708806099&perks=957782887,1015611457
-dimwishlist:item=2708806099&perks=1428297954,2846385770
-dimwishlist:item=2708806099&perks=699525795,1428297954
-dimwishlist:item=2708806099&perks=1428297954,3511092054
-dimwishlist:item=2708806099&perks=454085387,1428297954
+dimwishlist:item=1679868061&perks=47981717,1428297954
+dimwishlist:item=1679868061&perks=2450788523,3161816588
 
 //notes: PVP@4/10 
-dimwishlist:item=2708806099&perks=2450788523,2846385770
-dimwishlist:item=2708806099&perks=2846385770,3523296417
-dimwishlist:item=2708806099&perks=957782887,2846385770
-dimwishlist:item=2708806099&perks=699525795,2450788523
-dimwishlist:item=2708806099&perks=699525795,3523296417
-dimwishlist:item=2708806099&perks=699525795,957782887
-dimwishlist:item=2708806099&perks=2450788523,3511092054
-dimwishlist:item=2708806099&perks=3511092054,3523296417
-dimwishlist:item=2708806099&perks=957782887,3511092054
-dimwishlist:item=2708806099&perks=454085387,2450788523
-dimwishlist:item=2708806099&perks=454085387,957782887
+dimwishlist:item=1679868061&perks=1428297954,2450788523
+
+// Замороженная орбита
+//notes: PVE@10/10 (Стрижающее оружие, Тройной выстрел)
+dimwishlist:item=3473290087&perks=1546637391,3400784728
+
+//notes: PVE@7/10 
+dimwishlist:item=3473290087&perks=3400784728
+dimwishlist:item=3473290087&perks=1546637391
+
+//notes: PVP@10/10 (Движущаяся цель, Быстрый прицел)
+dimwishlist:item=3473290087&perks=588594999,957782887
+
+//notes: PVP@7/10 
+dimwishlist:item=3473290087&perks=957782887,2866798147
+dimwishlist:item=3473290087&perks=588594999,706527188
+
+//notes: PVP@4/10 
+dimwishlist:item=3473290087&perks=706527188,2866798147
+
+// Синкопа-53
+//notes: PVE@10/10 (Надгробие, Изгой)
+dimwishlist:item=2856514843&perks=124408337,1168162263
+
+//notes: PVE@7/10 
+dimwishlist:item=2856514843&perks=1168162263
+dimwishlist:item=2856514843&perks=124408337
+
+//notes: PVP@10/10 (Движущаяся цель, Дальномер)
+dimwishlist:item=2856514843&perks=588594999,2846385770
+
+//notes: PVP@7/10 
+dimwishlist:item=2856514843&perks=588594999
+dimwishlist:item=2856514843&perks=2846385770
+
+// Безмыслие
+//notes: PVE@10/10 (Линия огня, Переполнение)
+dimwishlist:item=4067556514&perks=1771339417,3643424744
+
+//notes: PVE@7/10 
+dimwishlist:item=4067556514&perks=247725512,1771339417
+dimwishlist:item=4067556514&perks=2896038713,3643424744
+
+//notes: PVE@4/10 
+dimwishlist:item=4067556514&perks=247725512,2896038713
+
+//notes: PVP@10/10 (Быстрый прицел, Вечное движение)
+dimwishlist:item=4067556514&perks=957782887,1428297954
+
+//notes: PVP@7/10 
+dimwishlist:item=4067556514&perks=1428297954
+dimwishlist:item=4067556514&perks=957782887
 
 // Третья аксиома
 //notes: PVE@10/10 (Питающая ярость, Полоса удач)
@@ -413,6 +387,20 @@ dimwishlist:item=4156253727&perks=2450788523,2458213969
 dimwishlist:item=4156253727&perks=2387244414,2726471870
 dimwishlist:item=4156253727&perks=2450788523,2726471870
 
+// Нерушимая связь
+//notes: PVE@10/10 (С четвертого раза получится, Полоса удач)
+dimwishlist:item=601592879&perks=1354429876,3425386926
+
+//notes: PVE@7/10 
+dimwishlist:item=601592879&perks=1354429876
+dimwishlist:item=601592879&perks=3425386926
+
+//notes: PVP@10/10 (Киллерский магазин, Компенсатор раскачки)
+dimwishlist:item=601592879&perks=1015611457,1359896290
+
+//notes: PVP@7/10 
+dimwishlist:item=601592879&perks=1359896290,2213355989
+
 // Троичная система
 //notes: PVP@10/10 (Устойчивая изготовка, Усиленные резервы)
 dimwishlist:item=3258665412&perks=280464955,2213355989
@@ -426,6 +414,18 @@ dimwishlist:item=3258665412&perks=280464955,1890422124
 dimwishlist:item=3258665412&perks=1890422124,3161816588
 dimwishlist:item=3258665412&perks=1890422124,2450788523
 
+// Милость
+//notes: PVE@10/10, PVP@10/10 
+dimwishlist:item=3242168339&perks=247725512,3038247973
+
+//notes: PVE@7/10, PVP@7/10 
+dimwishlist:item=3242168339&perks=247725512,2458213969
+
+//notes: PVE@7/10 
+dimwishlist:item=3242168339&perks=247725512,2848615171
+dimwishlist:item=3242168339&perks=247725512,3592538738
+dimwishlist:item=3242168339&perks=247725512,1546637391
+
 // Стон
 //notes: PVP@10/10 (Быстрый удар, Постижение дзен)
 dimwishlist:item=409551876&perks=247725512,2387244414
@@ -438,38 +438,6 @@ dimwishlist:item=409551876&perks=247725512,3592538738
 //notes: PVP@4/10 
 dimwishlist:item=409551876&perks=588594999,2458213969
 dimwishlist:item=409551876&perks=588594999,3592538738
-
-// Персей-Д
-//notes: PVE@10/10 (Надгробие, Быстрый удар)
-dimwishlist:item=1019000888&perks=124408337,247725512
-
-//notes: PVE@7/10 
-dimwishlist:item=1019000888&perks=124408337,3700496672
-dimwishlist:item=1019000888&perks=247725512,3038247973
-dimwishlist:item=1019000888&perks=247725512,1546637391
-
-//notes: PVE@4/10 
-dimwishlist:item=1019000888&perks=3038247973,3700496672
-dimwishlist:item=1019000888&perks=1546637391,3700496672
-
-//notes: PVP@10/10 (Вечное движение, Фугасный снаряд)
-dimwishlist:item=1019000888&perks=1428297954,3038247973
-
-//notes: PVP@7/10 
-dimwishlist:item=1019000888&perks=1428297954
-dimwishlist:item=1019000888&perks=3038247973
-
-// Милость
-//notes: PVE@10/10, PVP@10/10 
-dimwishlist:item=3242168339&perks=247725512,3038247973
-
-//notes: PVE@7/10, PVP@7/10 
-dimwishlist:item=3242168339&perks=247725512,2458213969
-
-//notes: PVE@7/10 
-dimwishlist:item=3242168339&perks=247725512,2848615171
-dimwishlist:item=3242168339&perks=247725512,3592538738
-dimwishlist:item=3242168339&perks=247725512,1546637391
 
 // Сладкая горечь
 //notes: PVE@4/10, PVP@7/10 
@@ -490,20 +458,6 @@ dimwishlist:item=1248372789&perks=1890422124,2450788523
 
 //notes: PVP@4/10 
 dimwishlist:item=1248372789&perks=2450788523,3523296417
-
-// Нерушимая связь
-//notes: PVE@10/10 (С четвертого раза получится, Полоса удач)
-dimwishlist:item=601592879&perks=1354429876,3425386926
-
-//notes: PVE@7/10 
-dimwishlist:item=601592879&perks=1354429876
-dimwishlist:item=601592879&perks=3425386926
-
-//notes: PVP@10/10 (Киллерский магазин, Компенсатор раскачки)
-dimwishlist:item=601592879&perks=1015611457,1359896290
-
-//notes: PVP@7/10 
-dimwishlist:item=601592879&perks=1359896290,2213355989
 
 // Темный час
 //notes: PVE@7/10, PVP@7/10 
@@ -538,9 +492,81 @@ dimwishlist:item=2481758391&perks=2946784966,3425386926
 dimwishlist:item=2481758391&perks=706527188,3592538738
 dimwishlist:item=2481758391&perks=2946784966,3592538738
 
-// Лучший путь
-//notes: PVE@10/10 (Жизнеобеспечение - Любой перк кроме Гармонии)
-dimwishlist:item=548958835
+// Боевик BxR-55
+//notes: PVE@10/10 (Диверсант, Раскаленность)
+dimwishlist:item=2708806099&perks=3523296417,4293542123
+
+//notes: PVE@7/10 
+dimwishlist:item=2708806099&perks=1428297954,4293542123
+dimwishlist:item=2708806099&perks=1168162263,4293542123
+dimwishlist:item=2708806099&perks=454085387,3523296417
+dimwishlist:item=2708806099&perks=1015611457,3523296417
+
+//notes: PVE@4/10 
+dimwishlist:item=2708806099&perks=454085387,1428297954
+dimwishlist:item=2708806099&perks=454085387,1168162263
+dimwishlist:item=2708806099&perks=1015611457,1428297954
+dimwishlist:item=2708806099&perks=1015611457,1168162263
+
+//notes: PVP@10/10 (Любой перк кроме Изгой - Киллерский магазин)
+dimwishlist:item=2708806099
+
+// Персей-Д
+//notes: PVE@10/10 (Надгробие, Быстрый удар)
+dimwishlist:item=1019000888&perks=124408337,247725512
+
+//notes: PVE@7/10 
+dimwishlist:item=1019000888&perks=124408337,3700496672
+dimwishlist:item=1019000888&perks=247725512,3038247973
+dimwishlist:item=1019000888&perks=247725512,1546637391
+
+//notes: PVE@4/10 
+dimwishlist:item=1019000888&perks=3038247973,3700496672
+dimwishlist:item=1019000888&perks=1546637391,3700496672
+
+//notes: PVP@10/10 (Вечное движение, Фугасный снаряд)
+dimwishlist:item=1019000888&perks=1428297954,3038247973
+
+//notes: PVP@7/10 
+dimwishlist:item=1019000888&perks=1428297954
+dimwishlist:item=1019000888&perks=3038247973
+
+// Пустой сосуд
+//notes: PVE@10/10 (Кобура с автоподзарядом, Диверсант)
+dimwishlist:item=4255586669&perks=3300816228,3523296417
+
+//notes: PVE@7/10 
+dimwishlist:item=4255586669&perks=2010801679,3523296417
+dimwishlist:item=4255586669&perks=2779035018,3523296417
+dimwishlist:item=4255586669&perks=3300816228,4082225868
+dimwishlist:item=4255586669&perks=1546637391,3300816228
+dimwishlist:item=4255586669&perks=960810156,3300816228
+
+//notes: PVE@4/10 
+dimwishlist:item=4255586669&perks=2010801679,4082225868
+dimwishlist:item=4255586669&perks=2779035018,4082225868
+dimwishlist:item=4255586669&perks=1546637391,2010801679
+dimwishlist:item=4255586669&perks=1546637391,2779035018
+dimwishlist:item=4255586669&perks=960810156,2010801679
+dimwishlist:item=4255586669&perks=960810156,2779035018
+
+// Стук костей
+//notes: PVE@10/10 (Изгой, Полоса удач)
+dimwishlist:item=568515759&perks=1168162263,3425386926
+
+//notes: PVE@7/10 
+dimwishlist:item=568515759&perks=1168162263
+dimwishlist:item=568515759&perks=3425386926
+
+//notes: PVP@10/10 (Киллерский магазин, Полоса удач)
+dimwishlist:item=568515759&perks=1015611457,3425386926
+
+//notes: PVP@7/10 
+dimwishlist:item=568515759&perks=2846385770,3425386926
+dimwishlist:item=568515759&perks=1015611457,2213355989
+
+//notes: PVP@4/10 
+dimwishlist:item=568515759&perks=2213355989,2846385770
 
 // Время на исходе
 //notes: PVE@10/10 (Полоса удач, Переполнение)
@@ -589,6 +615,26 @@ dimwishlist:item=875848769&perks=1359896290,2726471870
 dimwishlist:item=875848769&perks=1570042021,2726471870
 dimwishlist:item=875848769&perks=2450788523,2726471870
 
+// Бессонница
+//notes: PVE@10/10 (Стрижающее оружие, Кобура с автоподзарядом)
+dimwishlist:item=3740842661&perks=1546637391,3300816228
+
+//notes: PVE@7/10 
+dimwishlist:item=3740842661&perks=1546637391,2869569095
+dimwishlist:item=3740842661&perks=1546637391,3977735242
+dimwishlist:item=3740842661&perks=3300816228,3523296417
+
+//notes: PVE@4/10 
+dimwishlist:item=3740842661&perks=2869569095,3523296417
+dimwishlist:item=3740842661&perks=3523296417,3977735242
+
+//notes: PVP@10/10 (Цепная реакция, Модуль слежения)
+dimwishlist:item=3740842661&perks=2396489472,3977735242
+
+//notes: PVP@7/10 
+dimwishlist:item=3740842661&perks=3977735242
+dimwishlist:item=3740842661&perks=2396489472
+
 // Эпитафия выжившего
 //notes: PVE@7/10, PVP@7/10 
 dimwishlist:item=310708513&perks=247725512,2458213969
@@ -617,24 +663,25 @@ dimwishlist:item=310708513&perks=1015611457,2450788523
 dimwishlist:item=310708513&perks=1015611457,1570042021
 dimwishlist:item=310708513&perks=247725512,1015611457
 
-// Пустой сосуд
-//notes: PVE@10/10 (Кобура с автоподзарядом, Диверсант)
-dimwishlist:item=4255586669&perks=3300816228,3523296417
+// Лучший путь
+//notes: PVE@10/10 (Адаптивные боеприпасы - Любой перк кроме Сосредоточенная ярость)
+dimwishlist:item=548958835
+
+//notes: PVP@10/10 (Вечное движение, Идеальный треугольник)
+dimwishlist:item=548958835&perks=1428297954,2610012052
+
+//notes: PVP@7/10 
+dimwishlist:item=548958835&perks=1428297954
+dimwishlist:item=548958835&perks=2610012052
+
+// Под кожей
+//notes: PVE@10/10 (Реакция лучника, Успешный прогрев)
+dimwishlist:item=232928045&perks=201365942,2652708987
 
 //notes: PVE@7/10 
-dimwishlist:item=4255586669&perks=2010801679,3523296417
-dimwishlist:item=4255586669&perks=2779035018,3523296417
-dimwishlist:item=4255586669&perks=3300816228,4082225868
-dimwishlist:item=4255586669&perks=1546637391,3300816228
-dimwishlist:item=4255586669&perks=960810156,3300816228
-
-//notes: PVE@4/10 
-dimwishlist:item=4255586669&perks=2010801679,4082225868
-dimwishlist:item=4255586669&perks=2779035018,4082225868
-dimwishlist:item=4255586669&perks=1546637391,2010801679
-dimwishlist:item=4255586669&perks=1546637391,2779035018
-dimwishlist:item=4255586669&perks=960810156,2010801679
-dimwishlist:item=4255586669&perks=960810156,2779035018
+dimwishlist:item=232928045&perks=201365942,3365897133
+dimwishlist:item=232928045&perks=201365942,1048183818
+dimwishlist:item=232928045&perks=201365942,2848615171
 
 // Рангильд-Д
 //notes: PVE@10/10 (Двойной удар, Кобура с автоподзарядом)
@@ -650,53 +697,6 @@ dimwishlist:item=4225322581&perks=1428297954,3511092054
 //notes: PVP@7/10 
 dimwishlist:item=4225322581&perks=1428297954
 dimwishlist:item=4225322581&perks=3511092054
-
-// Под кожей
-//notes: PVE@10/10 (Реакция лучника, Успешный прогрев)
-dimwishlist:item=232928045&perks=201365942,2652708987
-
-//notes: PVE@7/10 
-dimwishlist:item=232928045&perks=201365942,3365897133
-dimwishlist:item=232928045&perks=201365942,1048183818
-dimwishlist:item=232928045&perks=201365942,2848615171
-
-// Бессонница
-//notes: PVE@10/10 (Стрижающее оружие, Кобура с автоподзарядом)
-dimwishlist:item=3740842661&perks=1546637391,3300816228
-
-//notes: PVE@7/10 
-dimwishlist:item=3740842661&perks=1546637391,2869569095
-dimwishlist:item=3740842661&perks=1546637391,3977735242
-dimwishlist:item=3740842661&perks=3300816228,3523296417
-
-//notes: PVE@4/10 
-dimwishlist:item=3740842661&perks=2869569095,3523296417
-dimwishlist:item=3740842661&perks=3523296417,3977735242
-
-//notes: PVP@10/10 (Цепная реакция, Модуль слежения)
-dimwishlist:item=3740842661&perks=2396489472,3977735242
-
-//notes: PVP@7/10 
-dimwishlist:item=3740842661&perks=3977735242
-dimwishlist:item=3740842661&perks=2396489472
-
-// Стук костей
-//notes: PVE@10/10 (Изгой, Полоса удач)
-dimwishlist:item=568515759&perks=1168162263,3425386926
-
-//notes: PVE@7/10 
-dimwishlist:item=568515759&perks=1168162263
-dimwishlist:item=568515759&perks=3425386926
-
-//notes: PVP@10/10 (Киллерский магазин, Полоса удач)
-dimwishlist:item=568515759&perks=1015611457,3425386926
-
-//notes: PVP@7/10 
-dimwishlist:item=568515759&perks=2846385770,3425386926
-dimwishlist:item=568515759&perks=1015611457,2213355989
-
-//notes: PVP@4/10 
-dimwishlist:item=568515759&perks=2213355989,2846385770
 
 // Внезапная смерть
 //notes: PVE@10/10 (Двойной удар, Тактическая подготовка)
@@ -717,16 +717,23 @@ dimwishlist:item=2855157553&perks=957782887,4071163871
 dimwishlist:item=2855157553&perks=957782887,3161816588
 dimwishlist:item=2855157553&perks=957782887,3436462433
 
-// Полуправда
-//notes: PVE@10/10 (Любой перк - Любой перк кроме Гармонии)
-dimwishlist:item=3257091166
+// Перевоплощение
+//notes: PVE@10/10, PVP@10/10 
+dimwishlist:item=3799980700&perks=1015611457,3425386926
 
-//notes: PVP@10/10 (Резвый клинок, Молотьба)
-dimwishlist:item=3257091166&perks=2077819806,2726471870
+//notes: PVE@7/10 
+dimwishlist:item=3799980700&perks=3425386926
+dimwishlist:item=3799980700&perks=1015611457
 
 //notes: PVP@7/10 
-dimwishlist:item=3257091166&perks=2726471870
-dimwishlist:item=3257091166&perks=2077819806
+dimwishlist:item=3799980700&perks=588594999,3425386926
+
+// Все на выход
+//notes: PVE@10/10 (Переполнение, Рубака)
+dimwishlist:item=378498222&perks=3643424744,4082225868
+
+//notes: PVE@7/10 
+dimwishlist:item=378498222&perks=3643424744,4104185692
 
 // Слуга народа
 //notes: PVE@10/10, PVP@10/10 
@@ -771,55 +778,6 @@ dimwishlist:item=1107446438&perks=1570042021,2726471870
 dimwishlist:item=1107446438&perks=2726471870,2946784966
 dimwishlist:item=1107446438&perks=2450788523,2726471870
 
-// Скорбный куплет
-//notes: PVE@10/10 (Изгой, Полоса удач)
-dimwishlist:item=2496875173&perks=1168162263,3425386926
-
-//notes: PVE@7/10 
-dimwishlist:item=2496875173&perks=2779035018,3425386926
-dimwishlist:item=2496875173&perks=1820235745,3425386926
-dimwishlist:item=2496875173&perks=1168162263,2458213969
-dimwishlist:item=2496875173&perks=1168162263,4049631843
-dimwishlist:item=2496875173&perks=1168162263,4104185692
-
-//notes: PVE@4/10 
-dimwishlist:item=2496875173&perks=2458213969,2779035018
-dimwishlist:item=2496875173&perks=1820235745,2458213969
-dimwishlist:item=2496875173&perks=2779035018,4049631843
-dimwishlist:item=2496875173&perks=1820235745,4049631843
-dimwishlist:item=2496875173&perks=2779035018,4104185692
-dimwishlist:item=2496875173&perks=1820235745,4104185692
-
-//notes: PVP@10/10 (Компенсатор раскачки, Магазин для множественных убийств)
-dimwishlist:item=2496875173&perks=1359896290,2458213969
-
-//notes: PVP@7/10 
-dimwishlist:item=2496875173&perks=1359896290
-dimwishlist:item=2496875173&perks=2458213969
-
-// Все на выход
-//notes: PVE@10/10 (Переполнение, Рубака)
-dimwishlist:item=378498222&perks=3643424744,4082225868
-
-//notes: PVE@7/10 
-dimwishlist:item=378498222&perks=3643424744,4104185692
-
-// Взрывной темперамент
-//notes: PVE@10/10 (Идеальный треугольник, Кобура с автоподзарядом)
-dimwishlist:item=4096943616&perks=2610012052,3300816228
-
-//notes: PVE@7/10 
-dimwishlist:item=4096943616&perks=2610012052,2869569095
-dimwishlist:item=4096943616&perks=1583705720,2610012052
-dimwishlist:item=4096943616&perks=3300816228,4104185692
-dimwishlist:item=4096943616&perks=3300816228,4049631843
-
-//notes: PVE@4/10 
-dimwishlist:item=4096943616&perks=2869569095,4104185692
-dimwishlist:item=4096943616&perks=1583705720,4104185692
-dimwishlist:item=4096943616&perks=2869569095,4049631843
-dimwishlist:item=4096943616&perks=1583705720,4049631843
-
 // Тигриная ярость
 //notes: PVE@10/10, PVP@4/10 
 dimwishlist:item=640114618&perks=3643424744,4082225868
@@ -847,6 +805,62 @@ dimwishlist:item=640114618&perks=3436462433,4082225868
 //notes: PVP@4/10 
 dimwishlist:item=640114618&perks=2846385770,3643424744
 
+// Быстрый вердикт
+//notes: PVP@10/10 (Дальномер, Излишки)
+dimwishlist:item=1626503676&perks=2846385770,3436462433
+
+//notes: PVP@7/10 
+dimwishlist:item=1626503676&perks=1015611457,3436462433
+
+// Полуправда
+//notes: PVE@10/10 (Любой перк кроме Неутомимый клинок - Резвый клинок)
+dimwishlist:item=3257091166
+
+//notes: PVP@10/10 (Любой перк - Резвый клинок)
+dimwishlist:item=3257091166
+
+// Взрывной темперамент
+//notes: PVE@10/10 (Идеальный треугольник, Кобура с автоподзарядом)
+dimwishlist:item=4096943616&perks=2610012052,3300816228
+
+//notes: PVE@7/10 
+dimwishlist:item=4096943616&perks=2610012052,2869569095
+dimwishlist:item=4096943616&perks=1583705720,2610012052
+dimwishlist:item=4096943616&perks=3300816228,4104185692
+dimwishlist:item=4096943616&perks=3300816228,4049631843
+
+//notes: PVE@4/10 
+dimwishlist:item=4096943616&perks=2869569095,4104185692
+dimwishlist:item=4096943616&perks=1583705720,4104185692
+dimwishlist:item=4096943616&perks=2869569095,4049631843
+dimwishlist:item=4096943616&perks=1583705720,4049631843
+
+// Скорбный куплет
+//notes: PVE@10/10 (Изгой, Полоса удач)
+dimwishlist:item=2496875173&perks=1168162263,3425386926
+
+//notes: PVE@7/10 
+dimwishlist:item=2496875173&perks=2779035018,3425386926
+dimwishlist:item=2496875173&perks=1820235745,3425386926
+dimwishlist:item=2496875173&perks=1168162263,2458213969
+dimwishlist:item=2496875173&perks=1168162263,4049631843
+dimwishlist:item=2496875173&perks=1168162263,4104185692
+
+//notes: PVE@4/10 
+dimwishlist:item=2496875173&perks=2458213969,2779035018
+dimwishlist:item=2496875173&perks=1820235745,2458213969
+dimwishlist:item=2496875173&perks=2779035018,4049631843
+dimwishlist:item=2496875173&perks=1820235745,4049631843
+dimwishlist:item=2496875173&perks=2779035018,4104185692
+dimwishlist:item=2496875173&perks=1820235745,4104185692
+
+//notes: PVP@10/10 (Компенсатор раскачки, Магазин для множественных убийств)
+dimwishlist:item=2496875173&perks=1359896290,2458213969
+
+//notes: PVP@7/10 
+dimwishlist:item=2496875173&perks=1359896290
+dimwishlist:item=2496875173&perks=2458213969
+
 // ПВ-5 "Снорри"
 //notes: PVE@10/10 (Одержимость перезарядкой, Заряженный залп)
 dimwishlist:item=4114929480&perks=671806388,1427256713
@@ -862,23 +876,19 @@ dimwishlist:item=4114929480&perks=280464955,2213355989
 dimwishlist:item=4114929480&perks=280464955
 dimwishlist:item=4114929480&perks=2213355989
 
-// Перевоплощение
-//notes: PVE@10/10, PVP@10/10 
-dimwishlist:item=3799980700&perks=1015611457,3425386926
+// Техноведьмы
+//notes: PVE@10/10 (Киллерский магазин, Полоса удач)
+dimwishlist:item=4094657108&perks=1015611457,3425386926
 
 //notes: PVE@7/10 
-dimwishlist:item=3799980700&perks=3425386926
-dimwishlist:item=3799980700&perks=1015611457
+dimwishlist:item=4094657108&perks=1015611457
+dimwishlist:item=4094657108&perks=3425386926
+
+//notes: PVP@10/10 (Под давлением, Дальномер)
+dimwishlist:item=4094657108&perks=1645158859,2846385770
 
 //notes: PVP@7/10 
-dimwishlist:item=3799980700&perks=588594999,3425386926
-
-// Быстрый вердикт
-//notes: PVP@10/10 (Дальномер, Излишки)
-dimwishlist:item=1626503676&perks=2846385770,3436462433
-
-//notes: PVP@7/10 
-dimwishlist:item=1626503676&perks=1015611457,3436462433
+dimwishlist:item=4094657108&perks=1645158859,2213355989
 
 // Фортиссимо-11
 //notes: PVE@10/10 (Стрижающее оружие, Диверсант)
@@ -905,48 +915,6 @@ dimwishlist:item=2821430069&perks=588594999,1428297954
 dimwishlist:item=2821430069&perks=588594999,3436462433
 dimwishlist:item=2821430069&perks=1428297954,3511092054
 dimwishlist:item=2821430069&perks=3436462433,3511092054
-
-// Зеркальный кризис
-//notes: PVE@10/10 (Жажда адреналина, Диверсант)
-dimwishlist:item=2888266564&perks=11612903,3523296417
-
-//notes: PVE@7/10 
-dimwishlist:item=2888266564&perks=11612903,3700496672
-dimwishlist:item=2888266564&perks=11612903,247725512
-dimwishlist:item=2888266564&perks=3523296417,4049631843
-dimwishlist:item=2888266564&perks=1048183818,3523296417
-
-//notes: PVE@4/10 
-dimwishlist:item=2888266564&perks=3700496672,4049631843
-dimwishlist:item=2888266564&perks=247725512,4049631843
-dimwishlist:item=2888266564&perks=1048183818,3700496672
-dimwishlist:item=2888266564&perks=247725512,1048183818
-
-//notes: PVP@10/10 (Движущаяся цель, Дальномер)
-dimwishlist:item=2888266564&perks=588594999,2846385770
-
-//notes: PVP@7/10 
-dimwishlist:item=2888266564&perks=247725512,2846385770
-dimwishlist:item=2888266564&perks=1570042021,2846385770
-dimwishlist:item=2888266564&perks=588594999,1015611457
-dimwishlist:item=2888266564&perks=588594999,3511092054
-
-//notes: PVP@4/10 
-dimwishlist:item=2888266564&perks=247725512,1015611457
-dimwishlist:item=2888266564&perks=1015611457,1570042021
-dimwishlist:item=2888266564&perks=247725512,3511092054
-dimwishlist:item=2888266564&perks=1570042021,3511092054
-
-// Вторая половина
-//notes: PVE@10/10 (Любой перк кроме Переноса энергии - Любой перк)
-dimwishlist:item=3257091167
-
-//notes: PVP@10/10 (Стрижающее оружие, Резвый клинок)
-dimwishlist:item=3257091167&perks=1546637391,2077819806
-
-//notes: PVP@7/10 
-dimwishlist:item=3257091167&perks=2077819806
-dimwishlist:item=3257091167&perks=1546637391
 
 // Ирод-Си
 //notes: PVE@10/10 (Надгробие, Вечное движение)
@@ -979,10 +947,6 @@ dimwishlist:item=1788603939&perks=1570042021,1890422124
 dimwishlist:item=1788603939&perks=1428297954,3511092054
 dimwishlist:item=1788603939&perks=1570042021,3511092054
 
-// Повторяющийся удар
-//notes: PVE@10/10 (Тактическая подготовка - Любой перк кроме Пальца на спуске)
-dimwishlist:item=1572896086
-
 // Сумеречная клятва
 //notes: PVP@10/10 (Быстрый прицел, Концентрация)
 dimwishlist:item=3297863558&perks=957782887,2866798147
@@ -990,6 +954,66 @@ dimwishlist:item=3297863558&perks=957782887,2866798147
 //notes: PVP@7/10 
 dimwishlist:item=3297863558&perks=2866798147
 dimwishlist:item=3297863558&perks=957782887
+
+// Долгая прогулка
+//notes: PVE@10/10 (Линия огня, Обойма-сюрприз)
+dimwishlist:item=3326850591&perks=1771339417,2284787283
+
+//notes: PVE@7/10 
+dimwishlist:item=3326850591&perks=1771339417,3643424744
+dimwishlist:item=3326850591&perks=2284787283,4104185692
+
+//notes: PVE@4/10 
+dimwishlist:item=3326850591&perks=3643424744,4104185692
+
+//notes: PVP@10/10 (Быстрый прицел, Переполнение)
+dimwishlist:item=3326850591&perks=957782887,3643424744
+
+//notes: PVP@7/10 
+dimwishlist:item=3326850591&perks=3643424744
+dimwishlist:item=3326850591&perks=957782887
+
+// Вторая половина
+//notes: PVE@10/10 (Резвый клинок - Любой перк)
+dimwishlist:item=3257091167
+
+//notes: PVP@10/10 (Стрижающее оружие, Резвый клинок)
+dimwishlist:item=3257091167&perks=1546637391,2077819806
+
+//notes: PVP@7/10 
+dimwishlist:item=3257091167&perks=2077819806
+dimwishlist:item=3257091167&perks=1546637391
+
+// Зеркальный кризис
+//notes: PVE@10/10 (Жажда адреналина, Диверсант)
+dimwishlist:item=2888266564&perks=11612903,3523296417
+
+//notes: PVE@7/10 
+dimwishlist:item=2888266564&perks=11612903,3700496672
+dimwishlist:item=2888266564&perks=11612903,247725512
+dimwishlist:item=2888266564&perks=3523296417,4049631843
+dimwishlist:item=2888266564&perks=1048183818,3523296417
+
+//notes: PVE@4/10 
+dimwishlist:item=2888266564&perks=3700496672,4049631843
+dimwishlist:item=2888266564&perks=247725512,4049631843
+dimwishlist:item=2888266564&perks=1048183818,3700496672
+dimwishlist:item=2888266564&perks=247725512,1048183818
+
+//notes: PVP@10/10 (Движущаяся цель, Дальномер)
+dimwishlist:item=2888266564&perks=588594999,2846385770
+
+//notes: PVP@7/10 
+dimwishlist:item=2888266564&perks=247725512,2846385770
+dimwishlist:item=2888266564&perks=1570042021,2846385770
+dimwishlist:item=2888266564&perks=588594999,1015611457
+dimwishlist:item=2888266564&perks=588594999,3511092054
+
+//notes: PVP@4/10 
+dimwishlist:item=2888266564&perks=247725512,1015611457
+dimwishlist:item=2888266564&perks=1015611457,1570042021
+dimwishlist:item=2888266564&perks=247725512,3511092054
+dimwishlist:item=2888266564&perks=1570042021,3511092054
 
 // Кантата-57
 //notes: PVE@10/10 (Быстрый удар, Задержка взрыва)
@@ -1011,37 +1035,20 @@ dimwishlist:item=372697604&perks=588594999,699525795
 dimwishlist:item=372697604&perks=247725512,588594999
 dimwishlist:item=372697604&perks=588594999,1570042021
 
-// Техноведьмы
-//notes: PVE@10/10 (Киллерский магазин, Полоса удач)
-dimwishlist:item=4094657108&perks=1015611457,3425386926
+// Повторяющийся удар
+//notes: PVE@10/10 (Тактическая подготовка - Любой перк кроме Пальца на спуске)
+dimwishlist:item=1572896086
 
-//notes: PVE@7/10 
-dimwishlist:item=4094657108&perks=1015611457
-dimwishlist:item=4094657108&perks=3425386926
+// Тирания небес
+//notes: PVE@7/10, PVP@10/10 
+dimwishlist:item=2721249463&perks=201365942,3365897133
 
-//notes: PVP@10/10 (Под давлением, Дальномер)
-dimwishlist:item=4094657108&perks=1645158859,2846385770
-
-//notes: PVP@7/10 
-dimwishlist:item=4094657108&perks=1645158859,2213355989
-
-// Долгая прогулка
-//notes: PVE@10/10 (Линия огня, Обойма-сюрприз)
-dimwishlist:item=3326850591&perks=1771339417,2284787283
-
-//notes: PVE@7/10 
-dimwishlist:item=3326850591&perks=1771339417,3643424744
-dimwishlist:item=3326850591&perks=2284787283,4104185692
-
-//notes: PVE@4/10 
-dimwishlist:item=3326850591&perks=3643424744,4104185692
-
-//notes: PVP@10/10 (Быстрый прицел, Переполнение)
-dimwishlist:item=3326850591&perks=957782887,3643424744
+//notes: PVE@10/10 (Реакция лучника, Полоса удач)
+dimwishlist:item=2721249463&perks=201365942,3425386926
 
 //notes: PVP@7/10 
-dimwishlist:item=3326850591&perks=3643424744
-dimwishlist:item=3326850591&perks=957782887
+dimwishlist:item=2721249463&perks=201365942
+dimwishlist:item=2721249463&perks=3365897133
 
 // Мощный свист
 //notes: PVE@10/10 (Реакция лучника, Раскаленность)
@@ -1061,6 +1068,37 @@ dimwishlist:item=2591241074&perks=11612903,201365942
 
 //notes: PVP@4/10 
 dimwishlist:item=2591241074&perks=11612903,706527188
+
+// Мертвый груз
+// Приказ о возвращении
+// Эйаслуна
+//notes: PVE@10/10 (Надгробие, Неумолимость)
+dimwishlist:item=235827225&perks=124408337,3108830275
+
+//notes: PVE@7/10 
+dimwishlist:item=235827225&perks=124408337,1168162263
+dimwishlist:item=235827225&perks=3108830275,3523296417
+
+//notes: PVE@4/10 
+dimwishlist:item=235827225&perks=1168162263,3523296417
+
+//notes: PVP@10/10 (Дальномер - Любой перк)
+dimwishlist:item=235827225
+
+// Загадка
+//notes: PVE@10/10, PVP@10/10 
+dimwishlist:item=2595497736&perks=951095735,2224838837
+
+//notes: PVE@7/10 
+dimwishlist:item=2595497736&perks=1631667848,2224838837
+dimwishlist:item=2595497736&perks=951095735,4104185692
+
+//notes: PVE@4/10 
+dimwishlist:item=2595497736&perks=1631667848,4104185692
+
+//notes: PVP@7/10 
+dimwishlist:item=2595497736&perks=951095735
+dimwishlist:item=2595497736&perks=2224838837
 
 // Разрывное течение
 //notes: PVE@4/10, PVP@7/10 
@@ -1093,23 +1131,6 @@ dimwishlist:item=2715240478&perks=1570042021,2652708987
 dimwishlist:item=2715240478&perks=1428297954,2726471870
 dimwishlist:item=2715240478&perks=1570042021,2726471870
 
-// Боязнь огня
-// Приказ о возвращении
-// Загадка
-//notes: PVE@10/10, PVP@10/10 
-dimwishlist:item=2595497736&perks=951095735,2224838837
-
-//notes: PVE@7/10 
-dimwishlist:item=2595497736&perks=1631667848,2224838837
-dimwishlist:item=2595497736&perks=951095735,4104185692
-
-//notes: PVE@4/10 
-dimwishlist:item=2595497736&perks=1631667848,4104185692
-
-//notes: PVP@7/10 
-dimwishlist:item=2595497736&perks=951095735
-dimwishlist:item=2595497736&perks=2224838837
-
 // ИВ6 "Огма"
 //notes: PVE@10/10, PVP@7/10 
 dimwishlist:item=2342054803&perks=11612903,3523296417
@@ -1137,120 +1158,7 @@ dimwishlist:item=2342054803&perks=11612903,1428297954
 //notes: PVP@7/10 
 dimwishlist:item=2342054803&perks=1428297954,3592538738
 
-// Мертвый груз
-// Тирания небес
-//notes: PVE@7/10, PVP@10/10 
-dimwishlist:item=2721249463&perks=201365942,3365897133
-
-//notes: PVE@10/10 (Реакция лучника, Полоса удач)
-dimwishlist:item=2721249463&perks=201365942,3425386926
-
-//notes: PVP@7/10 
-dimwishlist:item=2721249463&perks=201365942
-dimwishlist:item=2721249463&perks=3365897133
-
-// Эйаслуна
-//notes: PVE@10/10 (Надгробие, Неумолимость)
-dimwishlist:item=235827225&perks=124408337,3108830275
-
-//notes: PVE@7/10 
-dimwishlist:item=235827225&perks=124408337,1168162263
-dimwishlist:item=235827225&perks=3108830275,3523296417
-
-//notes: PVE@4/10 
-dimwishlist:item=235827225&perks=1168162263,3523296417
-
-//notes: PVP@10/10 (Дальномер - Любой перк)
-dimwishlist:item=235827225
-
-// БЛОК ОДИН.1
-//notes: PVE@10/10 (Одержимость перезарядкой, Заряженный залп)
-dimwishlist:item=1289000550&perks=671806388,1427256713
-dimwishlist:item=534775659&perks=671806388,1427256713
-
-//notes: PVE@7/10 
-dimwishlist:item=1289000550&perks=1048183818,1427256713
-dimwishlist:item=1289000550&perks=1427256713,2779035018
-dimwishlist:item=1289000550&perks=671806388,2652708987
-dimwishlist:item=534775659&perks=1048183818,1427256713
-dimwishlist:item=534775659&perks=1427256713,2779035018
-dimwishlist:item=534775659&perks=671806388,2652708987
-
-//notes: PVE@4/10 
-dimwishlist:item=1289000550&perks=1048183818,2652708987
-dimwishlist:item=1289000550&perks=2652708987,2779035018
-dimwishlist:item=534775659&perks=1048183818,2652708987
-dimwishlist:item=534775659&perks=2652708987,2779035018
-
-//notes: PVP@10/10 (Под давлением, Успешный прогрев)
-dimwishlist:item=1289000550&perks=1645158859,2652708987
-dimwishlist:item=534775659&perks=1645158859,2652708987
-
-//notes: PVP@7/10 
-dimwishlist:item=1289000550&perks=1570042021,2652708987
-dimwishlist:item=1289000550&perks=1645158859,1754714824
-dimwishlist:item=534775659&perks=1570042021,2652708987
-dimwishlist:item=534775659&perks=1645158859,1754714824
-
-//notes: PVP@4/10 
-dimwishlist:item=1289000550&perks=1570042021,1754714824
-dimwishlist:item=534775659&perks=1570042021,1754714824
-
-// Уроженец Рииса
-//notes: PVE@10/10 (Стрижающее оружие, Излишки)
-dimwishlist:item=108221785&perks=1546637391,3436462433
-
-//notes: PVE@7/10 
-dimwishlist:item=108221785&perks=1546637391,2039302152
-dimwishlist:item=108221785&perks=3436462433,4082225868
-
-//notes: PVE@4/10 
-dimwishlist:item=108221785&perks=2039302152,4082225868
-
-//notes: PVP@10/10 (Железная длань, Быстрое извлечение)
-dimwishlist:item=108221785&perks=591790007,706527188
-
-//notes: PVP@7/10 
-dimwishlist:item=108221785&perks=509074078,591790007
-dimwishlist:item=108221785&perks=706527188,4082225868
-
-//notes: PVP@4/10 
-dimwishlist:item=108221785&perks=509074078,4082225868
-
-// Слезы раскаяния
-//notes: PVE@10/10, PVP@10/10 
-dimwishlist:item=1366394399&perks=1428297954,3038247973
-
-//notes: PVE@7/10 
-dimwishlist:item=1366394399&perks=3038247973,3400784728
-dimwishlist:item=1366394399&perks=1354429876,1428297954
-dimwishlist:item=1366394399&perks=1428297954,2896038713
-
-//notes: PVE@4/10 
-dimwishlist:item=1366394399&perks=1354429876,3400784728
-dimwishlist:item=1366394399&perks=2896038713,3400784728
-
-//notes: PVP@7/10 
-dimwishlist:item=1366394399&perks=1428297954
-dimwishlist:item=1366394399&perks=3038247973
-
-// Редбэк-5си
-//notes: PVE@10/10 (Вечное движение, Полоса удач)
-dimwishlist:item=1687353095&perks=1428297954,3425386926
-
-//notes: PVE@7/10 
-dimwishlist:item=1687353095&perks=1583705720,3425386926
-dimwishlist:item=1687353095&perks=1820235745,3425386926
-dimwishlist:item=1687353095&perks=1428297954,4049631843
-dimwishlist:item=1687353095&perks=1428297954,3708227201
-
-//notes: PVE@4/10 
-dimwishlist:item=1687353095&perks=1583705720,4049631843
-dimwishlist:item=1687353095&perks=1820235745,4049631843
-dimwishlist:item=1687353095&perks=1583705720,3708227201
-dimwishlist:item=1687353095&perks=1820235745,3708227201
-
-// Отступник
+// Боязнь огня
 // Главный хищник
 //notes: PVE@7/10, PVP@7/10 
 dimwishlist:item=2545083870&perks=3977735242
@@ -1267,6 +1175,77 @@ dimwishlist:item=2545083870&perks=957782887,3977735242
 //notes: PVP@7/10 
 dimwishlist:item=2545083870&perks=957782887
 
+// Чистая поэзия
+//notes: PVE@10/10 (Изгой, Полоса удач)
+dimwishlist:item=2671639706&perks=1168162263,3425386926
+
+//notes: PVE@7/10 
+dimwishlist:item=2671639706&perks=1428297954,3425386926
+dimwishlist:item=2671639706&perks=1631667848,3425386926
+dimwishlist:item=2671639706&perks=1168162263,4082225868
+dimwishlist:item=2671639706&perks=1168162263,2458213969
+
+//notes: PVE@4/10 
+dimwishlist:item=2671639706&perks=1428297954,4082225868
+dimwishlist:item=2671639706&perks=1631667848,4082225868
+dimwishlist:item=2671639706&perks=1428297954,2458213969
+dimwishlist:item=2671639706&perks=1631667848,2458213969
+
+//notes: PVP@10/10 (Вечное движение, Стихийный конденсатор)
+dimwishlist:item=2671639706&perks=1428297954,3511092054
+
+//notes: PVP@7/10 
+dimwishlist:item=2671639706&perks=2946784966,3511092054
+dimwishlist:item=2671639706&perks=2621346526,3511092054
+dimwishlist:item=2671639706&perks=3511092054,3722653512
+dimwishlist:item=2671639706&perks=438098033,1428297954
+dimwishlist:item=2671639706&perks=47981717,1428297954
+dimwishlist:item=2671639706&perks=699525795,1428297954
+
+//notes: PVP@4/10 
+dimwishlist:item=2671639706&perks=438098033,2946784966
+dimwishlist:item=2671639706&perks=438098033,2621346526
+dimwishlist:item=2671639706&perks=438098033,3722653512
+dimwishlist:item=2671639706&perks=47981717,2946784966
+dimwishlist:item=2671639706&perks=47981717,2621346526
+dimwishlist:item=2671639706&perks=47981717,3722653512
+dimwishlist:item=2671639706&perks=699525795,2946784966
+dimwishlist:item=2671639706&perks=699525795,2621346526
+dimwishlist:item=2671639706&perks=699525795,3722653512
+
+// Былое
+//notes: PVE@7/10, PVP@10/10 
+dimwishlist:item=1141927949&perks=1428297954,2458213969
+
+//notes: PVE@10/10 (Вечное движение, Полоса удач)
+dimwishlist:item=1141927949&perks=1428297954,3425386926
+
+//notes: PVE@7/10 
+dimwishlist:item=1141927949&perks=1168162263,3425386926
+dimwishlist:item=1141927949&perks=2010801679,3425386926
+dimwishlist:item=1141927949&perks=1820235745,3425386926
+dimwishlist:item=1141927949&perks=1428297954,2610012052
+
+//notes: PVE@4/10 
+dimwishlist:item=1141927949&perks=1168162263,2458213969
+dimwishlist:item=1141927949&perks=2010801679,2458213969
+dimwishlist:item=1141927949&perks=1820235745,2458213969
+dimwishlist:item=1141927949&perks=1168162263,2610012052
+dimwishlist:item=1141927949&perks=2010801679,2610012052
+dimwishlist:item=1141927949&perks=1820235745,2610012052
+
+//notes: PVP@7/10 
+dimwishlist:item=1141927949&perks=1570042021,2458213969
+dimwishlist:item=1141927949&perks=2458213969,2946784966
+dimwishlist:item=1141927949&perks=509074078,2458213969
+dimwishlist:item=1141927949&perks=1428297954,3047969693
+
+//notes: PVP@4/10 
+dimwishlist:item=1141927949&perks=1570042021,3047969693
+dimwishlist:item=1141927949&perks=2946784966,3047969693
+dimwishlist:item=1141927949&perks=509074078,3047969693
+
+// Отступник
 // Матадор 64
 //notes: PVE@10/10 (Золотой свинец, Двойной удар)
 dimwishlist:item=2563012876&perks=1556840489,2679249093
@@ -1295,18 +1274,193 @@ dimwishlist:item=2563012876&perks=1428297954,2450788523
 dimwishlist:item=2563012876&perks=972757866,4082225868
 dimwishlist:item=2563012876&perks=1428297954,4082225868
 
-// Забияка
-//notes: PVE@10/10 (Любой перк кроме Ансамбля - Взрывной Свет)
-dimwishlist:item=4255171531
-dimwishlist:item=1866778462
-
-// Гром Архонта
-//notes: PVE@10/10 (Тактическая подготовка, Полоса удач)
-dimwishlist:item=1967303408&perks=2869569095,3425386926
+// За пределами
+//notes: PVE@10/10 (Жажда адреналина, Диверсант)
+dimwishlist:item=2988121501&perks=11612903,3523296417
 
 //notes: PVE@7/10 
-dimwishlist:item=1967303408&perks=2869569095
-dimwishlist:item=1967303408&perks=3425386926
+dimwishlist:item=2988121501&perks=11612903,1820235745
+dimwishlist:item=2988121501&perks=11612903,4071163871
+dimwishlist:item=2988121501&perks=2610012052,3523296417
+dimwishlist:item=2988121501&perks=3523296417,4082225868
+dimwishlist:item=2988121501&perks=3523296417,3708227201
+
+//notes: PVE@4/10 
+dimwishlist:item=2988121501&perks=1820235745,2610012052
+dimwishlist:item=2988121501&perks=2610012052,4071163871
+dimwishlist:item=2988121501&perks=1820235745,4082225868
+dimwishlist:item=2988121501&perks=4071163871,4082225868
+dimwishlist:item=2988121501&perks=1820235745,3708227201
+dimwishlist:item=2988121501&perks=3708227201,4071163871
+
+//notes: PVP@10/10 (Компенсатор раскачки, Дальномер)
+dimwishlist:item=2988121501&perks=1359896290,2846385770
+
+//notes: PVP@7/10 
+dimwishlist:item=2988121501&perks=588594999,2846385770
+dimwishlist:item=2988121501&perks=2450788523,2846385770
+dimwishlist:item=2988121501&perks=1570042021,2846385770
+dimwishlist:item=2988121501&perks=1015611457,1359896290
+dimwishlist:item=2988121501&perks=438098033,1359896290
+dimwishlist:item=2988121501&perks=1359896290,1890422124
+
+//notes: PVP@4/10 
+dimwishlist:item=2988121501&perks=588594999,1015611457
+dimwishlist:item=2988121501&perks=1015611457,2450788523
+dimwishlist:item=2988121501&perks=1015611457,1570042021
+dimwishlist:item=2988121501&perks=438098033,588594999
+dimwishlist:item=2988121501&perks=438098033,2450788523
+dimwishlist:item=2988121501&perks=438098033,1570042021
+dimwishlist:item=2988121501&perks=588594999,1890422124
+dimwishlist:item=2988121501&perks=1890422124,2450788523
+dimwishlist:item=2988121501&perks=1570042021,1890422124
+
+// Редбэк-5си
+//notes: PVE@10/10 (Вечное движение, Полоса удач)
+dimwishlist:item=1687353095&perks=1428297954,3425386926
+
+//notes: PVE@7/10 
+dimwishlist:item=1687353095&perks=1583705720,3425386926
+dimwishlist:item=1687353095&perks=1820235745,3425386926
+dimwishlist:item=1687353095&perks=1428297954,4049631843
+dimwishlist:item=1687353095&perks=1428297954,3708227201
+
+//notes: PVE@4/10 
+dimwishlist:item=1687353095&perks=1583705720,4049631843
+dimwishlist:item=1687353095&perks=1820235745,4049631843
+dimwishlist:item=1687353095&perks=1583705720,3708227201
+dimwishlist:item=1687353095&perks=1820235745,3708227201
+
+// Слезы раскаяния
+//notes: PVE@10/10, PVP@10/10 
+dimwishlist:item=1366394399&perks=1428297954,3038247973
+
+//notes: PVE@7/10 
+dimwishlist:item=1366394399&perks=3038247973,3400784728
+dimwishlist:item=1366394399&perks=1354429876,1428297954
+dimwishlist:item=1366394399&perks=1428297954,2896038713
+
+//notes: PVE@4/10 
+dimwishlist:item=1366394399&perks=1354429876,3400784728
+dimwishlist:item=1366394399&perks=2896038713,3400784728
+
+//notes: PVP@7/10 
+dimwishlist:item=1366394399&perks=1428297954
+dimwishlist:item=1366394399&perks=3038247973
+
+// Накопленное искупление
+//notes: PVE@10/10 (Реакция лучника, Быстрый удар)
+dimwishlist:item=4095896073&perks=201365942,247725512
+
+//notes: PVE@7/10 
+dimwishlist:item=4095896073&perks=201365942,3365897133
+dimwishlist:item=4095896073&perks=201365942,3425386926
+
+//notes: PVP@10/10 (Быстрое извлечение, Взрывной наконечник)
+dimwishlist:item=4095896073&perks=706527188,3365897133
+
+//notes: PVP@7/10 
+dimwishlist:item=4095896073&perks=706527188
+dimwishlist:item=4095896073&perks=3365897133
+
+// Замысел Покорителя разума
+//notes: PVE@10/10 (Двойной удар, Кобура с автоподзарядом)
+dimwishlist:item=1094005544&perks=2679249093,3300816228
+dimwishlist:item=912150785&perks=2679249093,3300816228
+
+//notes: PVE@7/10 
+dimwishlist:item=1094005544&perks=1556840489,2679249093
+dimwishlist:item=1094005544&perks=691659142,2679249093
+dimwishlist:item=1094005544&perks=3300816228,4082225868
+dimwishlist:item=1094005544&perks=3300816228,4293542123
+dimwishlist:item=912150785&perks=1556840489,2679249093
+dimwishlist:item=912150785&perks=691659142,2679249093
+dimwishlist:item=912150785&perks=3300816228,4082225868
+dimwishlist:item=912150785&perks=3300816228,4293542123
+
+//notes: PVE@4/10 
+dimwishlist:item=1094005544&perks=1556840489,4082225868
+dimwishlist:item=1094005544&perks=691659142,4082225868
+dimwishlist:item=1094005544&perks=1556840489,4293542123
+dimwishlist:item=1094005544&perks=691659142,4293542123
+dimwishlist:item=912150785&perks=1556840489,4082225868
+dimwishlist:item=912150785&perks=691659142,4082225868
+dimwishlist:item=912150785&perks=1556840489,4293542123
+dimwishlist:item=912150785&perks=691659142,4293542123
+
+//notes: PVP@10/10 (Твердые руки, Датчик угроз)
+dimwishlist:item=1094005544&perks=509074078,4071163871
+dimwishlist:item=912150785&perks=509074078,4071163871
+
+//notes: PVP@7/10 
+dimwishlist:item=1094005544&perks=509074078,957782887
+dimwishlist:item=1094005544&perks=2451262963,4071163871
+dimwishlist:item=1094005544&perks=4071163871,4082225868
+dimwishlist:item=1094005544&perks=2679249093,4071163871
+dimwishlist:item=912150785&perks=509074078,957782887
+dimwishlist:item=912150785&perks=2451262963,4071163871
+dimwishlist:item=912150785&perks=4071163871,4082225868
+dimwishlist:item=912150785&perks=2679249093,4071163871
+
+//notes: PVP@4/10 
+dimwishlist:item=1094005544&perks=957782887,2451262963
+dimwishlist:item=1094005544&perks=957782887,4082225868
+dimwishlist:item=1094005544&perks=957782887,2679249093
+dimwishlist:item=912150785&perks=957782887,2451262963
+dimwishlist:item=912150785&perks=957782887,4082225868
+dimwishlist:item=912150785&perks=957782887,2679249093
+
+// Кощунник
+//notes: PVE@10/10 (С четвертого раза получится, Рубака)
+dimwishlist:item=2782847179&perks=1354429876,4082225868
+
+//notes: PVE@7/10 
+dimwishlist:item=2782847179&perks=1354429876
+dimwishlist:item=2782847179&perks=4082225868
+
+//notes: PVP@10/10 (Быстрое извлечение, Рубака)
+dimwishlist:item=2782847179&perks=706527188,4082225868
+
+//notes: PVP@7/10 
+dimwishlist:item=2782847179&perks=1866048759,4082225868
+dimwishlist:item=2782847179&perks=47981717,706527188
+
+//notes: PVP@4/10 
+dimwishlist:item=2782847179&perks=47981717,1866048759
+
+// Взгляд на 1000 ярдов
+//notes: PVP@10/10 (Быстрое извлечение, Быстрый прицел)
+dimwishlist:item=4164201232&perks=706527188,957782887
+
+//notes: PVP@7/10 
+dimwishlist:item=4164201232&perks=957782887,1428297954
+dimwishlist:item=4164201232&perks=957782887,1570042021
+dimwishlist:item=4164201232&perks=588594999,706527188
+
+//notes: PVP@4/10 
+dimwishlist:item=4164201232&perks=588594999,1428297954
+dimwishlist:item=4164201232&perks=588594999,1570042021
+
+// Уроженец Рииса
+//notes: PVE@10/10 (Стрижающее оружие, Излишки)
+dimwishlist:item=108221785&perks=1546637391,3436462433
+
+//notes: PVE@7/10 
+dimwishlist:item=108221785&perks=1546637391,2039302152
+dimwishlist:item=108221785&perks=3436462433,4082225868
+
+//notes: PVE@4/10 
+dimwishlist:item=108221785&perks=2039302152,4082225868
+
+//notes: PVP@10/10 (Железная длань, Быстрое извлечение)
+dimwishlist:item=108221785&perks=591790007,706527188
+
+//notes: PVP@7/10 
+dimwishlist:item=108221785&perks=509074078,591790007
+dimwishlist:item=108221785&perks=706527188,4082225868
+
+//notes: PVP@4/10 
+dimwishlist:item=108221785&perks=509074078,4082225868
 
 // Фуга-55
 //notes: PVE@10/10 (С четвертого раза получится, Линия огня)
@@ -1339,51 +1493,166 @@ dimwishlist:item=254636484&perks=11612903,3523296417
 dimwishlist:item=254636484&perks=951095735
 dimwishlist:item=254636484&perks=2224838837
 
-// Кощунник
-//notes: PVE@10/10 (С четвертого раза получится, Рубака)
-dimwishlist:item=2782847179&perks=1354429876,4082225868
+// Награда изувера
+//notes: PVE@10/10 (Питающая ярость, Полоса удач)
+dimwishlist:item=2209003210&perks=2779035018,3425386926
 
 //notes: PVE@7/10 
-dimwishlist:item=2782847179&perks=1354429876
-dimwishlist:item=2782847179&perks=4082225868
+dimwishlist:item=2209003210&perks=2779035018
+dimwishlist:item=2209003210&perks=3425386926
 
-//notes: PVP@10/10 (Быстрое извлечение, Рубака)
-dimwishlist:item=2782847179&perks=706527188,4082225868
+//notes: PVP@10/10 (Под давлением, Усиленные резервы)
+dimwishlist:item=2209003210&perks=1645158859,2213355989
 
 //notes: PVP@7/10 
-dimwishlist:item=2782847179&perks=1866048759,4082225868
-dimwishlist:item=2782847179&perks=47981717,706527188
+dimwishlist:item=2209003210&perks=1645158859
+dimwishlist:item=2209003210&perks=2213355989
 
-//notes: PVP@4/10 
-dimwishlist:item=2782847179&perks=47981717,1866048759
-
-// Накопленное искупление
-//notes: PVE@10/10 (Реакция лучника, Быстрый удар)
-dimwishlist:item=4095896073&perks=201365942,247725512
+// Еретик
+//notes: PVE@10/10 (Усилитель импульса, На долгую память)
+dimwishlist:item=3067821200&perks=951095735,3927722942
 
 //notes: PVE@7/10 
-dimwishlist:item=4095896073&perks=201365942,3365897133
-dimwishlist:item=4095896073&perks=201365942,3425386926
+dimwishlist:item=3067821200&perks=2869569095,3927722942
+dimwishlist:item=3067821200&perks=951095735,1275731761
 
-//notes: PVP@10/10 (Быстрое извлечение, Взрывной наконечник)
-dimwishlist:item=4095896073&perks=706527188,3365897133
+//notes: PVE@4/10 
+dimwishlist:item=3067821200&perks=1275731761,2869569095
+
+// Дружинное право
+//notes: PVE@10/10 (Стремительный уход, Кобура с автоподзарядом)
+dimwishlist:item=40394833&perks=2039302152,3300816228
+dimwishlist:item=2378101424&perks=2039302152,3300816228
+
+//notes: PVE@7/10 
+dimwishlist:item=40394833&perks=2010801679,3300816228
+dimwishlist:item=40394833&perks=1631667848,3300816228
+dimwishlist:item=40394833&perks=1556840489,3300816228
+dimwishlist:item=40394833&perks=2039302152,4104185692
+dimwishlist:item=40394833&perks=2039302152,4082225868
+dimwishlist:item=40394833&perks=691659142,2039302152
+dimwishlist:item=2378101424&perks=2010801679,3300816228
+dimwishlist:item=2378101424&perks=1631667848,3300816228
+dimwishlist:item=2378101424&perks=1556840489,3300816228
+dimwishlist:item=2378101424&perks=2039302152,4104185692
+dimwishlist:item=2378101424&perks=2039302152,4082225868
+dimwishlist:item=2378101424&perks=691659142,2039302152
+
+//notes: PVE@4/10 
+dimwishlist:item=40394833&perks=2010801679,4104185692
+dimwishlist:item=40394833&perks=1631667848,4104185692
+dimwishlist:item=40394833&perks=1556840489,4104185692
+dimwishlist:item=40394833&perks=2010801679,4082225868
+dimwishlist:item=40394833&perks=1631667848,4082225868
+dimwishlist:item=40394833&perks=1556840489,4082225868
+dimwishlist:item=40394833&perks=691659142,2010801679
+dimwishlist:item=40394833&perks=691659142,1631667848
+dimwishlist:item=40394833&perks=691659142,1556840489
+dimwishlist:item=2378101424&perks=2010801679,4104185692
+dimwishlist:item=2378101424&perks=1631667848,4104185692
+dimwishlist:item=2378101424&perks=1556840489,4104185692
+dimwishlist:item=2378101424&perks=2010801679,4082225868
+dimwishlist:item=2378101424&perks=1631667848,4082225868
+dimwishlist:item=2378101424&perks=1556840489,4082225868
+dimwishlist:item=2378101424&perks=691659142,2010801679
+dimwishlist:item=2378101424&perks=691659142,1631667848
+dimwishlist:item=2378101424&perks=691659142,1556840489
+
+// Герой веков
+//notes: PVE@10/10 (Цепная реакция, Неумолимость)
+dimwishlist:item=2139640995&perks=2396489472,3108830275
+
+//notes: PVE@7/10 
+dimwishlist:item=2139640995&perks=3108830275
+dimwishlist:item=2139640995&perks=2396489472
+
+// Медвежий рев
+//notes: PVE@10/10 (Любой перк кроме Быстрого прицела - Стрижающее оружие)
+dimwishlist:item=4009352833
+
+//notes: PVP@10/10 (Цепная реакция, Модуль слежения)
+dimwishlist:item=4009352833&perks=2396489472,3977735242
 
 //notes: PVP@7/10 
-dimwishlist:item=4095896073&perks=706527188
-dimwishlist:item=4095896073&perks=3365897133
+dimwishlist:item=4009352833&perks=1275731761,3977735242
 
-// Взгляд на 1000 ярдов
-//notes: PVP@10/10 (Быстрое извлечение, Быстрый прицел)
-dimwishlist:item=4164201232&perks=706527188,957782887
+// Воронкопряд
+//notes: PVE@10/10 (Жажда адреналина, Вечное движение)
+dimwishlist:item=3341893443&perks=11612903,1428297954
+
+//notes: PVE@7/10 
+dimwishlist:item=3341893443&perks=11612903,1820235745
+dimwishlist:item=3341893443&perks=1428297954,4104185692
+
+//notes: PVE@4/10 
+dimwishlist:item=3341893443&perks=1820235745,4104185692
+
+//notes: PVP@10/10 (Вечное движение, Дальномер)
+dimwishlist:item=3341893443&perks=1428297954,2846385770
 
 //notes: PVP@7/10 
-dimwishlist:item=4164201232&perks=957782887,1428297954
-dimwishlist:item=4164201232&perks=957782887,1570042021
-dimwishlist:item=4164201232&perks=588594999,706527188
+dimwishlist:item=3341893443&perks=1428297954
+dimwishlist:item=3341893443&perks=2846385770
+
+// Без зазрения совести
+//notes: PVE@4/10, PVP@7/10 
+dimwishlist:item=1478986057&perks=2679249093,4071163871
+
+//notes: PVE@10/10 (Тактическая подготовка, Раскаленность)
+dimwishlist:item=1478986057&perks=2869569095,4293542123
+
+//notes: PVE@7/10 
+dimwishlist:item=1478986057&perks=4071163871,4293542123
+dimwishlist:item=1478986057&perks=2679249093,2869569095
+dimwishlist:item=1478986057&perks=1546637391,2869569095
+
+//notes: PVE@4/10 
+dimwishlist:item=1478986057&perks=1546637391,4071163871
+
+//notes: PVP@10/10 (Стихийный конденсатор, Датчик угроз)
+dimwishlist:item=1478986057&perks=3511092054,4071163871
+
+//notes: PVP@7/10 
+dimwishlist:item=1478986057&perks=509074078,3511092054
 
 //notes: PVP@4/10 
-dimwishlist:item=4164201232&perks=588594999,1428297954
-dimwishlist:item=4164201232&perks=588594999,1570042021
+dimwishlist:item=1478986057&perks=509074078,2679249093
+
+// Безрассудный оракул
+//notes: PVE@10/10 (Изгой, Рубака)
+dimwishlist:item=3385326721&perks=1168162263,4082225868
+
+//notes: PVE@7/10 
+dimwishlist:item=3385326721&perks=1168162263,3523296417
+
+//notes: PVP@10/10 (Киллерский магазин, Под давлением)
+dimwishlist:item=3385326721&perks=1015611457,1645158859
+
+//notes: PVP@7/10 
+dimwishlist:item=3385326721&perks=1645158859
+dimwishlist:item=3385326721&perks=1015611457
+
+// Предвестие
+//notes: PVE@10/10 (Питающая ярость, Полоса удач)
+dimwishlist:item=208088207&perks=2779035018,3425386926
+
+//notes: PVE@7/10 
+dimwishlist:item=208088207&perks=2726471870,2779035018
+
+//notes: PVP@10/10 (Убийственный вихрь, Полоса удач)
+dimwishlist:item=208088207&perks=2450788523,3425386926
+
+//notes: PVP@7/10 
+dimwishlist:item=208088207&perks=588594999,3425386926
+dimwishlist:item=208088207&perks=3425386926,3436462433
+dimwishlist:item=208088207&perks=460017080,2450788523
+dimwishlist:item=208088207&perks=706527188,2450788523
+
+//notes: PVP@4/10 
+dimwishlist:item=208088207&perks=460017080,588594999
+dimwishlist:item=208088207&perks=460017080,3436462433
+dimwishlist:item=208088207&perks=588594999,706527188
+dimwishlist:item=208088207&perks=706527188,3436462433
 
 // Служебный долг
 //notes: PVE@10/10, PVP@7/10 
@@ -1436,104 +1705,121 @@ dimwishlist:item=1135050595&perks=1359896290,2387244414
 dimwishlist:item=435216110&perks=2387244414,3425386926
 dimwishlist:item=1135050595&perks=2387244414,3425386926
 
-// Узы мира
-//notes: PVE@10/10 (Надгробие, Жизнеобеспечение)
-dimwishlist:item=829330711&perks=124408337,1820235745
+// Муки ужаса
+//notes: PVE@7/10, PVP@7/10 
+dimwishlist:item=2026087437&perks=3300816228,3523296417
+
+//notes: PVE@10/10 (Леденящее попадание, Кобура с автоподзарядом)
+dimwishlist:item=2026087437&perks=2978966579,3300816228
 
 //notes: PVE@7/10 
-dimwishlist:item=829330711&perks=124408337,1428297954
-dimwishlist:item=829330711&perks=1820235745,4082225868
-dimwishlist:item=829330711&perks=1820235745,3708227201
-dimwishlist:item=829330711&perks=1820235745,3523296417
+dimwishlist:item=2026087437&perks=2010801679,2978966579
+dimwishlist:item=2026087437&perks=2978966579,3108830275
+dimwishlist:item=2026087437&perks=1546637391,3300816228
 
 //notes: PVE@4/10 
-dimwishlist:item=829330711&perks=1428297954,4082225868
-dimwishlist:item=829330711&perks=1428297954,3708227201
-dimwishlist:item=829330711&perks=1428297954,3523296417
+dimwishlist:item=2026087437&perks=2010801679,3523296417
+dimwishlist:item=2026087437&perks=3108830275,3523296417
+dimwishlist:item=2026087437&perks=1546637391,2010801679
+dimwishlist:item=2026087437&perks=1546637391,3108830275
 
-//notes: PVP@10/10 (Гармония, Дальномер)
-dimwishlist:item=829330711&perks=438098033,2846385770
-
-//notes: PVP@7/10 
-dimwishlist:item=829330711&perks=2846385770,4082225868
-dimwishlist:item=829330711&perks=591790007,2846385770
-dimwishlist:item=829330711&perks=124408337,2846385770
-
-// Воронкопряд
-//notes: PVE@10/10 (Жажда адреналина, Вечное движение)
-dimwishlist:item=3341893443&perks=11612903,1428297954
-
-//notes: PVE@7/10 
-dimwishlist:item=3341893443&perks=11612903,1820235745
-dimwishlist:item=3341893443&perks=1428297954,4104185692
-
-//notes: PVE@4/10 
-dimwishlist:item=3341893443&perks=1820235745,4104185692
-
-//notes: PVP@10/10 (Вечное движение, Дальномер)
-dimwishlist:item=3341893443&perks=1428297954,2846385770
+//notes: PVP@10/10 (Твердые руки, Диверсант)
+dimwishlist:item=2026087437&perks=509074078,3523296417
 
 //notes: PVP@7/10 
-dimwishlist:item=3341893443&perks=1428297954
-dimwishlist:item=3341893443&perks=2846385770
-
-// Без зазрения совести
-//notes: PVE@4/10, PVP@7/10 
-dimwishlist:item=1478986057&perks=2679249093,4071163871
-
-//notes: PVE@10/10 (Тактическая подготовка, Раскаленность)
-dimwishlist:item=1478986057&perks=2869569095,4293542123
-
-//notes: PVE@7/10 
-dimwishlist:item=1478986057&perks=4071163871,4293542123
-dimwishlist:item=1478986057&perks=2679249093,2869569095
-dimwishlist:item=1478986057&perks=1546637391,2869569095
-
-//notes: PVE@4/10 
-dimwishlist:item=1478986057&perks=1546637391,4071163871
-
-//notes: PVP@10/10 (Стихийный конденсатор, Датчик угроз)
-dimwishlist:item=1478986057&perks=3511092054,4071163871
-
-//notes: PVP@7/10 
-dimwishlist:item=1478986057&perks=509074078,3511092054
+dimwishlist:item=2026087437&perks=438098033,509074078
 
 //notes: PVP@4/10 
-dimwishlist:item=1478986057&perks=509074078,2679249093
+dimwishlist:item=2026087437&perks=438098033,3300816228
 
-// Еретик
-//notes: PVE@10/10 (Усилитель импульса, На долгую память)
-dimwishlist:item=3067821200&perks=951095735,3927722942
-
-//notes: PVE@7/10 
-dimwishlist:item=3067821200&perks=2869569095,3927722942
-dimwishlist:item=3067821200&perks=951095735,1275731761
-
-//notes: PVE@4/10 
-dimwishlist:item=3067821200&perks=1275731761,2869569095
-
-// Награда изувера
-//notes: PVE@10/10 (Питающая ярость, Полоса удач)
-dimwishlist:item=2209003210&perks=2779035018,3425386926
+// Дружеская просьба
+//notes: PVE@10/10 (Быстрый удар, Магазин для множественных убийств)
+dimwishlist:item=1532276803&perks=247725512,2458213969
 
 //notes: PVE@7/10 
-dimwishlist:item=2209003210&perks=2779035018
-dimwishlist:item=2209003210&perks=3425386926
+dimwishlist:item=1532276803&perks=247725512
+dimwishlist:item=1532276803&perks=2458213969
 
-//notes: PVP@10/10 (Под давлением, Усиленные резервы)
-dimwishlist:item=2209003210&perks=1645158859,2213355989
+//notes: PVP@10/10 (Магазин для множественных убийств, Дальномер)
+dimwishlist:item=1532276803&perks=2458213969,2846385770
 
 //notes: PVP@7/10 
-dimwishlist:item=2209003210&perks=1645158859
-dimwishlist:item=2209003210&perks=2213355989
+dimwishlist:item=1532276803&perks=744594675,2458213969
+dimwishlist:item=1532276803&perks=2458213969,3722653512
+dimwishlist:item=1532276803&perks=591790007,2846385770
+dimwishlist:item=1532276803&perks=699525795,2846385770
 
-// Герой веков
-//notes: PVE@10/10 (Цепная реакция, Неумолимость)
-dimwishlist:item=2139640995&perks=2396489472,3108830275
+//notes: PVP@4/10 
+dimwishlist:item=1532276803&perks=591790007,744594675
+dimwishlist:item=1532276803&perks=591790007,3722653512
+dimwishlist:item=1532276803&perks=699525795,744594675
+dimwishlist:item=1532276803&perks=699525795,3722653512
+
+// ГМ5 "Тайфун"
+//notes: PVE@10/10 (Усилитель импульса, Взрывной Свет)
+dimwishlist:item=3568377122&perks=951095735,3194351027
 
 //notes: PVE@7/10 
-dimwishlist:item=2139640995&perks=3108830275
-dimwishlist:item=2139640995&perks=2396489472
+dimwishlist:item=3568377122&perks=951095735
+dimwishlist:item=3568377122&perks=3194351027
+
+//notes: PVP@10/10 (Усилитель импульса - Любой перк кроме Леденящего попадания)
+dimwishlist:item=3568377122
+
+// Неискреннее отрицание
+//notes: PVE@10/10 (Адаптивные боеприпасы - Любой перк кроме Смертельной серии)
+dimwishlist:item=2323544076
+
+//notes: PVP@10/10 (Смертельная серия, Дальномер)
+dimwishlist:item=2323544076&perks=557221067,2846385770
+
+//notes: PVP@7/10 
+dimwishlist:item=2323544076&perks=2846385770,4082225868
+
+// Пророк Страшного суда
+//notes: PVE@7/10, PVP@7/10 
+dimwishlist:item=4020742303&perks=2117683199
+
+//notes: PVE@10/10 (Система автоспуска, Двойной удар)
+dimwishlist:item=4020742303&perks=2117683199,2679249093
+
+//notes: PVE@7/10 
+dimwishlist:item=4020742303&perks=2679249093
+
+//notes: PVP@10/10 (Первый выстрел, Система автоспуска)
+dimwishlist:item=4020742303&perks=47981717,2117683199
+
+//notes: PVP@7/10 
+dimwishlist:item=4020742303&perks=47981717
+
+// Колыбельный рок
+//notes: PVE@4/10, PVP@4/10 
+dimwishlist:item=3924212056&perks=3038247973,3436462433
+
+//notes: PVE@10/10 (Жажда адреналина, Жизнеобеспечение)
+dimwishlist:item=3924212056&perks=11612903,1820235745
+
+//notes: PVE@7/10 
+dimwishlist:item=3924212056&perks=11612903,3436462433
+dimwishlist:item=3924212056&perks=1820235745,4104185692
+dimwishlist:item=3924212056&perks=1820235745,3038247973
+
+//notes: PVE@4/10 
+dimwishlist:item=3924212056&perks=3436462433,4104185692
+
+//notes: PVP@10/10 (Киллерский магазин, Разогрев)
+dimwishlist:item=3924212056&perks=1015611457,1570042021
+
+//notes: PVP@7/10 
+dimwishlist:item=3924212056&perks=1015611457,3436462433
+dimwishlist:item=3924212056&perks=1015611457,3161816588
+dimwishlist:item=3924212056&perks=1570042021,3038247973
+dimwishlist:item=3924212056&perks=1570042021,3592538738
+
+//notes: PVP@4/10 
+dimwishlist:item=3924212056&perks=3038247973,3161816588
+dimwishlist:item=3924212056&perks=3436462433,3592538738
+dimwishlist:item=3924212056&perks=3161816588,3592538738
 
 // Силиконовая неврома
 //notes: PVE@10/10 (Линия огня, Тройной выстрел)
@@ -1553,6 +1839,55 @@ dimwishlist:item=3355385170&perks=957782887
 dimwishlist:item=3355385170&perks=47981717
 dimwishlist:item=1387987271&perks=957782887
 dimwishlist:item=1387987271&perks=47981717
+
+// Новое предназначение
+//notes: PVE@7/10, PVP@7/10 
+dimwishlist:item=1780464822&perks=124408337,1428297954
+
+//notes: PVE@4/10, PVP@10/10 
+dimwishlist:item=1780464822&perks=1428297954,3047969693
+
+//notes: PVE@10/10 (Надгробие, Питающая ярость)
+dimwishlist:item=1780464822&perks=124408337,2779035018
+
+//notes: PVE@7/10 
+dimwishlist:item=1780464822&perks=1048183818,2779035018
+dimwishlist:item=1780464822&perks=2779035018,3047969693
+
+//notes: PVE@4/10 
+dimwishlist:item=1780464822&perks=1048183818,1428297954
+
+//notes: PVP@7/10 
+dimwishlist:item=1780464822&perks=1570042021,3047969693
+dimwishlist:item=1780464822&perks=2946784966,3047969693
+dimwishlist:item=1780464822&perks=509074078,3047969693
+dimwishlist:item=1780464822&perks=438098033,1428297954
+
+//notes: PVP@4/10 
+dimwishlist:item=1780464822&perks=124408337,1570042021
+dimwishlist:item=1780464822&perks=124408337,2946784966
+dimwishlist:item=1780464822&perks=124408337,509074078
+dimwishlist:item=1780464822&perks=438098033,1570042021
+dimwishlist:item=1780464822&perks=438098033,2946784966
+dimwishlist:item=1780464822&perks=438098033,509074078
+
+// Пальмира-Б
+//notes: PVE@10/10 (Усилитель импульса, Взрывной Свет)
+dimwishlist:item=3489657138&perks=951095735,3194351027
+
+//notes: PVE@7/10 
+dimwishlist:item=3489657138&perks=3194351027,3300816228
+dimwishlist:item=3489657138&perks=951095735,3927722942
+
+//notes: PVE@4/10 
+dimwishlist:item=3489657138&perks=3300816228,3927722942
+
+//notes: PVP@10/10 (Усилитель импульса, Цепная реакция)
+dimwishlist:item=3489657138&perks=951095735,2396489472
+
+//notes: PVP@7/10 
+dimwishlist:item=3489657138&perks=951095735
+dimwishlist:item=3489657138&perks=2396489472
 
 // Присяга Форджа
 //notes: PVE@10/10 (Полоса удач, Излишки)
@@ -1590,147 +1925,6 @@ dimwishlist:item=1076810832&perks=11551321,2946784966
 dimwishlist:item=1076810832&perks=2387244414,3592538738
 dimwishlist:item=1076810832&perks=2946784966,3592538738
 
-// ГМ5 "Тайфун"
-//notes: PVE@10/10 (Усилитель импульса, Взрывной Свет)
-dimwishlist:item=3568377122&perks=951095735,3194351027
-
-//notes: PVE@7/10 
-dimwishlist:item=3568377122&perks=951095735
-dimwishlist:item=3568377122&perks=3194351027
-
-//notes: PVP@10/10 (Усилитель импульса - Любой перк кроме Леденящего попадания)
-dimwishlist:item=3568377122
-
-// Неискреннее отрицание
-//notes: PVE@10/10 (Адаптивные боеприпасы - Любой перк кроме Смертельной серии)
-dimwishlist:item=2323544076
-
-//notes: PVP@10/10 (Смертельная серия, Дальномер)
-dimwishlist:item=2323544076&perks=557221067,2846385770
-
-//notes: PVP@7/10 
-dimwishlist:item=2323544076&perks=2846385770,4082225868
-
-// Предвестие
-//notes: PVE@10/10 (Питающая ярость, Полоса удач)
-dimwishlist:item=208088207&perks=2779035018,3425386926
-
-//notes: PVE@7/10 
-dimwishlist:item=208088207&perks=2726471870,2779035018
-
-//notes: PVP@10/10 (Убийственный вихрь, Полоса удач)
-dimwishlist:item=208088207&perks=2450788523,3425386926
-
-//notes: PVP@7/10 
-dimwishlist:item=208088207&perks=588594999,3425386926
-dimwishlist:item=208088207&perks=3425386926,3436462433
-dimwishlist:item=208088207&perks=460017080,2450788523
-dimwishlist:item=208088207&perks=706527188,2450788523
-
-//notes: PVP@4/10 
-dimwishlist:item=208088207&perks=460017080,588594999
-dimwishlist:item=208088207&perks=460017080,3436462433
-dimwishlist:item=208088207&perks=588594999,706527188
-dimwishlist:item=208088207&perks=706527188,3436462433
-
-// Безрассудный оракул
-//notes: PVE@10/10 (Изгой, Рубака)
-dimwishlist:item=3385326721&perks=1168162263,4082225868
-
-//notes: PVE@7/10 
-dimwishlist:item=3385326721&perks=1168162263,3523296417
-
-//notes: PVP@10/10 (Киллерский магазин, Под давлением)
-dimwishlist:item=3385326721&perks=1015611457,1645158859
-
-//notes: PVP@7/10 
-dimwishlist:item=3385326721&perks=1645158859
-dimwishlist:item=3385326721&perks=1015611457
-
-// Муки ужаса
-//notes: PVE@7/10, PVP@7/10 
-dimwishlist:item=2026087437&perks=3300816228,3523296417
-
-//notes: PVE@10/10 (Леденящее попадание, Кобура с автоподзарядом)
-dimwishlist:item=2026087437&perks=2978966579,3300816228
-
-//notes: PVE@7/10 
-dimwishlist:item=2026087437&perks=2010801679,2978966579
-dimwishlist:item=2026087437&perks=2978966579,3108830275
-dimwishlist:item=2026087437&perks=1546637391,3300816228
-
-//notes: PVE@4/10 
-dimwishlist:item=2026087437&perks=2010801679,3523296417
-dimwishlist:item=2026087437&perks=3108830275,3523296417
-dimwishlist:item=2026087437&perks=1546637391,2010801679
-dimwishlist:item=2026087437&perks=1546637391,3108830275
-
-//notes: PVP@10/10 (Твердые руки, Диверсант)
-dimwishlist:item=2026087437&perks=509074078,3523296417
-
-//notes: PVP@7/10 
-dimwishlist:item=2026087437&perks=438098033,509074078
-
-//notes: PVP@4/10 
-dimwishlist:item=2026087437&perks=438098033,3300816228
-
-// Малый ужас
-//notes: PVE@10/10 (Вечное движение, Безумие)
-dimwishlist:item=216983039&perks=1428297954,4104185692
-dimwishlist:item=1924276978&perks=1428297954,4104185692
-
-//notes: PVE@7/10 
-dimwishlist:item=216983039&perks=1015611457,1428297954
-dimwishlist:item=1924276978&perks=1015611457,1428297954
-
-//notes: PVP@10/10 (Твердые руки, Киллерский магазин)
-dimwishlist:item=216983039&perks=509074078,1015611457
-dimwishlist:item=1924276978&perks=509074078,1015611457
-
-//notes: PVP@7/10 
-dimwishlist:item=216983039&perks=509074078
-dimwishlist:item=216983039&perks=1015611457
-dimwishlist:item=1924276978&perks=509074078
-dimwishlist:item=1924276978&perks=1015611457
-
-// Пальмира-Б
-//notes: PVE@10/10 (Усилитель импульса, Взрывной Свет)
-dimwishlist:item=3489657138&perks=951095735,3194351027
-
-//notes: PVE@7/10 
-dimwishlist:item=3489657138&perks=3194351027,3300816228
-dimwishlist:item=3489657138&perks=951095735,3927722942
-
-//notes: PVE@4/10 
-dimwishlist:item=3489657138&perks=3300816228,3927722942
-
-//notes: PVP@10/10 (Усилитель импульса, Цепная реакция)
-dimwishlist:item=3489657138&perks=951095735,2396489472
-
-//notes: PVP@7/10 
-dimwishlist:item=3489657138&perks=951095735
-dimwishlist:item=3489657138&perks=2396489472
-
-// Зов рубежей
-//notes: PVE@10/10 (Адаптивные боеприпасы, Один за всех)
-dimwishlist:item=1141547457&perks=1048183818,4049631843
-
-//notes: PVE@7/10 
-dimwishlist:item=1141547457&perks=1048183818
-dimwishlist:item=1141547457&perks=4049631843
-
-//notes: PVP@10/10 (Быстрый удар, Киллерский магазин)
-dimwishlist:item=1141547457&perks=247725512,1015611457
-
-//notes: PVP@7/10 
-dimwishlist:item=1141547457&perks=509074078,1015611457
-dimwishlist:item=1141547457&perks=247725512,699525795
-dimwishlist:item=1141547457&perks=247725512,591790007
-
-//notes: PVP@4/10 
-dimwishlist:item=1141547457&perks=509074078,699525795
-dimwishlist:item=1141547457&perks=509074078,591790007
-
 // Грохот в ночи
 //notes: PVE@7/10, PVP@10/10 
 dimwishlist:item=1959650777&perks=2978966579,3977735242
@@ -1755,81 +1949,171 @@ dimwishlist:item=1959650777&perks=3977735242,4104185692
 //notes: PVP@7/10 
 dimwishlist:item=1959650777&perks=2396489472,3977735242
 
-// Колыбельный рок
+// Священный источник
+//notes: PVE@10/10, PVP@10/10 
+dimwishlist:item=2408405461&perks=247725512,1015611457
+
+//notes: PVE@7/10 
+dimwishlist:item=2408405461&perks=247725512
+dimwishlist:item=2408405461&perks=1015611457
+
+//notes: PVP@7/10 
+dimwishlist:item=2408405461&perks=247725512,460017080
+
+// Логика Молнии
+//notes: PVE@7/10, PVP@10/10 
+dimwishlist:item=2723909519&perks=1570042021,3425386926
+
+//notes: PVE@7/10, PVP@7/10 
+dimwishlist:item=2723909519&perks=3425386926,3436462433
+
+//notes: PVE@4/10, PVP@7/10 
+dimwishlist:item=2723909519&perks=1570042021,3592538738
+
 //notes: PVE@4/10, PVP@4/10 
-dimwishlist:item=3924212056&perks=3038247973,3436462433
+dimwishlist:item=2723909519&perks=3436462433,3592538738
 
-//notes: PVE@10/10 (Жажда адреналина, Жизнеобеспечение)
-dimwishlist:item=3924212056&perks=11612903,1820235745
+//notes: PVE@10/10 (Полоса удач, Переполнение)
+dimwishlist:item=2723909519&perks=3425386926,3643424744
 
 //notes: PVE@7/10 
-dimwishlist:item=3924212056&perks=11612903,3436462433
-dimwishlist:item=3924212056&perks=1820235745,4104185692
-dimwishlist:item=3924212056&perks=1820235745,3038247973
+dimwishlist:item=2723909519&perks=2779035018,3425386926
+dimwishlist:item=2723909519&perks=11612903,3643424744
+dimwishlist:item=2723909519&perks=3643424744,4104185692
+dimwishlist:item=2723909519&perks=3592538738,3643424744
 
 //notes: PVE@4/10 
-dimwishlist:item=3924212056&perks=3436462433,4104185692
+dimwishlist:item=2723909519&perks=11612903,2779035018
+dimwishlist:item=2723909519&perks=11612903,1570042021
+dimwishlist:item=2723909519&perks=11612903,3436462433
+dimwishlist:item=2723909519&perks=2779035018,4104185692
+dimwishlist:item=2723909519&perks=1570042021,4104185692
+dimwishlist:item=2723909519&perks=3436462433,4104185692
+dimwishlist:item=2723909519&perks=2779035018,3592538738
 
-//notes: PVP@10/10 (Киллерский магазин, Разогрев)
-dimwishlist:item=3924212056&perks=1015611457,1570042021
-
-//notes: PVP@7/10 
-dimwishlist:item=3924212056&perks=1015611457,3436462433
-dimwishlist:item=3924212056&perks=1015611457,3161816588
-dimwishlist:item=3924212056&perks=1570042021,3038247973
-dimwishlist:item=3924212056&perks=1570042021,3592538738
-
-//notes: PVP@4/10 
-dimwishlist:item=3924212056&perks=3038247973,3161816588
-dimwishlist:item=3924212056&perks=3436462433,3592538738
-dimwishlist:item=3924212056&perks=3161816588,3592538738
-
-// Пророк Страшного суда
-//notes: PVE@7/10, PVP@7/10 
-dimwishlist:item=4020742303&perks=2117683199
-
-//notes: PVE@10/10 (Система автоспуска, Двойной удар)
-dimwishlist:item=4020742303&perks=2117683199,2679249093
+// Малый ужас
+//notes: PVE@10/10 (Вечное движение, Безумие)
+dimwishlist:item=216983039&perks=1428297954,4104185692
+dimwishlist:item=1924276978&perks=1428297954,4104185692
 
 //notes: PVE@7/10 
-dimwishlist:item=4020742303&perks=2679249093
+dimwishlist:item=216983039&perks=1015611457,1428297954
+dimwishlist:item=1924276978&perks=1015611457,1428297954
 
-//notes: PVP@10/10 (Первый выстрел, Система автоспуска)
-dimwishlist:item=4020742303&perks=47981717,2117683199
+//notes: PVP@10/10 (Твердые руки, Киллерский магазин)
+dimwishlist:item=216983039&perks=509074078,1015611457
+dimwishlist:item=1924276978&perks=509074078,1015611457
 
 //notes: PVP@7/10 
-dimwishlist:item=4020742303&perks=47981717
+dimwishlist:item=216983039&perks=509074078
+dimwishlist:item=216983039&perks=1015611457
+dimwishlist:item=1924276978&perks=509074078
+dimwishlist:item=1924276978&perks=1015611457
 
-// Новое предназначение
-//notes: PVE@7/10, PVP@7/10 
-dimwishlist:item=1780464822&perks=124408337,1428297954
-
-//notes: PVE@4/10, PVP@10/10 
-dimwishlist:item=1780464822&perks=1428297954,3047969693
-
-//notes: PVE@10/10 (Надгробие, Питающая ярость)
-dimwishlist:item=1780464822&perks=124408337,2779035018
+// Эпикуреец
+//notes: PVE@10/10 (Мастер на все руки, Отталкивающая связь)
+dimwishlist:item=2263839058&perks=744594675,776531651
 
 //notes: PVE@7/10 
-dimwishlist:item=1780464822&perks=1048183818,2779035018
-dimwishlist:item=1780464822&perks=2779035018,3047969693
+dimwishlist:item=2263839058&perks=776531651,2779035018
+dimwishlist:item=2263839058&perks=776531651,3436462433
+dimwishlist:item=2263839058&perks=744594675,4082225868
 
 //notes: PVE@4/10 
-dimwishlist:item=1780464822&perks=1048183818,1428297954
+dimwishlist:item=2263839058&perks=2779035018,4082225868
+dimwishlist:item=2263839058&perks=3436462433,4082225868
+
+//notes: PVP@10/10 (Дальномер, Излишки)
+dimwishlist:item=2263839058&perks=2846385770,3436462433
 
 //notes: PVP@7/10 
-dimwishlist:item=1780464822&perks=1570042021,3047969693
-dimwishlist:item=1780464822&perks=2946784966,3047969693
-dimwishlist:item=1780464822&perks=509074078,3047969693
-dimwishlist:item=1780464822&perks=438098033,1428297954
+dimwishlist:item=2263839058&perks=3436462433
+dimwishlist:item=2263839058&perks=2846385770
+
+// Лунулата-4b
+//notes: PVE@10/10 (Надгробие, Дальномер)
+dimwishlist:item=2513965917&perks=124408337,2846385770
+
+//notes: PVE@7/10 
+dimwishlist:item=2513965917&perks=2846385770
+dimwishlist:item=2513965917&perks=124408337
+
+// Зов рубежей
+//notes: PVE@10/10 (Адаптивные боеприпасы, Один за всех)
+dimwishlist:item=1141547457&perks=1048183818,4049631843
+
+//notes: PVE@7/10 
+dimwishlist:item=1141547457&perks=1048183818
+dimwishlist:item=1141547457&perks=4049631843
+
+//notes: PVP@10/10 (Быстрый удар, Киллерский магазин)
+dimwishlist:item=1141547457&perks=247725512,1015611457
+
+//notes: PVP@7/10 
+dimwishlist:item=1141547457&perks=509074078,1015611457
+dimwishlist:item=1141547457&perks=247725512,699525795
+dimwishlist:item=1141547457&perks=247725512,591790007
 
 //notes: PVP@4/10 
-dimwishlist:item=1780464822&perks=124408337,1570042021
-dimwishlist:item=1780464822&perks=124408337,2946784966
-dimwishlist:item=1780464822&perks=124408337,509074078
-dimwishlist:item=1780464822&perks=438098033,1570042021
-dimwishlist:item=1780464822&perks=438098033,2946784966
-dimwishlist:item=1780464822&perks=438098033,509074078
+dimwishlist:item=1141547457&perks=509074078,699525795
+dimwishlist:item=1141547457&perks=509074078,591790007
+
+// Древняя проповедь
+//notes: PVE@7/10, PVP@7/10 
+dimwishlist:item=48643186&perks=247725512,4082225868
+
+//notes: PVE@10/10 (Изгой, Рубака)
+dimwishlist:item=48643186&perks=1168162263,4082225868
+
+//notes: PVE@7/10 
+dimwishlist:item=48643186&perks=1168162263,2848615171
+
+//notes: PVE@4/10 
+dimwishlist:item=48643186&perks=247725512,2848615171
+
+//notes: PVP@10/10 (Быстрый удар, Киллерский магазин)
+dimwishlist:item=48643186&perks=247725512,1015611457
+
+//notes: PVP@7/10 
+dimwishlist:item=48643186&perks=247725512,2846385770
+
+// Немедленный приговор
+//notes: PVE@10/10 (Кулачный бой, Рубака)
+dimwishlist:item=2531963421&perks=691659142,4082225868
+
+//notes: PVE@7/10 
+dimwishlist:item=2531963421&perks=1168162263,4082225868
+dimwishlist:item=2531963421&perks=3400784728,4082225868
+dimwishlist:item=2531963421&perks=124408337,691659142
+dimwishlist:item=2531963421&perks=691659142,2896038713
+
+//notes: PVE@4/10 
+dimwishlist:item=2531963421&perks=124408337,1168162263
+dimwishlist:item=2531963421&perks=124408337,3400784728
+dimwishlist:item=2531963421&perks=1168162263,2896038713
+dimwishlist:item=2531963421&perks=2896038713,3400784728
+
+//notes: PVP@10/10 (Твердые руки, Рубака)
+dimwishlist:item=2531963421&perks=509074078,4082225868
+
+//notes: PVP@7/10 
+dimwishlist:item=2531963421&perks=509074078,957782887
+dimwishlist:item=2531963421&perks=509074078,3708227201
+
+// Покой
+//notes: PVE@10/10 (Линия огня, Кобура с автоподзарядом)
+dimwishlist:item=1645386487&perks=1771339417,3300816228
+
+//notes: PVE@7/10 
+dimwishlist:item=1645386487&perks=3300816228
+dimwishlist:item=1645386487&perks=1771339417
+
+//notes: PVP@10/10 (Быстрый прицел, Концентрация)
+dimwishlist:item=1645386487&perks=957782887,2866798147
+
+//notes: PVP@7/10 
+dimwishlist:item=1645386487&perks=2866798147
+dimwishlist:item=1645386487&perks=957782887
 
 // Смерть с небес
 //notes: PVE@7/10, PVP@10/10 
@@ -1868,104 +2152,21 @@ dimwishlist:item=2006308129&perks=509074078,2896038713
 dimwishlist:item=2006308129&perks=1954620775,2946784966
 dimwishlist:item=2006308129&perks=509074078,1954620775
 
-// Лунулата-4b
-//notes: PVE@10/10 (Надгробие, Дальномер)
-dimwishlist:item=2513965917&perks=124408337,2846385770
+// Непрощенный
+//notes: PVE@10/10 (Диверсант - Любой перк)
+dimwishlist:item=3000847393
 
-//notes: PVE@7/10 
-dimwishlist:item=2513965917&perks=2846385770
-dimwishlist:item=2513965917&perks=124408337
-
-// Острие бритвы
-//notes: PVE@10/10 (Любой перк - Цепная реакция)
-dimwishlist:item=1796949035
-
-// Логика Молнии
-//notes: PVE@7/10, PVP@10/10 
-dimwishlist:item=2723909519&perks=1570042021,3425386926
-
-//notes: PVE@7/10, PVP@7/10 
-dimwishlist:item=2723909519&perks=3425386926,3436462433
-
-//notes: PVE@4/10, PVP@7/10 
-dimwishlist:item=2723909519&perks=1570042021,3592538738
-
-//notes: PVE@4/10, PVP@4/10 
-dimwishlist:item=2723909519&perks=3436462433,3592538738
-
-//notes: PVE@10/10 (Полоса удач, Переполнение)
-dimwishlist:item=2723909519&perks=3425386926,3643424744
-
-//notes: PVE@7/10 
-dimwishlist:item=2723909519&perks=2779035018,3425386926
-dimwishlist:item=2723909519&perks=11612903,3643424744
-dimwishlist:item=2723909519&perks=3643424744,4104185692
-dimwishlist:item=2723909519&perks=3592538738,3643424744
-
-//notes: PVE@4/10 
-dimwishlist:item=2723909519&perks=11612903,2779035018
-dimwishlist:item=2723909519&perks=11612903,1570042021
-dimwishlist:item=2723909519&perks=11612903,3436462433
-dimwishlist:item=2723909519&perks=2779035018,4104185692
-dimwishlist:item=2723909519&perks=1570042021,4104185692
-dimwishlist:item=2723909519&perks=3436462433,4104185692
-dimwishlist:item=2723909519&perks=2779035018,3592538738
-
-// Священный источник
-//notes: PVE@10/10, PVP@10/10 
-dimwishlist:item=2408405461&perks=247725512,1015611457
-
-//notes: PVE@7/10 
-dimwishlist:item=2408405461&perks=247725512
-dimwishlist:item=2408405461&perks=1015611457
+//notes: PVP@10/10 (Хрупкая концентрация, Идеальный треугольник)
+dimwishlist:item=3000847393&perks=2451262963,2610012052
 
 //notes: PVP@7/10 
-dimwishlist:item=2408405461&perks=247725512,460017080
-
-// Эпикуреец
-//notes: PVE@10/10 (Мастер на все руки, Отталкивающая связь)
-dimwishlist:item=2263839058&perks=744594675,776531651
-
-//notes: PVE@7/10 
-dimwishlist:item=2263839058&perks=776531651,2779035018
-dimwishlist:item=2263839058&perks=776531651,3436462433
-dimwishlist:item=2263839058&perks=744594675,4082225868
-
-//notes: PVE@4/10 
-dimwishlist:item=2263839058&perks=2779035018,4082225868
-dimwishlist:item=2263839058&perks=3436462433,4082225868
-
-//notes: PVP@10/10 (Дальномер, Излишки)
-dimwishlist:item=2263839058&perks=2846385770,3436462433
-
-//notes: PVP@7/10 
-dimwishlist:item=2263839058&perks=3436462433
-dimwishlist:item=2263839058&perks=2846385770
-
-// Мудрая отповедь
-//notes: PVE@10/10 (Жизнеобеспечение, Успешный прогрев)
-dimwishlist:item=1999697514&perks=1820235745,2652708987
-
-//notes: PVE@7/10 
-dimwishlist:item=1999697514&perks=744594675,2652708987
-dimwishlist:item=1999697514&perks=1546637391,1820235745
-
-//notes: PVE@4/10 
-dimwishlist:item=1999697514&perks=744594675,1546637391
-
-//notes: PVP@10/10 (Железная хватка, Под давлением)
-dimwishlist:item=1999697514&perks=11551321,1645158859
-
-//notes: PVP@7/10 
-dimwishlist:item=1999697514&perks=11551321,1570042021
-dimwishlist:item=1999697514&perks=11551321,509074078
-dimwishlist:item=1999697514&perks=11551321,588594999
-dimwishlist:item=1999697514&perks=1645158859,2652708987
+dimwishlist:item=3000847393&perks=2610012052,2946784966
+dimwishlist:item=3000847393&perks=509074078,2610012052
+dimwishlist:item=3000847393&perks=2451262963,3425386926
 
 //notes: PVP@4/10 
-dimwishlist:item=1999697514&perks=1570042021,2652708987
-dimwishlist:item=1999697514&perks=509074078,2652708987
-dimwishlist:item=1999697514&perks=588594999,2652708987
+dimwishlist:item=3000847393&perks=2946784966,3425386926
+dimwishlist:item=3000847393&perks=509074078,3425386926
 
 // Энио-Д
 //notes: PVE@10/10 (Питающая ярость, Полоса удач)
@@ -1992,89 +2193,9 @@ dimwishlist:item=1601177201&perks=509074078,3425386926
 dimwishlist:item=1601177201&perks=1195158366,3425386926
 dimwishlist:item=1601177201&perks=2946784966,3425386926
 
-// Древняя проповедь
-//notes: PVE@7/10, PVP@7/10 
-dimwishlist:item=48643186&perks=247725512,4082225868
-
-//notes: PVE@10/10 (Изгой, Рубака)
-dimwishlist:item=48643186&perks=1168162263,4082225868
-
-//notes: PVE@7/10 
-dimwishlist:item=48643186&perks=1168162263,2848615171
-
-//notes: PVE@4/10 
-dimwishlist:item=48643186&perks=247725512,2848615171
-
-//notes: PVP@10/10 (Быстрый удар, Киллерский магазин)
-dimwishlist:item=48643186&perks=247725512,1015611457
-
-//notes: PVP@7/10 
-dimwishlist:item=48643186&perks=247725512,2846385770
-
-// Покой
-//notes: PVE@10/10 (Линия огня, Кобура с автоподзарядом)
-dimwishlist:item=1645386487&perks=1771339417,3300816228
-
-//notes: PVE@7/10 
-dimwishlist:item=1645386487&perks=3300816228
-dimwishlist:item=1645386487&perks=1771339417
-
-//notes: PVP@10/10 (Быстрый прицел, Концентрация)
-dimwishlist:item=1645386487&perks=957782887,2866798147
-
-//notes: PVP@7/10 
-dimwishlist:item=1645386487&perks=2866798147
-dimwishlist:item=1645386487&perks=957782887
-
-// Непрощенный
-//notes: PVE@10/10 (Диверсант - Любой перк)
-dimwishlist:item=3000847393
-
-//notes: PVP@10/10 (Хрупкая концентрация, Идеальный треугольник)
-dimwishlist:item=3000847393&perks=2451262963,2610012052
-
-//notes: PVP@7/10 
-dimwishlist:item=3000847393&perks=2610012052,2946784966
-dimwishlist:item=3000847393&perks=509074078,2610012052
-dimwishlist:item=3000847393&perks=2451262963,3425386926
-
-//notes: PVP@4/10 
-dimwishlist:item=3000847393&perks=2946784966,3425386926
-dimwishlist:item=3000847393&perks=509074078,3425386926
-
-// Бремя героя
-//notes: PVE@10/10 (Отталкивающая связь, Питающая ярость)
-dimwishlist:item=2488587246&perks=776531651,2779035018
-
-//notes: PVE@7/10 
-dimwishlist:item=2488587246&perks=744594675,776531651
-dimwishlist:item=2488587246&perks=1015611457,2779035018
-
-//notes: PVE@4/10 
-dimwishlist:item=2488587246&perks=744594675,1015611457
-
-//notes: PVP@10/10 (Железная длань, Постижение дзен)
-dimwishlist:item=2488587246&perks=591790007,2387244414
-
-//notes: PVP@7/10 
-dimwishlist:item=2488587246&perks=591790007,2946784966
-dimwishlist:item=2488587246&perks=1015611457,2387244414
-dimwishlist:item=2488587246&perks=699525795,2387244414
-
-//notes: PVP@4/10 
-dimwishlist:item=2488587246&perks=1015611457,2946784966
-dimwishlist:item=2488587246&perks=699525795,2946784966
-
-// Стаккато-46
-//notes: PVE@10/10 (Тройной выстрел - Любой перк)
-dimwishlist:item=4019668921
-
-//notes: PVP@10/10 (Под давлением, Полоса удач)
-dimwishlist:item=4019668921&perks=1645158859,3425386926
-
-//notes: PVP@7/10 
-dimwishlist:item=4019668921&perks=1645158859
-dimwishlist:item=4019668921&perks=3425386926
+// Острие бритвы
+//notes: PVE@10/10 (Любой перк - Цепная реакция)
+dimwishlist:item=1796949035
 
 // Всевидящее око
 //notes: PVP@10/10 (Быстрый прицел, Вторая попытка)
@@ -2083,6 +2204,27 @@ dimwishlist:item=3454326177&perks=957782887,3337692349
 //notes: PVP@7/10 
 dimwishlist:item=3454326177&perks=3337692349
 dimwishlist:item=3454326177&perks=957782887
+
+// Кровавая вражда
+//notes: PVE@10/10 (Честолюбивый ассасин, Рубака)
+dimwishlist:item=1509167284&perks=2010801679,4082225868
+
+//notes: PVE@7/10 
+dimwishlist:item=1509167284&perks=691659142,4082225868
+dimwishlist:item=1509167284&perks=124408337,2010801679
+
+//notes: PVE@4/10 
+dimwishlist:item=1509167284&perks=124408337,691659142
+
+//notes: PVP@10/10 (Компенсатор раскачки, Рубака)
+dimwishlist:item=1509167284&perks=1359896290,4082225868
+
+//notes: PVP@7/10 
+dimwishlist:item=1509167284&perks=1195158366,4082225868
+dimwishlist:item=1509167284&perks=1359896290,3511092054
+
+//notes: PVP@4/10 
+dimwishlist:item=1509167284&perks=1195158366,3511092054
 
 // Маленький шаг
 //notes: PVE@10/10 (Двойной удар, Кобура с автоподзарядом)
@@ -2137,45 +2279,82 @@ dimwishlist:item=3652506829&perks=2846385770,3425386926
 //notes: PVP@4/10 
 dimwishlist:item=3652506829&perks=247725512,3425386926
 
-// Око Солнца
-//notes: PVP@10/10 (Движущаяся цель, Быстрый прицел)
-dimwishlist:item=3164743584&perks=588594999,957782887
-dimwishlist:item=3637570176&perks=588594999,957782887
-
-//notes: PVP@7/10 
-dimwishlist:item=3164743584&perks=957782887,2866798147
-dimwishlist:item=3164743584&perks=957782887,3436462433
-dimwishlist:item=3164743584&perks=47981717,588594999
-dimwishlist:item=3164743584&perks=588594999,1546637391
-dimwishlist:item=3637570176&perks=957782887,2866798147
-dimwishlist:item=3637570176&perks=957782887,3436462433
-dimwishlist:item=3637570176&perks=47981717,588594999
-dimwishlist:item=3637570176&perks=588594999,1546637391
-
-//notes: PVP@4/10 
-dimwishlist:item=3164743584&perks=47981717,2866798147
-dimwishlist:item=3164743584&perks=47981717,3436462433
-dimwishlist:item=3164743584&perks=1546637391,2866798147
-dimwishlist:item=3164743584&perks=1546637391,3436462433
-dimwishlist:item=3637570176&perks=47981717,2866798147
-dimwishlist:item=3637570176&perks=47981717,3436462433
-dimwishlist:item=3637570176&perks=1546637391,2866798147
-dimwishlist:item=3637570176&perks=1546637391,3436462433
-
-// Галлу RR3
-//notes: PVE@10/10 (Сосредоточенная ярость, Переполнение)
-dimwishlist:item=617501162&perks=2896038713,3643424744
+// Мудрая отповедь
+//notes: PVE@10/10 (Жизнеобеспечение, Успешный прогрев)
+dimwishlist:item=1999697514&perks=1820235745,2652708987
 
 //notes: PVE@7/10 
-dimwishlist:item=617501162&perks=3643424744
-dimwishlist:item=617501162&perks=2896038713
+dimwishlist:item=1999697514&perks=744594675,2652708987
+dimwishlist:item=1999697514&perks=1546637391,1820235745
 
-//notes: PVP@10/10 (Быстрый прицел, Концентрация)
-dimwishlist:item=617501162&perks=957782887,2866798147
+//notes: PVE@4/10 
+dimwishlist:item=1999697514&perks=744594675,1546637391
+
+//notes: PVP@10/10 (Железная хватка, Под давлением)
+dimwishlist:item=1999697514&perks=11551321,1645158859
 
 //notes: PVP@7/10 
-dimwishlist:item=617501162&perks=2866798147
-dimwishlist:item=617501162&perks=957782887
+dimwishlist:item=1999697514&perks=11551321,1570042021
+dimwishlist:item=1999697514&perks=11551321,509074078
+dimwishlist:item=1999697514&perks=11551321,588594999
+dimwishlist:item=1999697514&perks=1645158859,2652708987
+
+//notes: PVP@4/10 
+dimwishlist:item=1999697514&perks=1570042021,2652708987
+dimwishlist:item=1999697514&perks=509074078,2652708987
+dimwishlist:item=1999697514&perks=588594999,2652708987
+
+// Стаккато-46
+//notes: PVE@10/10 (Тройной выстрел - Любой перк)
+dimwishlist:item=4019668921
+
+//notes: PVP@10/10 (Под давлением, Полоса удач)
+dimwishlist:item=4019668921&perks=1645158859,3425386926
+
+//notes: PVP@7/10 
+dimwishlist:item=4019668921&perks=1645158859
+dimwishlist:item=4019668921&perks=3425386926
+
+// Запятнанное мужество
+//notes: PVE@7/10, PVP@7/10 
+dimwishlist:item=2218569744&perks=3038247973,3523296417
+
+//notes: PVE@4/10, PVP@10/10 
+dimwishlist:item=2218569744&perks=247725512,3038247973
+
+//notes: PVE@10/10 (Электрозаряд, Диверсант)
+dimwishlist:item=2218569744&perks=2173046394,3523296417
+
+//notes: PVE@7/10 
+dimwishlist:item=2218569744&perks=247725512,2173046394
+
+//notes: PVP@7/10 
+dimwishlist:item=2218569744&perks=588594999,3038247973
+dimwishlist:item=2218569744&perks=509074078,3038247973
+dimwishlist:item=2218569744&perks=247725512,2458213969
+
+//notes: PVP@4/10 
+dimwishlist:item=2218569744&perks=2458213969,3523296417
+dimwishlist:item=2218569744&perks=588594999,2458213969
+dimwishlist:item=2218569744&perks=509074078,2458213969
+
+// Наследие
+//notes: PVE@10/10 (Рекомбинация, Восстановление)
+dimwishlist:item=4248569242&perks=469285294,1523832109
+
+//notes: PVE@7/10 
+dimwishlist:item=4248569242&perks=1523832109
+dimwishlist:item=4248569242&perks=469285294
+
+//notes: PVP@10/10 (Быстрый прицел, Эргономичная рукоятка)
+dimwishlist:item=4248569242&perks=957782887,1866048759
+
+//notes: PVP@7/10 
+dimwishlist:item=4248569242&perks=957782887,3161816588
+dimwishlist:item=4248569242&perks=1866048759,2450788523
+
+//notes: PVP@4/10 
+dimwishlist:item=4248569242&perks=2450788523,3161816588
 
 // Каждый момент жизни
 //notes: PVE@10/10 (Жизнеобеспечение, Магазин для множественных убийств)
@@ -2197,23 +2376,170 @@ dimwishlist:item=4277547616&perks=1015611457,2846385770
 dimwishlist:item=4277547616&perks=2846385770
 dimwishlist:item=4277547616&perks=1015611457
 
-// Наследие
-//notes: PVE@10/10 (Рекомбинация, Восстановление)
-dimwishlist:item=4248569242&perks=469285294,1523832109
+// Бремя героя
+//notes: PVE@10/10 (Отталкивающая связь, Питающая ярость)
+dimwishlist:item=2488587246&perks=776531651,2779035018
 
 //notes: PVE@7/10 
-dimwishlist:item=4248569242&perks=1523832109
-dimwishlist:item=4248569242&perks=469285294
+dimwishlist:item=2488587246&perks=744594675,776531651
+dimwishlist:item=2488587246&perks=1015611457,2779035018
 
-//notes: PVP@10/10 (Быстрый прицел, Эргономичная рукоятка)
-dimwishlist:item=4248569242&perks=957782887,1866048759
+//notes: PVE@4/10 
+dimwishlist:item=2488587246&perks=744594675,1015611457
+
+//notes: PVP@10/10 (Железная длань, Постижение дзен)
+dimwishlist:item=2488587246&perks=591790007,2387244414
 
 //notes: PVP@7/10 
-dimwishlist:item=4248569242&perks=957782887,3161816588
-dimwishlist:item=4248569242&perks=1866048759,2450788523
+dimwishlist:item=2488587246&perks=591790007,2946784966
+dimwishlist:item=2488587246&perks=1015611457,2387244414
+dimwishlist:item=2488587246&perks=699525795,2387244414
 
 //notes: PVP@4/10 
-dimwishlist:item=4248569242&perks=2450788523,3161816588
+dimwishlist:item=2488587246&perks=1015611457,2946784966
+dimwishlist:item=2488587246&perks=699525795,2946784966
+
+// Фиксированная ставка
+//notes: PVE@10/10 (Тактическая подготовка, Раскаленность)
+dimwishlist:item=2194955522&perks=2869569095,4293542123
+
+//notes: PVE@7/10 
+dimwishlist:item=2194955522&perks=2779035018,4293542123
+dimwishlist:item=2194955522&perks=557221067,2869569095
+dimwishlist:item=2194955522&perks=2869569095,3425386926
+
+//notes: PVE@4/10 
+dimwishlist:item=2194955522&perks=557221067,2779035018
+dimwishlist:item=2194955522&perks=2779035018,3425386926
+
+// Закон разбойника
+//notes: PVE@10/10 (Кулачный бой, Электрозаряд)
+dimwishlist:item=1298815317&perks=691659142,2173046394
+
+//notes: PVE@7/10 
+dimwishlist:item=1298815317&perks=2173046394,4071163871
+dimwishlist:item=1298815317&perks=691659142,4082225868
+dimwishlist:item=1298815317&perks=691659142,3523296417
+
+//notes: PVE@4/10 
+dimwishlist:item=1298815317&perks=4071163871,4082225868
+dimwishlist:item=1298815317&perks=3523296417,4071163871
+
+//notes: PVP@10/10 (Любой перк кроме Питающей ярости - Дальномер)
+dimwishlist:item=1298815317
+
+// Родословная
+//notes: PVE@10/10 (Восстановление, Стрижающее оружие)
+dimwishlist:item=2990047042&perks=1523832109,1546637391
+
+//notes: PVE@7/10 
+dimwishlist:item=2990047042&perks=469285294,1523832109
+
+//notes: PVP@10/10 (Движущаяся цель, Быстрый прицел)
+dimwishlist:item=2990047042&perks=588594999,957782887
+
+//notes: PVP@7/10 
+dimwishlist:item=2990047042&perks=588594999
+dimwishlist:item=2990047042&perks=957782887
+
+// Галлу RR3
+//notes: PVE@10/10 (Сосредоточенная ярость, Переполнение)
+dimwishlist:item=617501162&perks=2896038713,3643424744
+
+//notes: PVE@7/10 
+dimwishlist:item=617501162&perks=3643424744
+dimwishlist:item=617501162&perks=2896038713
+
+//notes: PVP@10/10 (Быстрый прицел, Концентрация)
+dimwishlist:item=617501162&perks=957782887,2866798147
+
+//notes: PVP@7/10 
+dimwishlist:item=617501162&perks=2866798147
+dimwishlist:item=617501162&perks=957782887
+
+// Любовь и смерть
+//notes: PVE@10/10 (Тактическая подготовка, Полный состав)
+dimwishlist:item=3690523502&perks=2869569095,2888557110
+
+//notes: PVE@7/10 
+dimwishlist:item=3690523502&perks=2888557110,3300816228
+dimwishlist:item=3690523502&perks=2284787283,2888557110
+dimwishlist:item=3690523502&perks=2396489472,2869569095
+
+//notes: PVE@4/10 
+dimwishlist:item=3690523502&perks=2396489472,3300816228
+dimwishlist:item=3690523502&perks=2284787283,2396489472
+
+// Капризный свист
+//notes: PVE@10/10 (Жажда адреналина, Быстрый удар)
+dimwishlist:item=1574601402&perks=11612903,247725512
+dimwishlist:item=711889599&perks=11612903,247725512
+
+//notes: PVE@7/10 
+dimwishlist:item=1574601402&perks=247725512,4082225868
+dimwishlist:item=1574601402&perks=247725512,2652708987
+dimwishlist:item=711889599&perks=247725512,4082225868
+dimwishlist:item=711889599&perks=247725512,2652708987
+
+//notes: PVP@10/10 (Киллерский магазин, Дальномер)
+dimwishlist:item=1574601402&perks=1015611457,2846385770
+dimwishlist:item=711889599&perks=1015611457,2846385770
+
+//notes: PVP@7/10 
+dimwishlist:item=1574601402&perks=588594999,1015611457
+dimwishlist:item=1574601402&perks=2652708987,2846385770
+dimwishlist:item=1574601402&perks=47981717,2846385770
+dimwishlist:item=711889599&perks=588594999,1015611457
+dimwishlist:item=711889599&perks=2652708987,2846385770
+dimwishlist:item=711889599&perks=47981717,2846385770
+
+//notes: PVP@4/10 
+dimwishlist:item=1574601402&perks=588594999,2652708987
+dimwishlist:item=1574601402&perks=47981717,588594999
+dimwishlist:item=711889599&perks=588594999,2652708987
+dimwishlist:item=711889599&perks=47981717,588594999
+
+// Подзорная труба
+//notes: PVE@10/10 (Стрижающее оружие, Обойма-сюрприз)
+dimwishlist:item=1184309824&perks=1546637391,2284787283
+
+//notes: PVE@7/10 
+dimwishlist:item=1184309824&perks=247725512,1546637391
+dimwishlist:item=1184309824&perks=2284787283,2896038713
+dimwishlist:item=1184309824&perks=2284787283,4104185692
+
+//notes: PVE@4/10 
+dimwishlist:item=1184309824&perks=247725512,2896038713
+dimwishlist:item=1184309824&perks=247725512,4104185692
+
+//notes: PVP@10/10 (Движущаяся цель, Разогрев)
+dimwishlist:item=1184309824&perks=588594999,1570042021
+
+//notes: PVP@7/10 
+dimwishlist:item=1184309824&perks=588594999,1546637391
+
+// Преемник
+//notes: PVE@10/10 (Любой перк в третьем столбце - Один за всех)
+dimwishlist:item=3281285075
+
+//notes: PVP@10/10 (Убийственный вихрь, Полоса удач)
+dimwishlist:item=3281285075&perks=2450788523,3425386926
+
+//notes: PVP@7/10 
+dimwishlist:item=3281285075&perks=2450788523
+dimwishlist:item=3281285075&perks=3425386926
+
+// Боудикка-С
+//notes: PVE@10/10 (Кулачный бой - Любой перк кроме Не щадя живота)
+dimwishlist:item=1916287826
+
+// Ужас ночи
+//notes: PVE@10/10 (Стрижающее оружие, Град ударов)
+dimwishlist:item=3870811754&perks=1546637391,1749209109
+
+//notes: PVE@7/10 
+dimwishlist:item=3870811754&perks=1749209109
+dimwishlist:item=3870811754&perks=1546637391
 
 // Сожаление Рида
 //notes: PVE@10/10 (Линия огня, Тройной выстрел)
@@ -2250,99 +2576,203 @@ dimwishlist:item=1399243961&perks=1264398905
 dimwishlist:item=2475355656&perks=3436462433
 dimwishlist:item=2475355656&perks=1264398905
 
-// Фиксированная ставка
-//notes: PVE@10/10 (Тактическая подготовка, Раскаленность)
-dimwishlist:item=2194955522&perks=2869569095,4293542123
+// Опекун
+//notes: PVE@7/10, PVP@10/10 
+dimwishlist:item=1392919471&perks=3436462433,3592538738
+
+//notes: PVE@10/10 (Перенаправление, Излишки)
+dimwishlist:item=1392919471&perks=3201496230,3436462433
 
 //notes: PVE@7/10 
-dimwishlist:item=2194955522&perks=2779035018,4293542123
-dimwishlist:item=2194955522&perks=557221067,2869569095
-dimwishlist:item=2194955522&perks=2869569095,3425386926
+dimwishlist:item=1392919471&perks=1168162263,3201496230
+dimwishlist:item=1392919471&perks=1523832109,3201496230
 
 //notes: PVE@4/10 
-dimwishlist:item=2194955522&perks=557221067,2779035018
-dimwishlist:item=2194955522&perks=2779035018,3425386926
-
-// Любовь и смерть
-//notes: PVE@10/10 (Тактическая подготовка, Полный состав)
-dimwishlist:item=3690523502&perks=2869569095,2888557110
-
-//notes: PVE@7/10 
-dimwishlist:item=3690523502&perks=2888557110,3300816228
-dimwishlist:item=3690523502&perks=2284787283,2888557110
-dimwishlist:item=3690523502&perks=2396489472,2869569095
-
-//notes: PVE@4/10 
-dimwishlist:item=3690523502&perks=2396489472,3300816228
-dimwishlist:item=3690523502&perks=2284787283,2396489472
-
-// Родословная
-//notes: PVE@10/10 (Восстановление, Стрижающее оружие)
-dimwishlist:item=2990047042&perks=1523832109,1546637391
-
-//notes: PVE@7/10 
-dimwishlist:item=2990047042&perks=469285294,1523832109
-
-//notes: PVP@10/10 (Движущаяся цель, Быстрый прицел)
-dimwishlist:item=2990047042&perks=588594999,957782887
+dimwishlist:item=1392919471&perks=1168162263,3592538738
+dimwishlist:item=1392919471&perks=1523832109,3592538738
 
 //notes: PVP@7/10 
-dimwishlist:item=2990047042&perks=588594999
-dimwishlist:item=2990047042&perks=957782887
+dimwishlist:item=1392919471&perks=2450788523,3592538738
+dimwishlist:item=1392919471&perks=699525795,3436462433
+dimwishlist:item=1392919471&perks=2213355989,3436462433
 
-// Заклинатель
-//notes: PVE@10/10 (Полоса удач, Переполнение)
-dimwishlist:item=1907698332&perks=3425386926,3643424744
-dimwishlist:item=3514144928&perks=3425386926,3643424744
+//notes: PVP@4/10 
+dimwishlist:item=1392919471&perks=699525795,2450788523
+dimwishlist:item=1392919471&perks=2213355989,2450788523
 
-//notes: PVE@7/10 
-dimwishlist:item=1907698332&perks=1428297954,3425386926
-dimwishlist:item=1907698332&perks=671806388,3425386926
-dimwishlist:item=1907698332&perks=2458213969,3643424744
-dimwishlist:item=1907698332&perks=2610012052,3643424744
-dimwishlist:item=1907698332&perks=3592538738,3643424744
-dimwishlist:item=3514144928&perks=1428297954,3425386926
-dimwishlist:item=3514144928&perks=671806388,3425386926
-dimwishlist:item=3514144928&perks=2458213969,3643424744
-dimwishlist:item=3514144928&perks=2610012052,3643424744
-dimwishlist:item=3514144928&perks=3592538738,3643424744
+// Пиццикато-22
+//notes: PVE@10/10 (Вечное движение - Любой перк кроме Дальномер)
+dimwishlist:item=4100775158
 
-//notes: PVE@4/10 
-dimwishlist:item=1907698332&perks=1428297954,2458213969
-dimwishlist:item=1907698332&perks=671806388,2458213969
-dimwishlist:item=1907698332&perks=1428297954,2610012052
-dimwishlist:item=1907698332&perks=671806388,2610012052
-dimwishlist:item=1907698332&perks=1428297954,3592538738
-dimwishlist:item=1907698332&perks=671806388,3592538738
-dimwishlist:item=3514144928&perks=1428297954,2458213969
-dimwishlist:item=3514144928&perks=671806388,2458213969
-dimwishlist:item=3514144928&perks=1428297954,2610012052
-dimwishlist:item=3514144928&perks=671806388,2610012052
-dimwishlist:item=3514144928&perks=1428297954,3592538738
-dimwishlist:item=3514144928&perks=671806388,3592538738
-
-//notes: PVP@10/10 (Дальномер - Любой перк кроме Сосредоточенной ярости)
-dimwishlist:item=1907698332
-dimwishlist:item=3514144928
-
-// Ужас ночи
-//notes: PVE@10/10 (Стрижающее оружие, Град ударов)
-dimwishlist:item=3870811754&perks=1546637391,1749209109
-
-//notes: PVE@7/10 
-dimwishlist:item=3870811754&perks=1749209109
-dimwishlist:item=3870811754&perks=1546637391
-
-// Преемник
-//notes: PVE@10/10 (Любой перк в третьем столбце - Один за всех)
-dimwishlist:item=3281285075
-
-//notes: PVP@10/10 (Убийственный вихрь, Полоса удач)
-dimwishlist:item=3281285075&perks=2450788523,3425386926
+//notes: PVP@10/10 (Вечное движение, Дальномер)
+dimwishlist:item=4100775158&perks=1428297954,2846385770
 
 //notes: PVP@7/10 
-dimwishlist:item=3281285075&perks=2450788523
-dimwishlist:item=3281285075&perks=3425386926
+dimwishlist:item=4100775158&perks=699525795,2846385770
+dimwishlist:item=4100775158&perks=2451262963,2846385770
+dimwishlist:item=4100775158&perks=1428297954,4082225868
+dimwishlist:item=4100775158&perks=1428297954,4071163871
+
+//notes: PVP@4/10 
+dimwishlist:item=4100775158&perks=699525795,4082225868
+dimwishlist:item=4100775158&perks=2451262963,4082225868
+dimwishlist:item=4100775158&perks=699525795,4071163871
+dimwishlist:item=4100775158&perks=2451262963,4071163871
+
+// Окаянная Планка
+// Надежный памятник
+//notes: PVE@10/10 (Жажда адреналина, Тактическая подготовка)
+dimwishlist:item=3325778512&perks=11612903,2869569095
+
+//notes: PVE@7/10 
+dimwishlist:item=3325778512&perks=11612903,3300816228
+dimwishlist:item=3325778512&perks=11612903,2284787283
+dimwishlist:item=3325778512&perks=2869569095,4049631843
+dimwishlist:item=3325778512&perks=2869569095,4104185692
+
+//notes: PVE@4/10 
+dimwishlist:item=3325778512&perks=3300816228,4049631843
+dimwishlist:item=3325778512&perks=2284787283,4049631843
+dimwishlist:item=3325778512&perks=3300816228,4104185692
+dimwishlist:item=3325778512&perks=2284787283,4104185692
+
+// Амат AR2
+//notes: PVE@10/10 (Честолюбивый ассасин, Один за всех)
+dimwishlist:item=2119346509&perks=2010801679,4049631843
+
+//notes: PVE@7/10 
+dimwishlist:item=2119346509&perks=1583705720,4049631843
+dimwishlist:item=2119346509&perks=2010801679,4293542123
+dimwishlist:item=2119346509&perks=1048183818,2010801679
+dimwishlist:item=2119346509&perks=11612903,2010801679
+
+//notes: PVE@4/10 
+dimwishlist:item=2119346509&perks=1583705720,4293542123
+dimwishlist:item=2119346509&perks=1048183818,1583705720
+dimwishlist:item=2119346509&perks=11612903,1583705720
+
+//notes: PVP@10/10 (Компенсатор раскачки, Палец на спуске)
+dimwishlist:item=2119346509&perks=1359896290,1890422124
+
+//notes: PVP@7/10 
+dimwishlist:item=2119346509&perks=11612903,1359896290
+dimwishlist:item=2119346509&perks=691659142,1359896290
+
+// Утрата
+//notes: PVE@10/10 (Восстановление, Полоса удач)
+dimwishlist:item=4230965989&perks=1523832109,3425386926
+
+//notes: PVE@7/10 
+dimwishlist:item=4230965989&perks=2779035018,3425386926
+dimwishlist:item=4230965989&perks=3425386926,3436462433
+dimwishlist:item=4230965989&perks=1523832109,2848615171
+
+//notes: PVE@4/10 
+dimwishlist:item=4230965989&perks=2779035018,2848615171
+dimwishlist:item=4230965989&perks=2848615171,3436462433
+
+//notes: PVP@10/10 (Движущаяся цель, Компенсатор раскачки)
+dimwishlist:item=4230965989&perks=588594999,1359896290
+
+//notes: PVP@7/10 
+dimwishlist:item=4230965989&perks=1359896290,1645158859
+
+// Инквизитор
+//notes: PVE@10/10, PVP@4/10 
+dimwishlist:item=2185327324&perks=3523296417,4082225868
+dimwishlist:item=2307365&perks=3523296417,4082225868
+
+//notes: PVE@7/10 
+dimwishlist:item=2185327324&perks=1820235745,4082225868
+dimwishlist:item=2185327324&perks=1354429876,4082225868
+dimwishlist:item=2185327324&perks=2610012052,3523296417
+dimwishlist:item=2185327324&perks=11612903,3523296417
+dimwishlist:item=2307365&perks=1820235745,4082225868
+dimwishlist:item=2307365&perks=1354429876,4082225868
+dimwishlist:item=2307365&perks=2610012052,3523296417
+dimwishlist:item=2307365&perks=11612903,3523296417
+
+//notes: PVE@4/10 
+dimwishlist:item=2185327324&perks=1820235745,2610012052
+dimwishlist:item=2185327324&perks=1354429876,2610012052
+dimwishlist:item=2185327324&perks=11612903,1820235745
+dimwishlist:item=2185327324&perks=11612903,1354429876
+dimwishlist:item=2307365&perks=1820235745,2610012052
+dimwishlist:item=2307365&perks=1354429876,2610012052
+dimwishlist:item=2307365&perks=11612903,1820235745
+dimwishlist:item=2307365&perks=11612903,1354429876
+
+//notes: PVP@10/10 (Первый выстрел, Вечное движение)
+dimwishlist:item=2185327324&perks=47981717,1428297954
+dimwishlist:item=2307365&perks=47981717,1428297954
+
+//notes: PVP@7/10 
+dimwishlist:item=2185327324&perks=47981717,509074078
+dimwishlist:item=2185327324&perks=47981717,2946784966
+dimwishlist:item=2185327324&perks=47981717,972757866
+dimwishlist:item=2185327324&perks=47981717,3523296417
+dimwishlist:item=2185327324&perks=1428297954,4082225868
+dimwishlist:item=2185327324&perks=1428297954,2451262963
+dimwishlist:item=2307365&perks=47981717,509074078
+dimwishlist:item=2307365&perks=47981717,2946784966
+dimwishlist:item=2307365&perks=47981717,972757866
+dimwishlist:item=2307365&perks=47981717,3523296417
+dimwishlist:item=2307365&perks=1428297954,4082225868
+dimwishlist:item=2307365&perks=1428297954,2451262963
+
+//notes: PVP@4/10 
+dimwishlist:item=2185327324&perks=509074078,4082225868
+dimwishlist:item=2185327324&perks=2946784966,4082225868
+dimwishlist:item=2185327324&perks=972757866,4082225868
+dimwishlist:item=2185327324&perks=509074078,2451262963
+dimwishlist:item=2185327324&perks=2451262963,2946784966
+dimwishlist:item=2185327324&perks=972757866,2451262963
+dimwishlist:item=2185327324&perks=2451262963,3523296417
+dimwishlist:item=2307365&perks=509074078,4082225868
+dimwishlist:item=2307365&perks=2946784966,4082225868
+dimwishlist:item=2307365&perks=972757866,4082225868
+dimwishlist:item=2307365&perks=509074078,2451262963
+dimwishlist:item=2307365&perks=2451262963,2946784966
+dimwishlist:item=2307365&perks=972757866,2451262963
+dimwishlist:item=2307365&perks=2451262963,3523296417
+
+// Разрушитель надежд
+//notes: PVE@7/10, PVP@7/10 
+dimwishlist:item=2931957300&perks=1645158859,2213355989
+
+//notes: PVE@10/10 (Под давлением, В окружении)
+dimwishlist:item=2931957300&perks=1645158859,3708227201
+
+//notes: PVE@7/10 
+dimwishlist:item=2931957300&perks=1570042021,3708227201
+dimwishlist:item=2931957300&perks=1556840489,3708227201
+dimwishlist:item=2931957300&perks=1645158859,4104185692
+
+//notes: PVE@4/10 
+dimwishlist:item=2931957300&perks=1570042021,2213355989
+dimwishlist:item=2931957300&perks=1556840489,2213355989
+dimwishlist:item=2931957300&perks=1570042021,4104185692
+dimwishlist:item=2931957300&perks=1556840489,4104185692
+
+//notes: PVP@10/10 (Устойчивая изготовка, Усиленные резервы)
+dimwishlist:item=2931957300&perks=280464955,2213355989
+
+//notes: PVP@7/10 
+dimwishlist:item=2931957300&perks=280464955,1754714824
+
+//notes: PVP@4/10 
+dimwishlist:item=2931957300&perks=1645158859,1754714824
+
+// Завещание
+//notes: PVE@10/10 (Град ударов, В окружении)
+dimwishlist:item=3366545721&perks=1749209109,3708227201
+
+//notes: PVE@7/10 
+dimwishlist:item=3366545721&perks=2726471870,3708227201
+dimwishlist:item=3366545721&perks=354401740,1749209109
+
+//notes: PVE@4/10 
+dimwishlist:item=3366545721&perks=354401740,2726471870
 
 // Объятия Аиши
 //notes: PVE@10/10 (Сосредоточенная ярость, Неумолимость)
@@ -2383,45 +2813,67 @@ dimwishlist:item=3245493570&perks=1428297954,1546637391
 dimwishlist:item=2638190703&perks=1546637391,2946784966
 dimwishlist:item=3245493570&perks=1546637391,2946784966
 
-// Надежный памятник
-//notes: PVE@10/10 (Жажда адреналина, Тактическая подготовка)
-dimwishlist:item=3325778512&perks=11612903,2869569095
+// Тайпан-4fr
+//notes: PVE@10/10 (Линия огня, Тройной выстрел)
+dimwishlist:item=1911060537&perks=1771339417,3400784728
 
 //notes: PVE@7/10 
-dimwishlist:item=3325778512&perks=11612903,3300816228
-dimwishlist:item=3325778512&perks=11612903,2284787283
-dimwishlist:item=3325778512&perks=2869569095,4049631843
-dimwishlist:item=3325778512&perks=2869569095,4104185692
+dimwishlist:item=1911060537&perks=1771339417,2284787283
+dimwishlist:item=1911060537&perks=1771339417,2869569095
+dimwishlist:item=1911060537&perks=2896038713,3400784728
+dimwishlist:item=1911060537&perks=3400784728,4104185692
+dimwishlist:item=1911060537&perks=2551157718,3400784728
 
 //notes: PVE@4/10 
-dimwishlist:item=3325778512&perks=3300816228,4049631843
-dimwishlist:item=3325778512&perks=2284787283,4049631843
-dimwishlist:item=3325778512&perks=3300816228,4104185692
-dimwishlist:item=3325778512&perks=2284787283,4104185692
+dimwishlist:item=1911060537&perks=2284787283,2896038713
+dimwishlist:item=1911060537&perks=2869569095,2896038713
+dimwishlist:item=1911060537&perks=2284787283,4104185692
+dimwishlist:item=1911060537&perks=2869569095,4104185692
+dimwishlist:item=1911060537&perks=2284787283,2551157718
+dimwishlist:item=1911060537&perks=2551157718,2869569095
 
-// Опекун
-//notes: PVE@7/10, PVP@10/10 
-dimwishlist:item=1392919471&perks=3436462433,3592538738
-
-//notes: PVE@10/10 (Перенаправление, Излишки)
-dimwishlist:item=1392919471&perks=3201496230,3436462433
-
-//notes: PVE@7/10 
-dimwishlist:item=1392919471&perks=1168162263,3201496230
-dimwishlist:item=1392919471&perks=1523832109,3201496230
-
-//notes: PVE@4/10 
-dimwishlist:item=1392919471&perks=1168162263,3592538738
-dimwishlist:item=1392919471&perks=1523832109,3592538738
+//notes: PVP@10/10 (Первый выстрел, Хрупкая концентрация)
+dimwishlist:item=1911060537&perks=47981717,2451262963
 
 //notes: PVP@7/10 
-dimwishlist:item=1392919471&perks=2450788523,3592538738
-dimwishlist:item=1392919471&perks=699525795,3436462433
-dimwishlist:item=1392919471&perks=2213355989,3436462433
+dimwishlist:item=1911060537&perks=957782887,2451262963
 
-//notes: PVP@4/10 
-dimwishlist:item=1392919471&perks=699525795,2450788523
-dimwishlist:item=1392919471&perks=2213355989,2450788523
+// Кусачие ветра
+//notes: PVE@10/10 (Убийственный вихрь, Рубака)
+dimwishlist:item=1621657423&perks=2450788523,4082225868
+
+//notes: PVE@7/10 
+dimwishlist:item=1621657423&perks=247725512,4082225868
+dimwishlist:item=1621657423&perks=2450788523,3365897133
+
+//notes: PVE@4/10 
+dimwishlist:item=1621657423&perks=247725512,3365897133
+
+//notes: PVP@10/10 (Движущаяся цель, Рубака)
+dimwishlist:item=1621657423&perks=588594999,4082225868
+
+//notes: PVP@7/10 
+dimwishlist:item=1621657423&perks=588594999
+dimwishlist:item=1621657423&perks=4082225868
+
+// Вершитель рока
+//notes: PVE@10/10 (Фугасный снаряд, Светлячок)
+dimwishlist:item=2171478765&perks=3038247973,3824105627
+
+//notes: PVE@7/10 
+dimwishlist:item=2171478765&perks=1774574192,3824105627
+dimwishlist:item=2171478765&perks=11612903,3038247973
+dimwishlist:item=2171478765&perks=3038247973,4104185692
+
+//notes: PVE@4/10 
+dimwishlist:item=2171478765&perks=11612903,1774574192
+dimwishlist:item=2171478765&perks=1774574192,4104185692
+
+//notes: PVP@10/10 (Глаз бури, Фугасный снаряд)
+dimwishlist:item=2171478765&perks=699525795,3038247973
+
+//notes: PVP@7/10 
+dimwishlist:item=2171478765&perks=1015611457,3038247973
 
 // Прощение
 //notes: PVE@10/10 (Жажда адреналина, Диверсант)
@@ -2464,129 +2916,6 @@ dimwishlist:item=2405619467&perks=247725512,2450788523
 dimwishlist:item=2405619467&perks=247725512,3523296417
 dimwishlist:item=2405619467&perks=247725512,3722653512
 
-// Утрата
-//notes: PVE@10/10 (Восстановление, Полоса удач)
-dimwishlist:item=4230965989&perks=1523832109,3425386926
-
-//notes: PVE@7/10 
-dimwishlist:item=4230965989&perks=2779035018,3425386926
-dimwishlist:item=4230965989&perks=3425386926,3436462433
-dimwishlist:item=4230965989&perks=1523832109,2848615171
-
-//notes: PVE@4/10 
-dimwishlist:item=4230965989&perks=2779035018,2848615171
-dimwishlist:item=4230965989&perks=2848615171,3436462433
-
-//notes: PVP@10/10 (Движущаяся цель, Компенсатор раскачки)
-dimwishlist:item=4230965989&perks=588594999,1359896290
-
-//notes: PVP@7/10 
-dimwishlist:item=4230965989&perks=1359896290,1645158859
-
-// Разрушитель надежд
-//notes: PVE@7/10, PVP@7/10 
-dimwishlist:item=2931957300&perks=1645158859,2213355989
-
-//notes: PVE@10/10 (Под давлением, В окружении)
-dimwishlist:item=2931957300&perks=1645158859,3708227201
-
-//notes: PVE@7/10 
-dimwishlist:item=2931957300&perks=1570042021,3708227201
-dimwishlist:item=2931957300&perks=1556840489,3708227201
-dimwishlist:item=2931957300&perks=1645158859,4104185692
-
-//notes: PVE@4/10 
-dimwishlist:item=2931957300&perks=1570042021,2213355989
-dimwishlist:item=2931957300&perks=1556840489,2213355989
-dimwishlist:item=2931957300&perks=1570042021,4104185692
-dimwishlist:item=2931957300&perks=1556840489,4104185692
-
-//notes: PVP@10/10 (Устойчивая изготовка, Усиленные резервы)
-dimwishlist:item=2931957300&perks=280464955,2213355989
-
-//notes: PVP@7/10 
-dimwishlist:item=2931957300&perks=280464955,1754714824
-
-//notes: PVP@4/10 
-dimwishlist:item=2931957300&perks=1645158859,1754714824
-
-// Тяжесть вины
-//notes: PVE@7/10, PVP@7/10 
-dimwishlist:item=933455006&perks=1428297954,2652708987
-dimwishlist:item=2002522739&perks=1428297954,2652708987
-
-//notes: PVE@10/10 (Вечное движение, Леденящее попадание)
-dimwishlist:item=933455006&perks=1428297954,2978966579
-dimwishlist:item=2002522739&perks=1428297954,2978966579
-
-//notes: PVE@7/10 
-dimwishlist:item=933455006&perks=1428297954,1546637391
-dimwishlist:item=2002522739&perks=1428297954,1546637391
-
-//notes: PVP@10/10 (Вечное движение, Усиленные резервы)
-dimwishlist:item=933455006&perks=1428297954,2213355989
-dimwishlist:item=2002522739&perks=1428297954,2213355989
-
-//notes: PVP@7/10 
-dimwishlist:item=933455006&perks=2213355989,3511092054
-dimwishlist:item=933455006&perks=2213355989,2450788523
-dimwishlist:item=2002522739&perks=2213355989,3511092054
-dimwishlist:item=2002522739&perks=2213355989,2450788523
-
-//notes: PVP@4/10 
-dimwishlist:item=933455006&perks=2652708987,3511092054
-dimwishlist:item=933455006&perks=2450788523,2652708987
-dimwishlist:item=2002522739&perks=2652708987,3511092054
-dimwishlist:item=2002522739&perks=2450788523,2652708987
-
-// Завещание
-//notes: PVE@10/10 (Град ударов, В окружении)
-dimwishlist:item=3366545721&perks=1749209109,3708227201
-
-//notes: PVE@7/10 
-dimwishlist:item=3366545721&perks=2726471870,3708227201
-dimwishlist:item=3366545721&perks=354401740,1749209109
-
-//notes: PVE@4/10 
-dimwishlist:item=3366545721&perks=354401740,2726471870
-
-// Кусачие ветра
-//notes: PVE@10/10 (Убийственный вихрь, Рубака)
-dimwishlist:item=1621657423&perks=2450788523,4082225868
-
-//notes: PVE@7/10 
-dimwishlist:item=1621657423&perks=247725512,4082225868
-dimwishlist:item=1621657423&perks=2450788523,3365897133
-
-//notes: PVE@4/10 
-dimwishlist:item=1621657423&perks=247725512,3365897133
-
-//notes: PVP@10/10 (Движущаяся цель, Рубака)
-dimwishlist:item=1621657423&perks=588594999,4082225868
-
-//notes: PVP@7/10 
-dimwishlist:item=1621657423&perks=588594999
-dimwishlist:item=1621657423&perks=4082225868
-
-// Вершитель рока
-//notes: PVE@10/10 (Фугасный снаряд, Светлячок)
-dimwishlist:item=2171478765&perks=3038247973,3824105627
-
-//notes: PVE@7/10 
-dimwishlist:item=2171478765&perks=1774574192,3824105627
-dimwishlist:item=2171478765&perks=11612903,3038247973
-dimwishlist:item=2171478765&perks=3038247973,4104185692
-
-//notes: PVE@4/10 
-dimwishlist:item=2171478765&perks=11612903,1774574192
-dimwishlist:item=2171478765&perks=1774574192,4104185692
-
-//notes: PVP@10/10 (Глаз бури, Фугасный снаряд)
-dimwishlist:item=2171478765&perks=699525795,3038247973
-
-//notes: PVP@7/10 
-dimwishlist:item=2171478765&perks=1015611457,3038247973
-
 // Снежное смятение
 //notes: PVE@10/10, PVP@10/10 
 dimwishlist:item=2870169846&perks=3436462433,3592538738
@@ -2621,6 +2950,35 @@ dimwishlist:item=3186018373&perks=1015611457,2946784966
 //notes: PVP@7/10 
 dimwishlist:item=3186018373&perks=2946784966
 dimwishlist:item=3186018373&perks=1015611457
+
+// Тяжесть вины
+//notes: PVE@7/10, PVP@7/10 
+dimwishlist:item=933455006&perks=1428297954,2652708987
+dimwishlist:item=2002522739&perks=1428297954,2652708987
+
+//notes: PVE@10/10 (Вечное движение, Леденящее попадание)
+dimwishlist:item=933455006&perks=1428297954,2978966579
+dimwishlist:item=2002522739&perks=1428297954,2978966579
+
+//notes: PVE@7/10 
+dimwishlist:item=933455006&perks=1428297954,1546637391
+dimwishlist:item=2002522739&perks=1428297954,1546637391
+
+//notes: PVP@10/10 (Вечное движение, Усиленные резервы)
+dimwishlist:item=933455006&perks=1428297954,2213355989
+dimwishlist:item=2002522739&perks=1428297954,2213355989
+
+//notes: PVP@7/10 
+dimwishlist:item=933455006&perks=2213355989,3511092054
+dimwishlist:item=933455006&perks=2213355989,2450788523
+dimwishlist:item=2002522739&perks=2213355989,3511092054
+dimwishlist:item=2002522739&perks=2213355989,2450788523
+
+//notes: PVP@4/10 
+dimwishlist:item=933455006&perks=2652708987,3511092054
+dimwishlist:item=933455006&perks=2450788523,2652708987
+dimwishlist:item=2002522739&perks=2652708987,3511092054
+dimwishlist:item=2002522739&perks=2450788523,2652708987
 
 // Высокое альбедо
 //notes: PVE@10/10 (Честолюбивый ассасин, Диверсант)
@@ -3062,6 +3420,54 @@ dimwishlist:item=3175851496&perks=2869569095,4104185692
 //notes: PVE@4/10 
 dimwishlist:item=3175851496&perks=3977735242,4104185692
 
+// Рок Челчиса
+//notes: PVE@10/10, PVP@7/10 
+dimwishlist:item=1937552980&perks=2848615171,3824105627
+
+//notes: PVE@7/10, PVP@7/10 
+dimwishlist:item=1937552980&perks=2848615171,3038247973
+dimwishlist:item=1937552980&perks=1546637391,2848615171
+
+//notes: PVE@7/10, PVP@4/10 
+dimwishlist:item=1937552980&perks=2896038713,3824105627
+
+//notes: PVE@4/10, PVP@4/10 
+dimwishlist:item=1937552980&perks=2896038713,3038247973
+dimwishlist:item=1937552980&perks=1546637391,2896038713
+
+//notes: PVE@7/10 
+dimwishlist:item=1937552980&perks=1048183818,2848615171
+dimwishlist:item=1937552980&perks=3824105627,4049631843
+dimwishlist:item=1937552980&perks=776531651,3824105627
+dimwishlist:item=1937552980&perks=3824105627,4104185692
+
+//notes: PVE@4/10 
+dimwishlist:item=1937552980&perks=3038247973,4049631843
+dimwishlist:item=1937552980&perks=1048183818,4049631843
+dimwishlist:item=1937552980&perks=1546637391,4049631843
+dimwishlist:item=1937552980&perks=776531651,3038247973
+dimwishlist:item=1937552980&perks=776531651,1048183818
+dimwishlist:item=1937552980&perks=776531651,1546637391
+dimwishlist:item=1937552980&perks=1048183818,2896038713
+dimwishlist:item=1937552980&perks=3038247973,4104185692
+dimwishlist:item=1937552980&perks=1048183818,4104185692
+dimwishlist:item=1937552980&perks=1546637391,4104185692
+
+//notes: PVP@10/10 (Дальномер, Стрекоза)
+dimwishlist:item=1937552980&perks=2846385770,2848615171
+
+//notes: PVP@7/10 
+dimwishlist:item=1937552980&perks=509074078,2848615171
+dimwishlist:item=1937552980&perks=699525795,2846385770
+dimwishlist:item=1937552980&perks=2846385770,2896038713
+
+//notes: PVP@4/10 
+dimwishlist:item=1937552980&perks=699525795,3038247973
+dimwishlist:item=1937552980&perks=699525795,3824105627
+dimwishlist:item=1937552980&perks=509074078,699525795
+dimwishlist:item=1937552980&perks=699525795,1546637391
+dimwishlist:item=1937552980&perks=509074078,2896038713
+
 // Злой наговор
 //notes: PVE@10/10 (Реакция лучника, Взрывной наконечник)
 dimwishlist:item=1399109800&perks=201365942,3365897133
@@ -3072,6 +3478,83 @@ dimwishlist:item=1399109800&perks=201365942,2652708987
 
 //notes: PVE@4/10 
 dimwishlist:item=1399109800&perks=2652708987,3700496672
+
+// Кара Мерейна
+//notes: PVE@7/10, PVP@7/10 
+dimwishlist:item=2221264583&perks=11612903,3523296417
+
+//notes: PVE@7/10, PVP@4/10 
+dimwishlist:item=2221264583&perks=3523296417,4082225868
+
+//notes: PVE@4/10, PVP@7/10 
+dimwishlist:item=2221264583&perks=11612903,691659142
+
+//notes: PVE@4/10, PVP@4/10 
+dimwishlist:item=2221264583&perks=691659142,4082225868
+
+//notes: PVE@10/10 (Диверсант, Светлячок)
+dimwishlist:item=2221264583&perks=3523296417,3824105627
+
+//notes: PVE@7/10 
+dimwishlist:item=2221264583&perks=2896038713,3824105627
+dimwishlist:item=2221264583&perks=691659142,3824105627
+dimwishlist:item=2221264583&perks=1583705720,3824105627
+dimwishlist:item=2221264583&perks=3523296417,4049631843
+
+//notes: PVE@4/10 
+dimwishlist:item=2221264583&perks=11612903,2896038713
+dimwishlist:item=2221264583&perks=11612903,1583705720
+dimwishlist:item=2221264583&perks=2896038713,4082225868
+dimwishlist:item=2221264583&perks=1583705720,4082225868
+dimwishlist:item=2221264583&perks=2896038713,4049631843
+dimwishlist:item=2221264583&perks=691659142,4049631843
+dimwishlist:item=2221264583&perks=1583705720,4049631843
+
+//notes: PVP@10/10 (Жажда адреналина, Движущаяся цель)
+dimwishlist:item=2221264583&perks=11612903,588594999
+
+//notes: PVP@7/10 
+dimwishlist:item=2221264583&perks=588594999,4082225868
+dimwishlist:item=2221264583&perks=588594999,1365187766
+dimwishlist:item=2221264583&perks=588594999,699525795
+
+//notes: PVP@4/10 
+dimwishlist:item=2221264583&perks=1365187766,3523296417
+dimwishlist:item=2221264583&perks=691659142,1365187766
+dimwishlist:item=2221264583&perks=699525795,3523296417
+dimwishlist:item=2221264583&perks=691659142,699525795
+
+// Бич Заули
+//notes: PVE@7/10, PVP@7/10 
+dimwishlist:item=431721920&perks=3038247973,3523296417
+
+//notes: PVE@4/10, PVP@4/10 
+dimwishlist:item=431721920&perks=691659142,3523296417
+
+//notes: PVE@10/10 (Фугасный снаряд, Светлячок)
+dimwishlist:item=431721920&perks=3038247973,3824105627
+
+//notes: PVE@7/10 
+dimwishlist:item=431721920&perks=691659142,3824105627
+dimwishlist:item=431721920&perks=3038247973,4293542123
+dimwishlist:item=431721920&perks=3038247973,4049631843
+
+//notes: PVE@4/10 
+dimwishlist:item=431721920&perks=691659142,4293542123
+dimwishlist:item=431721920&perks=691659142,4049631843
+
+//notes: PVP@10/10 (Глаз бури, Фугасный снаряд)
+dimwishlist:item=431721920&perks=699525795,3038247973
+
+//notes: PVP@7/10 
+dimwishlist:item=431721920&perks=691659142,699525795
+dimwishlist:item=431721920&perks=699525795,744594675
+dimwishlist:item=431721920&perks=2896038713,3038247973
+
+//notes: PVP@4/10 
+dimwishlist:item=431721920&perks=744594675,3523296417
+dimwishlist:item=431721920&perks=691659142,2896038713
+dimwishlist:item=431721920&perks=744594675,2896038713
 
 // Так вышло
 //notes: PVE@7/10, PVP@10/10 
@@ -3092,6 +3575,34 @@ dimwishlist:item=927567426&perks=1583705720,4049631843
 dimwishlist:item=927567426&perks=1428297954
 dimwishlist:item=927567426&perks=2610012052
 
+// Суд Миды
+//notes: PVE@10/10 (Заряженный залп, Тактическая подготовка)
+dimwishlist:item=3969066556&perks=1427256713,2869569095
+
+//notes: PVE@7/10 
+dimwishlist:item=3969066556&perks=1427256713,3108830275
+dimwishlist:item=3969066556&perks=1546637391,2869569095
+dimwishlist:item=3969066556&perks=2869569095,3708227201
+
+//notes: PVE@4/10 
+dimwishlist:item=3969066556&perks=1546637391,3108830275
+dimwishlist:item=3969066556&perks=3108830275,3708227201
+
+//notes: PVP@10/10 (Кулачный бой, Палец на спуске)
+dimwishlist:item=3969066556&perks=691659142,1890422124
+
+//notes: PVP@7/10 
+dimwishlist:item=3969066556&perks=1866048759,1890422124
+dimwishlist:item=3969066556&perks=1799762209,1890422124
+dimwishlist:item=3969066556&perks=691659142,2652708987
+dimwishlist:item=3969066556&perks=691659142,1754714824
+
+//notes: PVP@4/10 
+dimwishlist:item=3969066556&perks=1866048759,2652708987
+dimwishlist:item=3969066556&perks=1799762209,2652708987
+dimwishlist:item=3969066556&perks=1754714824,1866048759
+dimwishlist:item=3969066556&perks=1754714824,1799762209
+
 // Отцовский грех
 //notes: PVE@10/10 (Сосредоточенная ярость, Тройной выстрел)
 dimwishlist:item=3865728990&perks=2896038713,3400784728
@@ -3107,9 +3618,59 @@ dimwishlist:item=3865728990&perks=957782887,1645158859
 dimwishlist:item=3865728990&perks=1645158859
 dimwishlist:item=3865728990&perks=957782887
 
+// Неповиновение Ясмин
+//notes: PVE@10/10 (Линия огня, Ансамбль)
+dimwishlist:item=3228096719&perks=1771339417,2621346526
+
+//notes: PVE@7/10 
+dimwishlist:item=3228096719&perks=1556840489,1771339417
+dimwishlist:item=3228096719&perks=1546637391,2621346526
+dimwishlist:item=3228096719&perks=2621346526,2896038713
+
+//notes: PVE@4/10 
+dimwishlist:item=3228096719&perks=1546637391,1556840489
+dimwishlist:item=3228096719&perks=1556840489,2896038713
+
+//notes: PVP@10/10 (Первый выстрел, Быстрый прицел)
+dimwishlist:item=3228096719&perks=47981717,957782887
+
+//notes: PVP@7/10 
+dimwishlist:item=3228096719&perks=47981717,2866798147
+dimwishlist:item=3228096719&perks=588594999,957782887
+dimwishlist:item=3228096719&perks=957782887,1821614984
+
+//notes: PVP@4/10 
+dimwishlist:item=3228096719&perks=588594999,2866798147
+dimwishlist:item=3228096719&perks=1821614984,2866798147
+
 // Вечные муки
 //notes: PVE@10/10 (Тактическая подготовка - Любой перк)
 dimwishlist:item=2721157927
+
+// Предел Каллима
+//notes: PVE@10/10 (Надгробие, Характеристики для всех)
+dimwishlist:item=1321506184&perks=124408337,1583705720
+
+//notes: PVE@7/10 
+dimwishlist:item=1321506184&perks=124408337,3108830275
+dimwishlist:item=1321506184&perks=557221067,1583705720
+dimwishlist:item=1321506184&perks=1583705720,3824105627
+
+//notes: PVE@4/10 
+dimwishlist:item=1321506184&perks=557221067,3108830275
+dimwishlist:item=1321506184&perks=3108830275,3824105627
+
+//notes: PVP@10/10 (Устойчивая изготовка, Глаз бури)
+dimwishlist:item=1321506184&perks=280464955,699525795
+
+//notes: PVP@7/10 
+dimwishlist:item=1321506184&perks=699525795,1359896290
+dimwishlist:item=1321506184&perks=699525795,1570042021
+dimwishlist:item=1321506184&perks=280464955,557221067
+
+//notes: PVP@4/10 
+dimwishlist:item=1321506184&perks=557221067,1359896290
+dimwishlist:item=1321506184&perks=557221067,1570042021
 
 // Сокольничий
 //notes: PVE@10/10 (Изгой, Полоса удач)
