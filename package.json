@@ -2,8 +2,9 @@
   "title": "madness-rolls",
   "license": "MIT",
   "scripts": {
-    "go": "deno run --allow-read --allow-write src/app.ts",
-    "inv": "deno run --allow-read --allow-write src/setUpInventory/setUpInventory.ts",
-    "test": "deno test --allow-read"
+    "make-a-wish": "deno run --allow-read --allow-write src/app.ts",
+    "make-inv": "deno run --allow-read --allow-write src/setUpInventory/setUpInventory.ts",
+    "test": "deno test --allow-read",
+    "fetch-inv": "deno run --allow-write --allow-net src/fetchInv.ts"
   }
 }

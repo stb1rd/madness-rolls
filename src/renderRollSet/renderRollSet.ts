@@ -18,6 +18,7 @@ const madnessWeaponFails = new Map([
   ['Рангильд-Д', 'Рагнгильд-Д'],
   ['ПВ-5 Снорри', 'ПВ5 Снорри'],
   ['Фортисиммо-11', 'Фортиссимо-11'],
+  ['Лодброк-С', 'ЛОДБРОК-C'],
 ]);
 
 const preSearchClean = (name: string) => name.toLowerCase().trim();

@@ -5,6 +5,25 @@ const OBSOLETE_HASHES = [
   1561789734, // firefly for ace of spades
   3580904580, // какого и зачем в апихе два одинаковых шотика Легенда об Акрии
   1744115122, // какого и зачем в апихе два одинаковых шотика Легенда об Акрии
+  66875353,
+  495940989,
+  66875353,
+  495940989,
+  528834068,
+  2869466318,
+  4281371574,
+  4281371574,
+  1030895163,
+  3573686365,
+  396910433,
+  3400256755,
+  4074251943,
+  3037520408,
+  1561006927,
+  2261046232,
+  2603335652,
+  1506719573,
+  2814093983,
 ];
 const NO_CAP_HASH = 2759499571;
 
@@ -93,7 +112,7 @@ const setUpInventory = async () => {
         (itemTypeDisplayName === PERK_LOCALE_RU || versions.find(({ powerCapHash }) => powerCapHash === NO_CAP_HASH)) &&
         (itemTypeDisplayName === PERK_LOCALE_RU || equippable)
       ) {
-        // console.log(`${name} :: ${itemTypeDisplayName} :: ${equippable}`);
+        // console.log(`${name} :: ${JSON.stringify(other)} \n\n`);
         inventoryItems.push({ type: itemTypeDisplayName, name: normalizeName(name), hash });
       }
     }
