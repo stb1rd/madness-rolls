@@ -19,5 +19,8 @@
   "typescript.preferences.importModuleSpecifier": "shortest",
   "typescript.tsdk": "node_modules/typescript/lib",
   "cucumberautocomplete.strictGherkinCompletion": true,
-  "editor.guides.indentation": true
+  "editor.guides.indentation": true,
+  "cSpell.words": [
+    "Легаси"
+  ]
 }
