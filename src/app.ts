@@ -7,16 +7,16 @@ const READ_CSV_OPTIONS = {
 };
 
 const files = [
-  '"Авангард"',
-  'Рейды',
   'Другие источники',
-  'Пункты назначения',
+  'Мировой лут пул и затерянные секторы',
+  'Ротатор экзотический миссий',
+  'Сезоны',
   'Гамбит',
-  'Мировой лут пул',
+  '"Авангард"',
   'Горнило',
   'Подземелья',
-  'Сезоны (текущие)',
-  'Легаси фокусировка',
+  'Рейды',
+  'Пункты назначения',
 ].map((s) => `./src/data/rollsCSV/Оружие Destiny 2 от MadnessBuccaneer - ${s}.csv`);
 
 const main = async () => {
@@ -33,10 +33,13 @@ const main = async () => {
         for await (const cell of row) {
           cells.push(cell);
         }
-        const [icon, title, damage, type, pve, pvp] = cells;
+        const [icon, title, damage, type, pve1, pve2, pvp1, pvp2] = cells;
         if (!icon && title) {
           try {
-            const { wishList, wishListCount } = await renderRollSet(title, { PVE: cleanActivityCell(pve), PVP: cleanActivityCell(pvp) });
+            const { wishList, wishListCount } = await renderRollSet(title, {
+              PVE: cleanActivityCell(pve1, pve2),
+              PVP: cleanActivityCell(pvp1, pvp2),
+            });
             fileContents += wishList;
             ++total;
             totalRollCount += wishListCount;

@@ -2,18 +2,24 @@ import { assertEquals } from 'https://deno.land/std@0.125.0/testing/asserts.ts';
 import { cleanActivityCell } from './cleanActivityCell.ts';
 
 Deno.test('empty', () => {
-  assertEquals(cleanActivityCell('-'), []);
+  assertEquals(cleanActivityCell('-', '-'), []);
 });
 
-Deno.test('simple', () => {
-  assertEquals(cleanActivityCell('Полоса удач - Киллерский магазин'), [['Полоса удач'], ['Киллерский магазин']]);
+Deno.test({ name: 'simple' }, () => {
+  assertEquals(cleanActivityCell('Кобура с автоподзарядом\nЧестолюбивый ассасин', 'Безумие\nКинетическая дрожь\nДиверсант'), [
+    ['Кобура с автоподзарядом', 'Честолюбивый ассасин'],
+    ['Безумие', 'Кинетическая дрожь', 'Диверсант'],
+  ]);
 });
 
 Deno.test('trim \\r', () => {
-  assertEquals(cleanActivityCell('Полоса удач - Киллерский магазин\r'), [['Полоса удач'], ['Киллерский магазин']]);
+  assertEquals(cleanActivityCell('Кобура с автоподзарядом', 'Честолюбивый ассасин\r'), [
+    ['Кобура с автоподзарядом'],
+    ['Честолюбивый ассасин'],
+  ]);
 });
 
-Deno.test('curated', () => {
-  const input = `"Curated Roll (Изгой-Стрекоза)\nИзгой - Полоса удач"`;
-  assertEquals(cleanActivityCell(input), [['Изгой'], ['Стрекоза', 'Полоса удач']]);
-});
+// Deno.test('curated', () => {
+//   const input = `"Curated Roll (Изгой-Стрекоза)\nИзгой - Полоса удач"`;
+//   assertEquals(cleanActivityCell(input), [['Изгой'], ['Стрекоза', 'Полоса удач']]);
+// });

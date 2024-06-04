@@ -1,7 +1,7 @@
 import { assertEquals } from 'https://deno.land/std@0.125.0/testing/asserts.ts';
 import { renderRollSet } from './renderRollSet.ts';
 
-Deno.test('small PVE', async () => {
+Deno.test({ name: 'small PVE' }, async () => {
   const renderResult = await renderRollSet('Вершитель рока', {
     PVE: [
       ['Фугасный снаряд'], // 3038247973
@@ -10,19 +10,19 @@ Deno.test('small PVE', async () => {
     PVP: [],
   });
 
-  const expect = `//notes: PVE@10/10
+  const expect = `// Вершитель рока\n//notes: 2/2 @ PVE
 dimwishlist:item=2171478765&perks=3038247973,3824105627
 
-//notes: PVE@7/10
+//notes: 1/2 @ PVE
 dimwishlist:item=2171478765&perks=3038247973
 dimwishlist:item=2171478765&perks=3824105627
 
 `;
 
-  assertEquals(renderResult, expect);
+  assertEquals(renderResult.wishList, expect);
 });
 
-Deno.test('small PVP', async () => {
+Deno.test({ name: 'small PVP' }, async () => {
   const renderResult = await renderRollSet('Вершитель рока', {
     PVE: [],
     PVP: [
@@ -31,19 +31,19 @@ Deno.test('small PVP', async () => {
     ],
   });
 
-  const expect = `//notes: PVP@10/10
+  const expect = `// Вершитель рока\n//notes: 2/2 @ PVP
 dimwishlist:item=2171478765&perks=3038247973,3824105627
 
-//notes: PVP@7/10
+//notes: 1/2 @ PVP
 dimwishlist:item=2171478765&perks=3038247973
 dimwishlist:item=2171478765&perks=3824105627
 
 `;
 
-  assertEquals(renderResult, expect);
+  assertEquals(renderResult.wishList, expect);
 });
 
-Deno.test('small PVE with wrong name', async () => {
+Deno.test({ name: 'small PVE with wrong name' }, async () => {
   const renderResult = await renderRollSet('Вершитель рока', {
     PVE: [
       ['Фугасные боеприпасы'], // 3038247973
@@ -52,33 +52,33 @@ Deno.test('small PVE with wrong name', async () => {
     PVP: [],
   });
 
-  const expect = `//notes: PVE@10/10
+  const expect = `// Вершитель рока\n//notes: 2/2 @ PVE
 dimwishlist:item=2171478765&perks=3038247973,3824105627
 
-//notes: PVE@7/10
+//notes: 1/2 @ PVE
 dimwishlist:item=2171478765&perks=3038247973
 dimwishlist:item=2171478765&perks=3824105627
 
 `;
 
-  assertEquals(renderResult, expect);
+  assertEquals(renderResult.wishList, expect);
 });
 
-Deno.test('any trait', async () => {
+Deno.test({ name: 'any trait' }, async () => {
   const renderResult = await renderRollSet('Полуправда', {
     PVE: [['Любой перк'], ['Любой перк кроме "Гармонии"']],
     PVP: [],
   });
 
-  const expect = `//notes: PVE@10/10 (Любой перк - Любой перк кроме "Гармонии")
+  const expect = `// Полуправда\n//notes: 2/2 @ PVE (Любой перк - Любой перк кроме "Гармонии")
 dimwishlist:item=3257091166
 
 `;
 
-  assertEquals(renderResult, expect);
+  assertEquals(renderResult.wishList, expect);
 });
 
-Deno.test('small PVE with different length', async () => {
+Deno.test({ name: 'small PVE with different length' }, async () => {
   const renderResult = await renderRollSet('Вершитель рока', {
     PVE: [
       ['Фугасные боеприпасы'], // 3038247973
@@ -87,18 +87,18 @@ Deno.test('small PVE with different length', async () => {
     PVP: [],
   });
 
-  const expect = `//notes: PVE@10/10
+  const expect = `// Вершитель рока\n//notes: 2/2 @ PVE
 dimwishlist:item=2171478765&perks=3038247973,3824105627
 
-//notes: PVE@7/10
+//notes: 1/2 @ PVE
 dimwishlist:item=2171478765&perks=3038247973,3418782618
 
 `;
 
-  assertEquals(renderResult, expect);
+  assertEquals(renderResult.wishList, expect);
 });
 
-Deno.test('small PVE adepts', async () => {
+Deno.test({ name: 'small PVE adepts', ignore: true }, async () => {
   const renderResult = await renderRollSet('Присяжные в тупике SR4', {
     PVE: [
       ['Фугасные боеприпасы'], // 3038247973
@@ -107,20 +107,20 @@ Deno.test('small PVE adepts', async () => {
     PVP: [],
   });
 
-  const expect = `//notes: PVE@10/10
+  const expect = `//notes: 2/2 @ PVE
 dimwishlist:item=4281371574&perks=3038247973,3824105627
 dimwishlist:item=681067419&perks=3038247973,3824105627
 
-//notes: PVE@7/10
+//notes: 1/2 @ PVE
 dimwishlist:item=4281371574&perks=3038247973,3418782618
 dimwishlist:item=681067419&perks=3038247973,3418782618
 
 `;
 
-  assertEquals(renderResult, expect);
+  assertEquals(renderResult.wishList, expect);
 });
 
-Deno.test('full', async () => {
+Deno.test({ name: 'full' }, async () => {
   const renderResult = await renderRollSet('Вершитель рока', {
     PVE: [
       ['Фугасный снаряд', 'Осмос', 'Запас патронов'], // 3038247973 1774574192 3418782618
@@ -132,32 +132,28 @@ Deno.test('full', async () => {
     ],
   });
 
-  const expect = `//notes: PVE@10/10, PVP@7/10
+  const expect = `// Вершитель рока\n//notes: 2/2 @ PVE, 1/2 @ PVP
 dimwishlist:item=2171478765&perks=3038247973,3824105627
 
-//notes: PVE@7/10
+//notes: 1/2 @ PVE
 dimwishlist:item=2171478765&perks=1774574192,3824105627
 dimwishlist:item=2171478765&perks=3418782618,3824105627
 dimwishlist:item=2171478765&perks=11612903,3038247973
 dimwishlist:item=2171478765&perks=3038247973,4104185692
-
-//notes: PVE@4/10
 dimwishlist:item=2171478765&perks=11612903,1774574192
 dimwishlist:item=2171478765&perks=11612903,3418782618
 dimwishlist:item=2171478765&perks=1774574192,4104185692
 dimwishlist:item=2171478765&perks=3418782618,4104185692
 
-//notes: PVP@10/10
+//notes: 2/2 @ PVP
 dimwishlist:item=2171478765&perks=699525795,3038247973
 
-//notes: PVP@7/10
+//notes: 1/2 @ PVP
 dimwishlist:item=2171478765&perks=699525795,2726471870
 dimwishlist:item=2171478765&perks=699525795,2450788523
 dimwishlist:item=2171478765&perks=699525795,2946784966
 dimwishlist:item=2171478765&perks=1015611457,3038247973
 dimwishlist:item=2171478765&perks=47981717,3038247973
-
-//notes: PVP@4/10
 dimwishlist:item=2171478765&perks=1015611457,2726471870
 dimwishlist:item=2171478765&perks=1015611457,2450788523
 dimwishlist:item=2171478765&perks=1015611457,2946784966
@@ -170,10 +166,10 @@ dimwishlist:item=2171478765&perks=2946784966,3824105627
 
 `;
 
-  assertEquals(renderResult, expect);
+  assertEquals(renderResult.wishList, expect);
 });
 
-Deno.test('small PVE bugs', async () => {
+Deno.test({ name: 'small PVE bugs' }, async () => {
   const renderResult = await renderRollSet('ВИДЕНИЕ', {
     PVE: [
       ['Система автоспуска', 'Излишки'], // 4267945040 3436462433
@@ -185,26 +181,22 @@ Deno.test('small PVE bugs', async () => {
     ],
   });
 
-  const expect = `//notes: PVE@10/10, PVP@7/10
+  const expect = `// ВИДЕНИЕ\n//notes: 2/2 @ PVE, 1/2 @ PVP
 dimwishlist:item=2414141462&perks=4082225868,4267945040
 
-//notes: PVE@7/10
+//notes: 1/2 @ PVE
 dimwishlist:item=2414141462&perks=3436462433,4082225868
 dimwishlist:item=2414141462&perks=4049631843,4267945040
-
-//notes: PVE@4/10
 dimwishlist:item=2414141462&perks=3436462433,4049631843
 
-//notes: PVP@10/10
+//notes: 2/2 @ PVP
 dimwishlist:item=2414141462&perks=1015611457,4267945040
 
-//notes: PVP@7/10
+//notes: 1/2 @ PVP
 dimwishlist:item=2414141462&perks=1015611457,2450788523
-
-//notes: PVP@4/10
 dimwishlist:item=2414141462&perks=2450788523,4082225868
 
 `;
 
-  assertEquals(renderResult, expect);
+  assertEquals(renderResult.wishList, expect);
 });

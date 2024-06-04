@@ -6,12 +6,16 @@ const madnessFails = new Map([
   ],
 ]);
 
-export const cleanActivityCell = (cell: string): string[][] => {
-  if (['', '-', 'Слишком много роллов'].includes(cell)) {
+export const cleanActivityCell = (cell1: string, cell2: string): string[][] => {
+  if (['', '-', 'Слишком много роллов'].includes(cell1) || ['', '-', 'Слишком много роллов'].includes(cell2)) {
     return [];
   }
 
-  const cleanCell = cell.replace(/"|Curated Roll \(|\)|\n|\r/g, '').replace(/^\//, '');
+  return [cleanSingleCell(cell1), cleanSingleCell(cell2)];
+};
+
+const cleanSingleCell = (cell: string): string[] => {
+  const cleanCell = cell.replace(/"|Curated Roll \(|\)|\r/g, '').replace(/^\//, '');
   const correctCell = madnessFails.get(cleanCell) || cleanCell;
-  return correctCell.split(' - ').map((x) => x.split('/'));
+  return correctCell.split(/\n/);
 };

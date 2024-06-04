@@ -31,11 +31,7 @@ const preSearchClean = (name: string) => name.toLowerCase().trim();
 const normalizeName = (name: string) => preSearchClean(madnessWeaponFails.get(normalizeInvName(name)) || normalizeInvName(name));
 const correctTrait = (trait: string) => madnessTraitFails.get(trait) || trait;
 
-enum Grades {
-  G10 = '10/10',
-  G7 = '7/10',
-  G4 = '4/10',
-}
+type Grades = 1 | 2;
 
 const ACTIVITIES = ['PVE', 'PVP'] as const;
 const ANY_TRAIT = 'Любой перк';
@@ -55,9 +51,9 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<{ w
   let wishListCount = 0;
 
   const traitsAndLabels = new Map<string, string[]>();
-  const bakeRoll = (perks: number[] | string[], activity: typeof ACTIVITIES[number], grade: Grades) => {
+  const bakeRoll = (perks: number[] | string[], activity: (typeof ACTIVITIES)[number], grade: Grades) => {
     const key = SortService.sort(perks, Direction.ASCENDING).join(',');
-    const label = [activity, grade].join('@');
+    const label = [`${grade}/2`, activity].join(' @ ');
     const dupe = traitsAndLabels.get(key);
     if (dupe) {
       traitsAndLabels.set(key, [...dupe, label]);
@@ -93,13 +89,17 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<{ w
         });
       } else {
         let perfection = '';
-        if ([[ACTIVITIES[0], Grades.G10].join('@'), [ACTIVITIES[1], Grades.G10].join('@')].includes(label)) {
+        if ([[ACTIVITIES[0], 2].join('@'), [ACTIVITIES[1], 2].join('@')].includes(label)) {
           perfection = `(${traits[0]
             .split(',')
             .map((hash) => inventory.find(({ hash: invHash }) => String(invHash) === hash)?.name || '')
             .join(', ')})`;
         }
-        wishList += `//notes: ${label} ${perfection}\n`;
+        if (perfection) {
+          wishList += `//notes: ${label} ${perfection}\n`;
+        } else {
+          wishList += `//notes: ${label}\n`;
+        }
         weaponHashes.forEach((hash, i) => {
           if (i === 1) {
             wishList += '\n';
@@ -119,7 +119,7 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<{ w
   for (const activity of ACTIVITIES) {
     const firstTraits = [rollSet[activity][0]?.[0], rollSet[activity][1]?.[0]].join(' - ');
     if (firstTraits?.includes(ANY_TRAIT)) {
-      bakeRoll([firstTraits], activity, Grades.G10);
+      bakeRoll([firstTraits], activity, 2);
       continue;
     }
 
@@ -154,27 +154,27 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<{ w
     }
 
     if (traits[1]) {
-      bakeRoll([getInvTrait(traits[1][0])!.hash, getInvTrait(traits[0][0])!.hash], activity, Grades.G10);
+      bakeRoll([getInvTrait(traits[1][0])!.hash, getInvTrait(traits[0][0])!.hash], activity, 2);
     }
 
     if (traits[0].length === 1) {
-      bakeRoll([getInvTrait(traits[1][0])!.hash], activity, Grades.G7);
-      bakeRoll([getInvTrait(traits[0][0])!.hash], activity, Grades.G7);
+      bakeRoll([getInvTrait(traits[1][0])!.hash], activity, 1);
+      bakeRoll([getInvTrait(traits[0][0])!.hash], activity, 1);
       continue;
     }
 
     if (traits[1]) {
       traits[1].slice(1).forEach((traitName) => {
-        bakeRoll([getInvTrait(traits[0][0])!.hash, getInvTrait(traitName)!.hash], activity, Grades.G7);
+        bakeRoll([getInvTrait(traits[0][0])!.hash, getInvTrait(traitName)!.hash], activity, 1);
       });
       traits[0].slice(1).forEach((traitName) => {
-        bakeRoll([getInvTrait(traits[1][0])!.hash, getInvTrait(traitName)!.hash], activity, Grades.G7);
+        bakeRoll([getInvTrait(traits[1][0])!.hash, getInvTrait(traitName)!.hash], activity, 1);
       });
 
       if (traits[0].slice(1).length >= 1 && traits[1].slice(1).length >= 1) {
         traits[0].slice(1).forEach((traitName0) => {
           traits[1].slice(1).forEach((traitName1) => {
-            bakeRoll([getInvTrait(traitName0)!.hash, getInvTrait(traitName1)!.hash], activity, Grades.G4);
+            bakeRoll([getInvTrait(traitName0)!.hash, getInvTrait(traitName1)!.hash], activity, 1);
           });
         });
       }
