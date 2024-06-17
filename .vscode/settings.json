@@ -8,8 +8,8 @@
   "editor.tabSize": 2,
   "scss.validate": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll.stylelint": true
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
   },
   "files.associations": {
     "[Dd]ockerfile*": "dockerfile",
@@ -20,7 +20,5 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "cucumberautocomplete.strictGherkinCompletion": true,
   "editor.guides.indentation": true,
-  "cSpell.words": [
-    "Легаси"
-  ]
+  "cSpell.words": ["Легаси"]
 }
