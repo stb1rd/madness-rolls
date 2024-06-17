@@ -26,5 +26,5 @@ wishlistnotes:1/2 @ PVP
 - обновить CSV (control + option + f, d, c // меню файл, option + down // переход на следующий лист)
 - открываем DIM, смотрим запросы, находим Manifest, находим `ru/DestinyInventoryItemDefinition`, берем его GUID
 - `yarn fetch-inv PASTE_GUID_HERE`
-- `yarn make-inv'
-- 'yarn make-a-wish`
+- `yarn make-inv`
+- `yarn make-a-wish`
