@@ -28,3 +28,8 @@ wishlistnotes:'1/2 @ PVP'
 - `yarn fetch-inv PASTE_GUID_HERE`
 - `yarn make-inv`
 - `yarn make-a-wish`
+
+## Баги
+
+- Пси герметика V
+- Старый, но надежный

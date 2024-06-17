@@ -18,8 +18,3 @@ Deno.test('trim \\r', () => {
     ['Честолюбивый ассасин'],
   ]);
 });
-
-// Deno.test('curated', () => {
-//   const input = `"Curated Roll (Изгой-Стрекоза)\nИзгой - Полоса удач"`;
-//   assertEquals(cleanActivityCell(input), [['Изгой'], ['Стрекоза', 'Полоса удач']]);
-// });
