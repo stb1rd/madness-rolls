@@ -47,11 +47,17 @@ const preSearchClean = (name: string) => name.toLowerCase().trim();
 const normalizeName = (name: string) => preSearchClean(madnessWeaponFails.get(normalizeInvName(name)) || normalizeInvName(name));
 const correctTrait = (trait: string) => madnessTraitFails.get(trait) || trait;
 
-type Grades = 1 | 2;
+type Grades = 'S' | 'A' | 'B';
 
 const ACTIVITIES = ['PVE', 'PVP'] as const;
 const ANY_TRAIT = 'Любой перк';
 const ADEPT = 'адепт';
+
+const gradesDict = new Map<number, Grades>([
+  [0, 'S'],
+  [1, 'A'],
+  [2, 'B'],
+]);
 
 export const renderRollSet = async (name: string, rollSet: RollSet): Promise<{ wishList: string; wishListCount: number }> => {
   const inventoryRaw = await Deno.readTextFile('./src/data/inventory/inventory.json');
@@ -60,16 +66,17 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<{ w
   const adept = inventory.find(({ name: invName }) => preSearchClean(invName) === normalizeName(`${name} (${ADEPT})`));
 
   if (!weapon) {
-    throw new Error(`ERR :: weapon not found :: ${normalizeName(name)}`);
+    throw new Error(`ERR :: оружие не найдено :: ${normalizeName(name)}`);
   }
 
   let wishList = `// ${name}\n`;
   let wishListCount = 0;
 
   const traitsAndLabels = new Map<string, string[]>();
-  const bakeRoll = (perks: number[] | string[], activity: (typeof ACTIVITIES)[number], grade: Grades) => {
+
+  const bakeRoll = (perks: number[] | string[], activity: (typeof ACTIVITIES)[number], grades: Grades[]) => {
     const key = SortService.sort(perks, Direction.ASCENDING).join(',');
-    const label = [`${grade}/2`, activity].join(' @ ');
+    const label = `${activity}-${grades.join('')}`;
     const dupe = traitsAndLabels.get(key);
     if (dupe) {
       traitsAndLabels.set(key, [...dupe, label]);
@@ -92,6 +99,8 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<{ w
         }
       });
 
+    // console.log('traitsAndLabels', traitsAndLabels);
+    // console.log('labelsAndTraits', labelsAndTraits);
     [...labelsAndTraits].forEach(([label, traits]) => {
       const weaponHashes = [weapon.hash, ...(adept ? [adept.hash] : [])];
       if (traits[0]?.includes(ANY_TRAIT)) {
@@ -135,7 +144,7 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<{ w
   for (const activity of ACTIVITIES) {
     const firstTraits = [rollSet[activity][0]?.[0], rollSet[activity][1]?.[0]].join(' - ');
     if (firstTraits?.includes(ANY_TRAIT)) {
-      bakeRoll([firstTraits], activity, 2);
+      bakeRoll([firstTraits], activity, ['S']);
       continue;
     }
 
@@ -155,7 +164,7 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<{ w
           }
         });
         if (!invTrait) {
-          throw new Error(`ERR :: trait not found :: ${traitName} :: ${name}`);
+          throw new Error(`ERR :: перк не найден:: ${traitName} :: ${name}`);
         }
         invTraits.set(trait, invTrait);
       });
@@ -163,38 +172,60 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<{ w
 
     const getInvTrait = (title: string) => invTraits.get(correctTrait(title));
 
-    const traits = rollSet[activity].sort(({ length }) => -length);
+    const traitsCols = rollSet[activity].sort(({ length }) => -length);
 
-    if (!traits.length && !traits[0]?.length && !traits[1]?.length) {
+    if (!traitsCols.length && !traitsCols[0]?.length && !traitsCols[1]?.length) {
       continue;
     }
 
-    if (traits[1]) {
-      bakeRoll([getInvTrait(traits[1][0])!.hash, getInvTrait(traits[0][0])!.hash], activity, 2);
-    }
+    // console.log('traits', traits);
+    // traits [ [ "Светлячок" ], [ "Фугасный снаряд" ] ]
 
-    if (traits[0].length === 1) {
-      bakeRoll([getInvTrait(traits[1][0])!.hash], activity, 1);
-      bakeRoll([getInvTrait(traits[0][0])!.hash], activity, 1);
-      continue;
-    }
-
-    if (traits[1]) {
-      traits[1].slice(1).forEach((traitName) => {
-        bakeRoll([getInvTrait(traits[0][0])!.hash, getInvTrait(traitName)!.hash], activity, 1);
+    traitsCols[0].forEach((leftTrait, leftI) => {
+      traitsCols[1].forEach((rightTrait, rightI) => {
+        if (leftI < 3 && rightI < 3)
+          bakeRoll(
+            [getInvTrait(leftTrait)!.hash, getInvTrait(rightTrait)!.hash],
+            activity,
+            [gradesDict.get(leftI)!, gradesDict.get(rightI)!].sort(() => leftI - rightI)
+          );
       });
-      traits[0].slice(1).forEach((traitName) => {
-        bakeRoll([getInvTrait(traits[1][0])!.hash, getInvTrait(traitName)!.hash], activity, 1);
-      });
+    });
 
-      if (traits[0].slice(1).length >= 1 && traits[1].slice(1).length >= 1) {
-        traits[0].slice(1).forEach((traitName0) => {
-          traits[1].slice(1).forEach((traitName1) => {
-            bakeRoll([getInvTrait(traitName0)!.hash, getInvTrait(traitName1)!.hash], activity, 1);
-          });
-        });
-      }
-    }
+    traitsCols[1].forEach((trait, i) => {
+      if (i < 3) bakeRoll([getInvTrait(trait)!.hash], activity, [gradesDict.get(i)!]);
+    });
+
+    traitsCols[0].forEach((trait, i) => {
+      if (i < 3) bakeRoll([getInvTrait(trait)!.hash], activity, [gradesDict.get(i)!]);
+    });
+
+    // if (traits[1]) {
+    //   bakeRoll([getInvTrait(traits[1][0])!.hash, getInvTrait(traits[0][0])!.hash], activity, ['S', 'S']);
+    // }
+
+    // if (traits[0].length === 1) {
+    //   bakeRoll([getInvTrait(traits[1][0])!.hash], activity, ['A', 'S']);
+    //   bakeRoll([getInvTrait(traits[0][0])!.hash], activity, ['A', 'S']);
+    //   continue;
+    // }
+
+    // if (traits[1]) {
+    //   traits[1].slice(1).forEach((traitName) => {
+    //     bakeRoll([getInvTrait(traits[0][0])!.hash, getInvTrait(traitName)!.hash], activity, 1);
+    //   });
+    //   traits[0].slice(1).forEach((traitName) => {
+    //     bakeRoll([getInvTrait(traits[1][0])!.hash, getInvTrait(traitName)!.hash], activity, 1);
+    //   });
+
+    //   if (traits[0].slice(1).length >= 1 && traits[1].slice(1).length >= 1) {
+    //     traits[0].slice(1).forEach((traitName0) => {
+    //       traits[1].slice(1).forEach((traitName1) => {
+    //         bakeRoll([getInvTrait(traitName0)!.hash, getInvTrait(traitName1)!.hash], activity, 1);
+    //       });
+    //     });
+    //   }
+    // }
   }
 
   populateWishlist();
