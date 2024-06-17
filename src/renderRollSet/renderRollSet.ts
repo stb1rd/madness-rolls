@@ -99,8 +99,6 @@ export const renderRollSet = async (name: string, rollSet: RollSet): Promise<{ w
         }
       });
 
-    // console.log('traitsAndLabels', traitsAndLabels);
-    // console.log('labelsAndTraits', labelsAndTraits);
     [...labelsAndTraits].forEach(([label, traits]) => {
       const weaponHashes = [weapon.hash, ...(adept ? [adept.hash] : [])];
       if (traits[0]?.includes(ANY_TRAIT)) {
