@@ -10,11 +10,11 @@
 - Ищем что-то подобное
 
 ```
-wishlistnotes:2/2 @ PVE
-wishlistnotes:1/2 @ PVE
+wishlistnotes:'2/2 @ PVE'
+wishlistnotes:'1/2 @ PVE'
 ---
-wishlistnotes:2/2 @ PVP
-wishlistnotes:1/2 @ PVP
+wishlistnotes:'2/2 @ PVP'
+wishlistnotes:'1/2 @ PVP'
 ```
 
 ...
