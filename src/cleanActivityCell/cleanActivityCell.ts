@@ -17,5 +17,5 @@ export const cleanActivityCell = (cell1: string, cell2: string): string[][] => {
 const cleanSingleCell = (cell: string): string[] => {
   const cleanCell = cell.replace(/"|Curated Roll \(|\)|\r/g, '').replace(/^\//, '');
   const correctCell = madnessFails.get(cleanCell) || cleanCell;
-  return correctCell.split(/\n/);
+  return correctCell.split(/\n/).filter((x) => !!x);
 };
